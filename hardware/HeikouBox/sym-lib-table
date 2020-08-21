@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name ksk-heikoubox)(type Legacy)(uri ${KIPRJMOD}/../project_libraries/symbols/ksk-heikoubox.lib)(options "")(descr ""))
 )

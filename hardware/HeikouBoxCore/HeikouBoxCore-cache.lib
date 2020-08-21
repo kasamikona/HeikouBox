@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,16 +19,16 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# KasaneK-Custom-Parts:EP3C25E144
+# ksk-heikoubox_EP3C25E144
 #
-DEF KasaneK-Custom-Parts:EP3C25E144 U 0 40 Y Y 3 L N
+DEF ksk-heikoubox_EP3C25E144 U 0 40 Y Y 3 L N
 F0 "U" 0 50 50 H V L CNN
-F1 "KasaneK-Custom-Parts:EP3C25E144" 0 150 50 H V L CNN
+F1 "ksk-heikoubox_EP3C25E144" 0 150 50 H V L CNN
 F2 "" 2450 -150 50 H I C CNN
 F3 "" -350 3500 50 H I C CNN
 $FPLIST
- KasaneK-Custom-Parts:EQFP-144
- KasaneK-Custom-Parts:EQFP-144-HANDSOLDER
+ ksk-heikoubox:EQFP-144
+ ksk-heikoubox:EQFP-144-HANDSOLDER
 $ENDFPLIST
 DRAW
 T 0 0 -4250 50 0 1 0 I/O Normal 0 L C
@@ -185,11 +185,11 @@ X MSEL2 97 650 -1200 200 L 50 50 3 1 I
 ENDDRAW
 ENDDEF
 #
-# KasaneK-Custom-Parts:HeikouBox-Core
+# ksk-heikoubox_HeikouBox-Core
 #
-DEF KasaneK-Custom-Parts:HeikouBox-Core U 0 40 Y Y 4 L N
+DEF ksk-heikoubox_HeikouBox-Core U 0 40 Y Y 4 L N
 F0 "U" 0 50 50 H V L CNN
-F1 "KasaneK-Custom-Parts:HeikouBox-Core" 0 150 50 H V L CNN
+F1 "ksk-heikoubox_HeikouBox-Core" 0 150 50 H V L CNN
 F2 "" 300 0 50 H I C CNN
 F3 "" 300 0 50 H I C CNN
 DRAW

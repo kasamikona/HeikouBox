@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:HeikouBoxCore-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,34 +14,34 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KasaneK-Custom-Parts:EP3C25E144 U1
+L ksk-heikoubox:EP3C25E144 U1
 U 1 1 5E5BAA29
 P 900 700
 F 0 "U1" H 1200 865 50  0000 C CNN
 F 1 "EP3C25E144" H 1200 774 50  0000 C CNN
-F 2 "KasaneK-Custom-Parts:EQFP-144-HANDSOLDER" H 3350 550 50  0001 C CNN
+F 2 "ksk-heikoubox:EQFP-144-HANDSOLDER" H 3350 550 50  0001 C CNN
 F 3 "" H 650 2900 50  0001 C CNN
 	1    900  700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L KasaneK-Custom-Parts:EP3C25E144 U1
+L ksk-heikoubox:EP3C25E144 U1
 U 2 1 5E5BAA8C
 P 2250 700
 F 0 "U1" H 2725 865 50  0000 C CNN
 F 1 "EP3C25E144" H 2725 774 50  0000 C CNN
-F 2 "KasaneK-Custom-Parts:EQFP-144-HANDSOLDER" H 4700 550 50  0001 C CNN
+F 2 "ksk-heikoubox:EQFP-144-HANDSOLDER" H 4700 550 50  0001 C CNN
 F 3 "" H 2000 2900 50  0001 C CNN
 	2    2250 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L KasaneK-Custom-Parts:EP3C25E144 U1
+L ksk-heikoubox:EP3C25E144 U1
 U 3 1 5E5BAB2D
 P 3750 700
 F 0 "U1" H 4131 865 50  0000 C CNN
 F 1 "EP3C25E144" H 4131 774 50  0000 C CNN
-F 2 "KasaneK-Custom-Parts:EQFP-144-HANDSOLDER" H 6200 550 50  0001 C CNN
+F 2 "ksk-heikoubox:EQFP-144-HANDSOLDER" H 6200 550 50  0001 C CNN
 F 3 "" H 3500 2900 50  0001 C CNN
 	3    3750 700 
 	1    0    0    -1  
@@ -1472,45 +1471,45 @@ Connection ~ 4400 1800
 Wire Wire Line
 	4400 1800 4400 1900
 $Comp
-L KasaneK-Custom-Parts:HeikouBox-Core A1
+L ksk-heikoubox:HeikouBox-Core A1
 U 1 1 5EF5786F
 P 850 5250
 F 0 "A1" H 1250 5415 50  0000 C CNN
 F 1 "HeikouBox-Core" H 1250 5324 50  0000 C CNN
-F 2 "KasaneK-Custom-Parts:HeikouBox-Core-Top" H 1150 5250 50  0001 C CNN
+F 2 "ksk-heikoubox:HeikouBox-Core-Top" H 1150 5250 50  0001 C CNN
 F 3 "" H 1150 5250 50  0001 C CNN
 	1    850  5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L KasaneK-Custom-Parts:HeikouBox-Core A1
+L ksk-heikoubox:HeikouBox-Core A1
 U 2 1 5EF57BDC
 P 2350 5250
 F 0 "A1" H 2750 5415 50  0000 C CNN
 F 1 "HeikouBox-Core" H 2750 5324 50  0000 C CNN
-F 2 "KasaneK-Custom-Parts:HeikouBox-Core-Top" H 2650 5250 50  0001 C CNN
+F 2 "ksk-heikoubox:HeikouBox-Core-Top" H 2650 5250 50  0001 C CNN
 F 3 "" H 2650 5250 50  0001 C CNN
 	2    2350 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L KasaneK-Custom-Parts:HeikouBox-Core A1
+L ksk-heikoubox:HeikouBox-Core A1
 U 3 1 5EF57CAD
 P 3850 5250
 F 0 "A1" H 4250 5415 50  0000 C CNN
 F 1 "HeikouBox-Core" H 4250 5324 50  0000 C CNN
-F 2 "KasaneK-Custom-Parts:HeikouBox-Core-Top" H 4150 5250 50  0001 C CNN
+F 2 "ksk-heikoubox:HeikouBox-Core-Top" H 4150 5250 50  0001 C CNN
 F 3 "" H 4150 5250 50  0001 C CNN
 	3    3850 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L KasaneK-Custom-Parts:HeikouBox-Core A1
+L ksk-heikoubox:HeikouBox-Core A1
 U 4 1 5EF57D70
 P 5350 5250
 F 0 "A1" H 5750 5415 50  0000 C CNN
 F 1 "HeikouBox-Core" H 5750 5324 50  0000 C CNN
-F 2 "KasaneK-Custom-Parts:HeikouBox-Core-Top" H 5650 5250 50  0001 C CNN
+F 2 "ksk-heikoubox:HeikouBox-Core-Top" H 5650 5250 50  0001 C CNN
 F 3 "" H 5650 5250 50  0001 C CNN
 	4    5350 5250
 	1    0    0    -1  

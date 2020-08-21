@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:HeikouBox-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1807,7 +1806,7 @@ R12/13 CROSS CONFIGURATION
 Wire Wire Line
 	6700 4300 6900 4300
 $Comp
-L KasaneK-Custom-Parts:HeikouBox-Core U1
+L ksk-heikoubox:HeikouBox-Core U1
 U 1 1 5F328BCC
 P 14200 3300
 F 0 "U1" H 14600 3465 50  0000 C CNN
@@ -1818,36 +1817,36 @@ F 3 "" H 14500 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KasaneK-Custom-Parts:HeikouBox-Core U1
-U 2 1 5F328D2B
+L ksk-heikoubox:HeikouBox-Core U1
+U 1 1 5F328D2B
 P 14200 4900
 F 0 "U1" H 14600 5065 50  0000 C CNN
 F 1 "HeikouBox-Core" H 14600 4974 50  0000 C CNN
 F 2 "" H 14500 4900 50  0001 C CNN
 F 3 "" H 14500 4900 50  0001 C CNN
-	2    14200 4900
+	1    14200 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L KasaneK-Custom-Parts:HeikouBox-Core U1
-U 3 1 5F328EEB
+L ksk-heikoubox:HeikouBox-Core U1
+U 1 1 5F328EEB
 P 14200 6500
 F 0 "U1" H 14600 6665 50  0000 C CNN
 F 1 "HeikouBox-Core" H 14600 6574 50  0000 C CNN
 F 2 "" H 14500 6500 50  0001 C CNN
 F 3 "" H 14500 6500 50  0001 C CNN
-	3    14200 6500
+	1    14200 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L KasaneK-Custom-Parts:HeikouBox-Core U1
-U 4 1 5F329004
+L ksk-heikoubox:HeikouBox-Core U1
+U 1 1 5F329004
 P 14200 8100
 F 0 "U1" H 14600 8265 50  0000 C CNN
 F 1 "HeikouBox-Core" H 14600 8174 50  0000 C CNN
 F 2 "" H 14500 8100 50  0001 C CNN
 F 3 "" H 14500 8100 50  0001 C CNN
-	4    14200 8100
+	1    14200 8100
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
