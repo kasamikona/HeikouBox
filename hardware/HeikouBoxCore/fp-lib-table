@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name ksk-heikoubox)(type KiCad)(uri ${KIPRJMOD}/../project_libraries/footprints/ksk-heikoubox.pretty)(options "")(descr ""))
+  (lib (name KSK_HeikouBox)(type KiCad)(uri ${KIPRJMOD}/../project_libraries/footprints/KSK_HeikouBox.pretty)(options "")(descr ""))
 )

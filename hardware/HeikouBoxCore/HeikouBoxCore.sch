@@ -14,34 +14,34 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ksk-heikoubox:EP3C25E144 U1
+L KSK_HeikouBox:EP3C25E144 U1
 U 1 1 5E5BAA29
 P 900 700
 F 0 "U1" H 1200 865 50  0000 C CNN
 F 1 "EP3C25E144" H 1200 774 50  0000 C CNN
-F 2 "ksk-heikoubox:EQFP-144-HANDSOLDER" H 3350 550 50  0001 C CNN
+F 2 "KSK_HeikouBox:EQFP-144-HANDSOLDER" H 3350 550 50  0001 C CNN
 F 3 "" H 650 2900 50  0001 C CNN
 	1    900  700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L ksk-heikoubox:EP3C25E144 U1
+L KSK_HeikouBox:EP3C25E144 U1
 U 2 1 5E5BAA8C
 P 2250 700
 F 0 "U1" H 2725 865 50  0000 C CNN
 F 1 "EP3C25E144" H 2725 774 50  0000 C CNN
-F 2 "ksk-heikoubox:EQFP-144-HANDSOLDER" H 4700 550 50  0001 C CNN
+F 2 "KSK_HeikouBox:EQFP-144-HANDSOLDER" H 4700 550 50  0001 C CNN
 F 3 "" H 2000 2900 50  0001 C CNN
 	2    2250 700 
 	1    0    0    -1  
 $EndComp
 $Comp
-L ksk-heikoubox:EP3C25E144 U1
+L KSK_HeikouBox:EP3C25E144 U1
 U 3 1 5E5BAB2D
 P 3750 700
 F 0 "U1" H 4131 865 50  0000 C CNN
 F 1 "EP3C25E144" H 4131 774 50  0000 C CNN
-F 2 "ksk-heikoubox:EQFP-144-HANDSOLDER" H 6200 550 50  0001 C CNN
+F 2 "KSK_HeikouBox:EQFP-144-HANDSOLDER" H 6200 550 50  0001 C CNN
 F 3 "" H 3500 2900 50  0001 C CNN
 	3    3750 700 
 	1    0    0    -1  
@@ -892,15 +892,15 @@ $EndComp
 Connection ~ 4850 3700
 Wire Wire Line
 	4850 3700 5200 3700
-Text Label 5050 5350 0    25   ~ 0
+Text Label 2050 5350 0    25   ~ 0
 V33
 Wire Wire Line
 	550  5350 750  5350
 Text Label 550  5350 0    25   ~ 0
 GND
 Wire Wire Line
-	2050 5350 2250 5350
-Text Label 2050 5350 0    25   ~ 0
+	5050 5350 5250 5350
+Text Label 5050 5350 0    25   ~ 0
 V25
 Wire Wire Line
 	3550 6450 3750 6450
@@ -914,192 +914,192 @@ Text Label 4950 6450 2    25   ~ 0
 GND
 Wire Wire Line
 	4750 6450 4950 6450
-Text Label 3450 5350 2    25   ~ 0
+Text Label 6450 5350 2    25   ~ 0
 CAS
 Wire Wire Line
-	3250 5350 3450 5350
-Text Label 3450 5450 2    25   ~ 0
-LDQM
-Wire Wire Line
-	3250 5450 3450 5450
-Wire Wire Line
-	2050 5450 2250 5450
-Text Label 2050 5450 0    25   ~ 0
-WE
-Wire Wire Line
-	2050 5550 2250 5550
-Text Label 2050 5550 0    25   ~ 0
-D7
-Text Label 3450 5550 2    25   ~ 0
-D6
-Wire Wire Line
-	3250 5550 3450 5550
-Wire Wire Line
-	2050 5650 2250 5650
-Text Label 2050 5650 0    25   ~ 0
-D5
-Wire Wire Line
-	2050 5750 2250 5750
-Text Label 2050 5750 0    25   ~ 0
-D3
-Text Label 3450 5650 2    25   ~ 0
-D4
-Wire Wire Line
-	3250 5650 3450 5650
-Text Label 3450 5750 2    25   ~ 0
-D2
-Wire Wire Line
-	3250 5750 3450 5750
-Wire Wire Line
-	2050 5850 2250 5850
-Text Label 2050 5850 0    25   ~ 0
-MDB7
-Wire Wire Line
-	2050 5950 2250 5950
-Text Label 2050 5950 0    25   ~ 0
-MDB5
-Text Label 3450 5850 2    25   ~ 0
-MDB6
-Wire Wire Line
-	3250 5850 3450 5850
-Text Label 3450 5950 2    25   ~ 0
-CLK28
-Wire Wire Line
-	3250 5950 3450 5950
-Wire Wire Line
-	2050 6050 2250 6050
-Text Label 2050 6050 0    25   ~ 0
-D1
-Text Label 3450 6050 2    25   ~ 0
-D0
-Wire Wire Line
-	3250 6050 3450 6050
-Wire Wire Line
-	2050 6150 2250 6150
-Text Label 2050 6150 0    25   ~ 0
-D15
-Text Label 3450 6150 2    25   ~ 0
-A4
-Wire Wire Line
-	3250 6150 3450 6150
-Wire Wire Line
-	2050 6250 2250 6250
-Text Label 2050 6250 0    25   ~ 0
-D14
-Text Label 3450 6250 2    25   ~ 0
-A5
-Wire Wire Line
-	3250 6250 3450 6250
-Wire Wire Line
-	2050 6350 2250 6350
-Text Label 2050 6350 0    25   ~ 0
-D13
-Text Label 3450 6350 2    25   ~ 0
-A6
-Wire Wire Line
-	3250 6350 3450 6350
-Wire Wire Line
-	2050 6450 2250 6450
-Text Label 2050 6450 0    25   ~ 0
-D12
-Text Label 3450 6450 2    25   ~ 0
-A7
-Wire Wire Line
-	3250 6450 3450 6450
-Wire Wire Line
-	5050 5350 5250 5350
-Text Label 6450 5350 2    25   ~ 0
-NVSYNC
-Text Label 5050 5450 0    25   ~ 0
-BLU4
-Wire Wire Line
 	6250 5350 6450 5350
-Wire Wire Line
-	5050 5450 5250 5450
 Text Label 6450 5450 2    25   ~ 0
-VID15
-Text Label 5050 5550 0    25   ~ 0
-BLU3
+LDQM
 Wire Wire Line
 	6250 5450 6450 5450
 Wire Wire Line
+	5050 5450 5250 5450
+Text Label 5050 5450 0    25   ~ 0
+WE
+Wire Wire Line
 	5050 5550 5250 5550
+Text Label 5050 5550 0    25   ~ 0
+D7
 Text Label 6450 5550 2    25   ~ 0
-VID14
-Text Label 5050 5650 0    25   ~ 0
-BLU0
+D6
 Wire Wire Line
 	6250 5550 6450 5550
 Wire Wire Line
 	5050 5650 5250 5650
-Text Label 6450 5650 2    25   ~ 0
-BLU2
-Text Label 5050 5750 0    25   ~ 0
-BLU1
-Wire Wire Line
-	6250 5650 6450 5650
+Text Label 5050 5650 0    25   ~ 0
+D5
 Wire Wire Line
 	5050 5750 5250 5750
-Text Label 6450 5750 2    25   ~ 0
-VID13
+Text Label 5050 5750 0    25   ~ 0
+D3
+Text Label 6450 5650 2    25   ~ 0
+D4
 Wire Wire Line
-	5050 5850 5250 5850
-Text Label 6450 5850 2    25   ~ 0
-VID11
-Text Label 5050 5850 0    25   ~ 0
-VID12
+	6250 5650 6450 5650
+Text Label 6450 5750 2    25   ~ 0
+D2
 Wire Wire Line
 	6250 5750 6450 5750
-Text Label 5050 5950 0    25   ~ 0
-CLK14
 Wire Wire Line
-	6250 5850 6450 5850
+	5050 5850 5250 5850
+Text Label 5050 5850 0    25   ~ 0
+MDB7
 Wire Wire Line
 	5050 5950 5250 5950
+Text Label 5050 5950 0    25   ~ 0
+MDB5
+Text Label 6450 5850 2    25   ~ 0
+MDB6
+Wire Wire Line
+	6250 5850 6450 5850
 Text Label 6450 5950 2    25   ~ 0
-VID10
-Text Label 5050 6050 0    25   ~ 0
-GRN5
+CLK28
 Wire Wire Line
 	6250 5950 6450 5950
 Wire Wire Line
 	5050 6050 5250 6050
+Text Label 5050 6050 0    25   ~ 0
+D1
 Text Label 6450 6050 2    25   ~ 0
-VID9
-Text Label 5050 6150 0    25   ~ 0
-GRN4
+D0
 Wire Wire Line
 	6250 6050 6450 6050
 Wire Wire Line
 	5050 6150 5250 6150
+Text Label 5050 6150 0    25   ~ 0
+D15
 Text Label 6450 6150 2    25   ~ 0
-GRN3
-Text Label 5050 6250 0    25   ~ 0
-VID8
+A4
 Wire Wire Line
 	6250 6150 6450 6150
 Wire Wire Line
 	5050 6250 5250 6250
+Text Label 5050 6250 0    25   ~ 0
+D14
 Text Label 6450 6250 2    25   ~ 0
-GRN2
-Text Label 5050 6350 0    25   ~ 0
-VID7
+A5
 Wire Wire Line
 	6250 6250 6450 6250
 Wire Wire Line
 	5050 6350 5250 6350
+Text Label 5050 6350 0    25   ~ 0
+D13
 Text Label 6450 6350 2    25   ~ 0
-GRN1
-Text Label 5050 6450 0    25   ~ 0
-VID6
+A6
 Wire Wire Line
 	6250 6350 6450 6350
 Wire Wire Line
 	5050 6450 5250 6450
+Text Label 5050 6450 0    25   ~ 0
+D12
 Text Label 6450 6450 2    25   ~ 0
-GRN0
+A7
 Wire Wire Line
 	6250 6450 6450 6450
+Wire Wire Line
+	2050 5350 2250 5350
+Text Label 3450 5350 2    25   ~ 0
+NVSYNC
+Text Label 2050 5450 0    25   ~ 0
+BLU4
+Wire Wire Line
+	3250 5350 3450 5350
+Wire Wire Line
+	2050 5450 2250 5450
+Text Label 3450 5450 2    25   ~ 0
+VID15
+Text Label 2050 5550 0    25   ~ 0
+BLU3
+Wire Wire Line
+	3250 5450 3450 5450
+Wire Wire Line
+	2050 5550 2250 5550
+Text Label 3450 5550 2    25   ~ 0
+VID14
+Text Label 2050 5650 0    25   ~ 0
+BLU0
+Wire Wire Line
+	3250 5550 3450 5550
+Wire Wire Line
+	2050 5650 2250 5650
+Text Label 3450 5650 2    25   ~ 0
+BLU2
+Text Label 2050 5750 0    25   ~ 0
+BLU1
+Wire Wire Line
+	3250 5650 3450 5650
+Wire Wire Line
+	2050 5750 2250 5750
+Text Label 3450 5750 2    25   ~ 0
+VID13
+Wire Wire Line
+	2050 5850 2250 5850
+Text Label 3450 5850 2    25   ~ 0
+VID11
+Text Label 2050 5850 0    25   ~ 0
+VID12
+Wire Wire Line
+	3250 5750 3450 5750
+Text Label 2050 5950 0    25   ~ 0
+CLK14
+Wire Wire Line
+	3250 5850 3450 5850
+Wire Wire Line
+	2050 5950 2250 5950
+Text Label 3450 5950 2    25   ~ 0
+VID10
+Text Label 2050 6050 0    25   ~ 0
+GRN5
+Wire Wire Line
+	3250 5950 3450 5950
+Wire Wire Line
+	2050 6050 2250 6050
+Text Label 3450 6050 2    25   ~ 0
+VID9
+Text Label 2050 6150 0    25   ~ 0
+GRN4
+Wire Wire Line
+	3250 6050 3450 6050
+Wire Wire Line
+	2050 6150 2250 6150
+Text Label 3450 6150 2    25   ~ 0
+GRN3
+Text Label 2050 6250 0    25   ~ 0
+VID8
+Wire Wire Line
+	3250 6150 3450 6150
+Wire Wire Line
+	2050 6250 2250 6250
+Text Label 3450 6250 2    25   ~ 0
+GRN2
+Text Label 2050 6350 0    25   ~ 0
+VID7
+Wire Wire Line
+	3250 6250 3450 6250
+Wire Wire Line
+	2050 6350 2250 6350
+Text Label 3450 6350 2    25   ~ 0
+GRN1
+Text Label 2050 6450 0    25   ~ 0
+VID6
+Wire Wire Line
+	3250 6350 3450 6350
+Wire Wire Line
+	2050 6450 2250 6450
+Text Label 3450 6450 2    25   ~ 0
+GRN0
+Wire Wire Line
+	3250 6450 3450 6450
 Text Label 4950 5350 2    25   ~ 0
 D9
 Wire Wire Line
@@ -1471,47 +1471,91 @@ Connection ~ 4400 1800
 Wire Wire Line
 	4400 1800 4400 1900
 $Comp
-L ksk-heikoubox:HeikouBox-Core A1
+L KSK_HeikouBox:HeikouBox_Core_Conn_Left J1
 U 1 1 5EF5786F
 P 850 5250
-F 0 "A1" H 1250 5415 50  0000 C CNN
-F 1 "HeikouBox-Core" H 1250 5324 50  0000 C CNN
-F 2 "ksk-heikoubox:HeikouBox-Core-Top" H 1150 5250 50  0001 C CNN
+F 0 "J1" H 1250 5415 50  0000 C CNN
+F 1 "L" H 1250 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:PinHeader_2x12_P2.00mm_Vertical-MIRRORED" H 1150 5250 50  0001 C CNN
 F 3 "" H 1150 5250 50  0001 C CNN
 	1    850  5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L ksk-heikoubox:HeikouBox-Core A1
-U 2 1 5EF57BDC
-P 2350 5250
-F 0 "A1" H 2750 5415 50  0000 C CNN
-F 1 "HeikouBox-Core" H 2750 5324 50  0000 C CNN
-F 2 "ksk-heikoubox:HeikouBox-Core-Top" H 2650 5250 50  0001 C CNN
-F 3 "" H 2650 5250 50  0001 C CNN
-	2    2350 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L ksk-heikoubox:HeikouBox-Core A1
-U 3 1 5EF57CAD
-P 3850 5250
-F 0 "A1" H 4250 5415 50  0000 C CNN
-F 1 "HeikouBox-Core" H 4250 5324 50  0000 C CNN
-F 2 "ksk-heikoubox:HeikouBox-Core-Top" H 4150 5250 50  0001 C CNN
-F 3 "" H 4150 5250 50  0001 C CNN
-	3    3850 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L ksk-heikoubox:HeikouBox-Core A1
-U 4 1 5EF57D70
+L KSK_HeikouBox:HeikouBox_Core_Conn_Top J4
+U 1 1 5EF57BDC
 P 5350 5250
-F 0 "A1" H 5750 5415 50  0000 C CNN
-F 1 "HeikouBox-Core" H 5750 5324 50  0000 C CNN
-F 2 "ksk-heikoubox:HeikouBox-Core-Top" H 5650 5250 50  0001 C CNN
+F 0 "J4" H 5750 5415 50  0000 C CNN
+F 1 "T" H 5750 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:PinHeader_2x12_P2.00mm_Vertical-MIRRORED" H 5650 5250 50  0001 C CNN
 F 3 "" H 5650 5250 50  0001 C CNN
-	4    5350 5250
+	1    5350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KSK_HeikouBox:HeikouBox_Core_Conn_Right J3
+U 1 1 5EF57CAD
+P 3850 5250
+F 0 "J3" H 4250 5415 50  0000 C CNN
+F 1 "R" H 4250 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:PinHeader_2x12_P2.00mm_Vertical-MIRRORED" H 4150 5250 50  0001 C CNN
+F 3 "" H 4150 5250 50  0001 C CNN
+	1    3850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KSK_HeikouBox:HeikouBox_Core_Conn_Bottom J2
+U 1 1 5EF57D70
+P 2350 5250
+F 0 "J2" H 2750 5415 50  0000 C CNN
+F 1 "B" H 2750 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:PinHeader_2x12_P2.00mm_Vertical-MIRRORED" H 2650 5250 50  0001 C CNN
+F 3 "" H 2650 5250 50  0001 C CNN
+	1    2350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5F54E1E3
+P 600 7400
+F 0 "MH1" H 700 7446 50  0000 L CNN
+F 1 "M3" H 700 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 600 7400 50  0001 C CNN
+F 3 "~" H 600 7400 50  0001 C CNN
+	1    600  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5F54F68B
+P 950 7400
+F 0 "MH2" H 1050 7446 50  0000 L CNN
+F 1 "M3" H 1050 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 7400 50  0001 C CNN
+F 3 "~" H 950 7400 50  0001 C CNN
+	1    950  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5F54F907
+P 600 7650
+F 0 "MH3" H 700 7696 50  0000 L CNN
+F 1 "M3" H 700 7605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 600 7650 50  0001 C CNN
+F 3 "~" H 600 7650 50  0001 C CNN
+	1    600  7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5F54FB04
+P 950 7650
+F 0 "MH4" H 1050 7696 50  0000 L CNN
+F 1 "M3" H 1050 7605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 7650 50  0001 C CNN
+F 3 "~" H 950 7650 50  0001 C CNN
+	1    950  7650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
