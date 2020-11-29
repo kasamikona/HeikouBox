@@ -1471,91 +1471,47 @@ Connection ~ 4400 1800
 Wire Wire Line
 	4400 1800 4400 1900
 $Comp
-L KSK_HeikouBox:HeikouBox_Core_Conn_Left J1
-U 1 1 5EF5786F
+L KSK_HeikouBox:HeikouBox_Core J1
+U 1 1 5FCEAF88
 P 850 5250
 F 0 "J1" H 1250 5415 50  0000 C CNN
-F 1 "L" H 1250 5324 50  0000 C CNN
-F 2 "KSK_HeikouBox:PinHeader_2x12_P2.00mm_Vertical-MIRRORED" H 1150 5250 50  0001 C CNN
+F 1 "HeikouBox_Core" H 1250 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 1150 5250 50  0001 C CNN
 F 3 "" H 1150 5250 50  0001 C CNN
 	1    850  5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L KSK_HeikouBox:HeikouBox_Core_Conn_Top J4
-U 1 1 5EF57BDC
-P 5350 5250
-F 0 "J4" H 5750 5415 50  0000 C CNN
-F 1 "T" H 5750 5324 50  0000 C CNN
-F 2 "KSK_HeikouBox:PinHeader_2x12_P2.00mm_Vertical-MIRRORED" H 5650 5250 50  0001 C CNN
-F 3 "" H 5650 5250 50  0001 C CNN
-	1    5350 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L KSK_HeikouBox:HeikouBox_Core_Conn_Right J3
-U 1 1 5EF57CAD
-P 3850 5250
-F 0 "J3" H 4250 5415 50  0000 C CNN
-F 1 "R" H 4250 5324 50  0000 C CNN
-F 2 "KSK_HeikouBox:PinHeader_2x12_P2.00mm_Vertical-MIRRORED" H 4150 5250 50  0001 C CNN
-F 3 "" H 4150 5250 50  0001 C CNN
-	1    3850 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L KSK_HeikouBox:HeikouBox_Core_Conn_Bottom J2
-U 1 1 5EF57D70
+L KSK_HeikouBox:HeikouBox_Core J1
+U 2 1 5FCEF84D
 P 2350 5250
-F 0 "J2" H 2750 5415 50  0000 C CNN
-F 1 "B" H 2750 5324 50  0000 C CNN
-F 2 "KSK_HeikouBox:PinHeader_2x12_P2.00mm_Vertical-MIRRORED" H 2650 5250 50  0001 C CNN
+F 0 "J1" H 2750 5415 50  0000 C CNN
+F 1 "HeikouBox_Core" H 2750 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 2650 5250 50  0001 C CNN
 F 3 "" H 2650 5250 50  0001 C CNN
-	1    2350 5250
+	2    2350 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH1
-U 1 1 5F54E1E3
-P 600 7400
-F 0 "MH1" H 700 7446 50  0000 L CNN
-F 1 "M3" H 700 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 600 7400 50  0001 C CNN
-F 3 "~" H 600 7400 50  0001 C CNN
-	1    600  7400
+L KSK_HeikouBox:HeikouBox_Core J1
+U 3 1 5FCF1408
+P 3850 5250
+F 0 "J1" H 4250 5415 50  0000 C CNN
+F 1 "HeikouBox_Core" H 4250 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 4150 5250 50  0001 C CNN
+F 3 "" H 4150 5250 50  0001 C CNN
+	3    3850 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole MH2
-U 1 1 5F54F68B
-P 950 7400
-F 0 "MH2" H 1050 7446 50  0000 L CNN
-F 1 "M3" H 1050 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 7400 50  0001 C CNN
-F 3 "~" H 950 7400 50  0001 C CNN
-	1    950  7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH3
-U 1 1 5F54F907
-P 600 7650
-F 0 "MH3" H 700 7696 50  0000 L CNN
-F 1 "M3" H 700 7605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 600 7650 50  0001 C CNN
-F 3 "~" H 600 7650 50  0001 C CNN
-	1    600  7650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole MH4
-U 1 1 5F54FB04
-P 950 7650
-F 0 "MH4" H 1050 7696 50  0000 L CNN
-F 1 "M3" H 1050 7605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 7650 50  0001 C CNN
-F 3 "~" H 950 7650 50  0001 C CNN
-	1    950  7650
+L KSK_HeikouBox:HeikouBox_Core J1
+U 4 1 5FCF324E
+P 5350 5250
+F 0 "J1" H 5750 5415 50  0000 C CNN
+F 1 "HeikouBox_Core" H 5750 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 5650 5250 50  0001 C CNN
+F 3 "" H 5650 5250 50  0001 C CNN
+	4    5350 5250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
