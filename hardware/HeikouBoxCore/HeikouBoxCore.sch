@@ -15,35 +15,13 @@ Comment4 ""
 $EndDescr
 $Comp
 L KSK_HeikouBox:EP3C25E144 U1
-U 1 1 5E5BAA29
-P 900 700
-F 0 "U1" H 1200 865 50  0000 C CNN
-F 1 "EP3C25E144" H 1200 774 50  0000 C CNN
-F 2 "KSK_HeikouBox:EQFP-144-HANDSOLDER" H 3350 550 50  0001 C CNN
-F 3 "" H 650 2900 50  0001 C CNN
-	1    900  700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L KSK_HeikouBox:EP3C25E144 U1
-U 2 1 5E5BAA8C
-P 2250 700
-F 0 "U1" H 2725 865 50  0000 C CNN
-F 1 "EP3C25E144" H 2725 774 50  0000 C CNN
-F 2 "KSK_HeikouBox:EQFP-144-HANDSOLDER" H 4700 550 50  0001 C CNN
-F 3 "" H 2000 2900 50  0001 C CNN
-	2    2250 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L KSK_HeikouBox:EP3C25E144 U1
 U 3 1 5E5BAB2D
-P 3750 700
-F 0 "U1" H 4131 865 50  0000 C CNN
-F 1 "EP3C25E144" H 4131 774 50  0000 C CNN
-F 2 "KSK_HeikouBox:EQFP-144-HANDSOLDER" H 6200 550 50  0001 C CNN
-F 3 "" H 3500 2900 50  0001 C CNN
-	3    3750 700 
+P 4350 700
+F 0 "U1" H 4458 865 50  0000 C CNN
+F 1 "EP3C25E144" H 4458 774 50  0000 C CNN
+F 2 "KSK_HeikouBox:EQFP-144-HANDSOLDER" H 6800 550 50  0001 C CNN
+F 3 "" H 4100 2900 50  0001 C CNN
+	3    4350 700 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -210,332 +188,308 @@ Text Label 550  4700 0    25   ~ 0
 VID5
 Text Label 550  4800 0    25   ~ 0
 RED4
-Text Label 1850 800  2    25   ~ 0
+Text Label 2150 800  2    25   ~ 0
 VID4
-Text Label 1850 900  2    25   ~ 0
+Text Label 2150 900  2    25   ~ 0
 RED3
-Text Label 1850 1000 2    25   ~ 0
+Text Label 2150 1000 2    25   ~ 0
 RED2
-Text Label 1850 1100 2    25   ~ 0
+Text Label 2150 1100 2    25   ~ 0
 RED1
-Text Label 1850 1200 2    25   ~ 0
+Text Label 2150 1200 2    25   ~ 0
 RED0
-Text Label 1850 1300 2    25   ~ 0
+Text Label 2150 1300 2    25   ~ 0
 D8
-Text Label 1850 1400 2    25   ~ 0
+Text Label 2150 1400 2    25   ~ 0
 VID3
-Text Label 1850 1500 2    25   ~ 0
+Text Label 2150 1500 2    25   ~ 0
 VID2
-Text Label 1850 1600 2    25   ~ 0
+Text Label 2150 1600 2    25   ~ 0
 VID1
-Text Label 1850 1700 2    25   ~ 0
+Text Label 2150 1700 2    25   ~ 0
 VID0
-Text Label 1850 1800 2    25   ~ 0
+Text Label 2150 1800 2    25   ~ 0
 UDQM
-Text Label 1850 1900 2    25   ~ 0
+Text Label 2150 1900 2    25   ~ 0
 CLK
-Text Label 1850 2000 2    25   ~ 0
+Text Label 2150 2000 2    25   ~ 0
 A11
-Text Label 1850 2100 2    25   ~ 0
+Text Label 2150 2100 2    25   ~ 0
 D11
-Text Label 1850 2200 2    25   ~ 0
+Text Label 2150 2200 2    25   ~ 0
 A8
-Text Label 1850 2300 2    25   ~ 0
+Text Label 2150 2300 2    25   ~ 0
 D10
-Text Label 1850 2400 2    25   ~ 0
+Text Label 2150 2400 2    25   ~ 0
 A9
-Text Label 1850 2500 2    25   ~ 0
+Text Label 2150 2500 2    25   ~ 0
 D9
-Text Label 1850 2600 2    25   ~ 0
+Text Label 2150 2600 2    25   ~ 0
 A7
-Text Label 1850 2700 2    25   ~ 0
+Text Label 2150 2700 2    25   ~ 0
 D12
-Text Label 1850 2800 2    25   ~ 0
+Text Label 2150 2800 2    25   ~ 0
 A6
-Text Label 1850 2900 2    25   ~ 0
+Text Label 2150 2900 2    25   ~ 0
 D13
-Text Label 1850 3000 2    25   ~ 0
+Text Label 2150 3000 2    25   ~ 0
 A5
-Text Label 1850 3100 2    25   ~ 0
+Text Label 2150 3100 2    25   ~ 0
 D14
-Text Label 1850 3200 2    25   ~ 0
+Text Label 2150 3200 2    25   ~ 0
 A4
-Text Label 1850 3300 2    25   ~ 0
+Text Label 2150 3300 2    25   ~ 0
 D15
-Text Label 1850 3400 2    25   ~ 0
+Text Label 2150 3400 2    25   ~ 0
 D0
-Text Label 1850 3500 2    25   ~ 0
+Text Label 2150 3500 2    25   ~ 0
 D1
-Text Label 1850 3600 2    25   ~ 0
+Text Label 2150 3600 2    25   ~ 0
 CLK28
-Text Label 1850 3700 2    25   ~ 0
+Text Label 2150 3700 2    25   ~ 0
 MDB5
-Text Label 1850 3800 2    25   ~ 0
+Text Label 2150 3800 2    25   ~ 0
 MDB6
-Text Label 1850 3900 2    25   ~ 0
+Text Label 2150 3900 2    25   ~ 0
 MDB7
-Text Label 1850 4000 2    25   ~ 0
+Text Label 2150 4000 2    25   ~ 0
 D2
-Text Label 1850 4100 2    25   ~ 0
+Text Label 2150 4100 2    25   ~ 0
 D3
-Text Label 1850 4200 2    25   ~ 0
+Text Label 2150 4200 2    25   ~ 0
 D4
-Text Label 1850 4300 2    25   ~ 0
+Text Label 2150 4300 2    25   ~ 0
 D5
-Text Label 1850 4400 2    25   ~ 0
+Text Label 2150 4400 2    25   ~ 0
 D6
-Text Label 1850 4500 2    25   ~ 0
+Text Label 2150 4500 2    25   ~ 0
 D7
-Text Label 1850 4600 2    25   ~ 0
+Text Label 2150 4600 2    25   ~ 0
 LDQM
-Text Label 1850 4700 2    25   ~ 0
+Text Label 2150 4700 2    25   ~ 0
 WE
-Text Label 1850 4800 2    25   ~ 0
+Text Label 2150 4800 2    25   ~ 0
 CAS
 Wire Wire Line
-	4400 800  4550 800 
+	4800 800  4950 800 
 Wire Wire Line
-	4400 900  4550 900 
+	4800 900  4950 900 
 Wire Wire Line
-	4400 1000 4550 1000
+	4800 1000 4950 1000
 Wire Wire Line
-	4400 1100 4550 1100
+	4800 1100 4950 1100
 Wire Wire Line
-	4400 1200 4550 1200
+	4800 1200 4950 1200
 Wire Wire Line
-	4400 1300 4550 1300
+	4800 1300 4950 1300
 Wire Wire Line
-	4400 1400 4550 1400
+	4800 1400 4950 1400
 Wire Wire Line
-	4400 1500 4550 1500
+	4800 1500 4950 1500
 Wire Wire Line
-	4400 1600 4550 1600
-Text Label 4550 800  2    25   ~ 0
+	4800 1600 4950 1600
+Text Label 4950 800  2    25   ~ 0
 NSTATUS
-Text Label 4550 900  2    25   ~ 0
+Text Label 4950 900  2    25   ~ 0
 DCLK
-Text Label 4550 1000 2    25   ~ 0
+Text Label 4950 1000 2    25   ~ 0
 NCONFIG
-Text Label 4550 1100 2    25   ~ 0
+Text Label 4950 1100 2    25   ~ 0
 TDI
-Text Label 4550 1200 2    25   ~ 0
+Text Label 4950 1200 2    25   ~ 0
 TCK
-Text Label 4550 1300 2    25   ~ 0
+Text Label 4950 1300 2    25   ~ 0
 TMS
-Text Label 4550 1400 2    25   ~ 0
+Text Label 4950 1400 2    25   ~ 0
 TDO
 Wire Wire Line
-	3400 800  3500 800 
+	3750 800  3850 800 
 Wire Wire Line
-	3400 900  3550 900 
+	3750 900  3900 900 
 Wire Wire Line
-	3400 1000 3500 1000
+	3750 1000 3850 1000
 Wire Wire Line
-	3400 1100 3450 1100
+	3750 1100 3800 1100
 Wire Wire Line
-	3400 1200 3450 1200
+	3750 1200 3800 1200
 Wire Wire Line
-	3400 1300 3500 1300
+	3750 1300 3850 1300
 Wire Wire Line
-	3400 1400 3500 1400
+	3750 1400 3850 1400
 Wire Wire Line
-	3400 1500 3550 1500
+	3750 1500 3900 1500
 Wire Wire Line
-	3400 1600 3500 1600
+	3750 1600 3850 1600
 Wire Wire Line
-	3400 1700 3500 1700
+	3750 1700 3850 1700
 Wire Wire Line
-	3400 1800 3450 1800
+	3750 1800 3800 1800
 Wire Wire Line
-	3400 1900 3500 1900
+	3750 1900 3850 1900
 Wire Wire Line
-	3400 2000 3450 2000
+	3750 2000 3800 2000
 Wire Wire Line
-	3400 2100 3450 2100
+	3750 2100 3800 2100
 Wire Wire Line
-	3400 2200 3500 2200
+	3750 2200 3850 2200
 Wire Wire Line
-	3400 2300 3450 2300
+	3750 2300 3800 2300
 Wire Wire Line
-	3400 2400 3500 2400
+	3750 2400 3850 2400
 Wire Wire Line
-	3400 2500 3500 2500
+	3750 2500 3850 2500
 Wire Wire Line
-	3400 2600 3550 2600
+	3750 2600 3900 2600
 Wire Wire Line
-	3400 2700 3500 2700
+	3750 2700 3850 2700
 Wire Wire Line
-	3400 2800 3450 2800
+	3750 2800 3800 2800
 Wire Wire Line
-	3400 2900 3500 2900
+	3750 2900 3850 2900
 Wire Wire Line
-	3400 3000 3450 3000
+	3750 3000 3800 3000
 Wire Wire Line
-	3400 3100 3500 3100
+	3750 3100 3850 3100
 Wire Wire Line
-	3400 3300 3500 3300
+	3750 3300 3850 3300
 Wire Wire Line
-	3400 3400 3500 3400
+	3750 3400 3850 3400
 Wire Wire Line
-	3400 3500 3450 3500
+	3750 3500 3800 3500
 Wire Wire Line
-	3400 3600 3450 3600
+	3750 3600 3800 3600
 Wire Wire Line
-	3400 3700 3500 3700
+	3750 3700 3850 3700
 Wire Wire Line
-	3400 3800 3450 3800
+	3750 3800 3800 3800
 Wire Wire Line
-	3400 3900 3500 3900
+	3750 3900 3850 3900
 Wire Wire Line
-	3400 4000 3500 4000
+	3750 4000 3850 4000
 Wire Wire Line
-	3400 4100 3450 4100
+	3750 4100 3800 4100
 Wire Wire Line
-	1950 2500 2050 2500
+	3800 1100 3800 1200
+Connection ~ 3800 1100
 Wire Wire Line
-	3450 1100 3450 1200
-Connection ~ 3450 1100
+	3800 1100 4000 1100
+Connection ~ 3800 1200
 Wire Wire Line
-	3450 1100 3650 1100
-Connection ~ 3450 1200
+	3800 1200 3800 1800
+Connection ~ 3800 1800
 Wire Wire Line
-	3450 1200 3450 1800
-Connection ~ 3450 1800
+	3800 1800 3800 2000
+Connection ~ 3800 2000
 Wire Wire Line
-	3450 1800 3450 2000
-Connection ~ 3450 2000
+	3800 2000 3800 2100
+Connection ~ 3800 2100
 Wire Wire Line
-	3450 2000 3450 2100
-Connection ~ 3450 2100
+	3800 2100 3800 2300
+Connection ~ 3800 2300
 Wire Wire Line
-	3450 2100 3450 2300
-Connection ~ 3450 2300
+	3800 2300 3800 2800
+Connection ~ 3800 2800
 Wire Wire Line
-	3450 2300 3450 2800
-Connection ~ 3450 2800
+	3800 2800 3800 3000
+Connection ~ 3800 3000
 Wire Wire Line
-	3450 2800 3450 3000
-Connection ~ 3450 3000
+	3800 3000 3800 3500
+Connection ~ 3800 3500
 Wire Wire Line
-	3450 3000 3450 3500
-Connection ~ 3450 3500
+	3800 3500 3800 3600
+Connection ~ 3800 3600
 Wire Wire Line
-	3450 3500 3450 3600
-Connection ~ 3450 3600
+	3800 3600 3800 3800
 Wire Wire Line
-	3450 3600 3450 3800
+	3850 800  3850 1000
+Connection ~ 3850 800 
 Wire Wire Line
-	3500 800  3500 1000
-Connection ~ 3500 800 
+	3850 800  4000 800 
 Wire Wire Line
-	3500 800  3650 800 
+	3850 1000 3850 1300
+Connection ~ 3850 1000
+Connection ~ 3850 1300
 Wire Wire Line
-	3500 1000 3500 1300
-Connection ~ 3500 1000
-Connection ~ 3500 1300
+	3850 1300 3850 1400
+Connection ~ 3850 1400
 Wire Wire Line
-	3500 1300 3500 1400
-Connection ~ 3500 1400
+	3850 1400 3850 1600
+Connection ~ 3850 1600
 Wire Wire Line
-	3500 1400 3500 1600
-Connection ~ 3500 1600
+	3850 1600 3850 1700
+Connection ~ 3850 1700
 Wire Wire Line
-	3500 1600 3500 1700
-Connection ~ 3500 1700
+	3850 1700 3850 1900
+Connection ~ 3850 1900
 Wire Wire Line
-	3500 1700 3500 1900
-Connection ~ 3500 1900
+	3850 1900 3850 2200
+Connection ~ 3850 2400
+Connection ~ 3850 2200
 Wire Wire Line
-	3500 1900 3500 2200
-Connection ~ 3500 2400
-Connection ~ 3500 2200
+	3850 2200 3850 2400
 Wire Wire Line
-	3500 2200 3500 2400
+	3850 2400 3850 2500
+Connection ~ 3850 2500
 Wire Wire Line
-	3500 2400 3500 2500
-Connection ~ 3500 2500
+	3850 2500 3850 2700
+Connection ~ 3850 2700
 Wire Wire Line
-	3500 2500 3500 2700
-Connection ~ 3500 2700
+	3850 2700 3850 2900
+Connection ~ 3850 2900
 Wire Wire Line
-	3500 2700 3500 2900
-Connection ~ 3500 2900
+	3850 2900 3850 3100
+Connection ~ 3850 3100
 Wire Wire Line
-	3500 2900 3500 3100
-Connection ~ 3500 3100
+	3850 3100 3850 3300
+Connection ~ 3850 3300
 Wire Wire Line
-	3500 3100 3500 3300
-Connection ~ 3500 3300
+	3850 3300 3850 3400
+Connection ~ 3850 3400
 Wire Wire Line
-	3500 3300 3500 3400
-Connection ~ 3500 3400
+	3850 3400 3850 3700
+Connection ~ 3850 3700
 Wire Wire Line
-	3500 3400 3500 3700
-Connection ~ 3500 3700
+	3850 3700 3850 3900
+Connection ~ 3850 3900
 Wire Wire Line
-	3500 3700 3500 3900
-Connection ~ 3500 3900
+	3850 3900 3850 4000
 Wire Wire Line
-	3500 3900 3500 4000
+	3800 3800 3800 4100
+Connection ~ 3800 3800
 Wire Wire Line
-	3450 3800 3450 4100
-Connection ~ 3450 3800
+	3750 3200 3900 3200
 Wire Wire Line
-	3400 3200 3550 3200
+	3900 3200 3900 2600
 Wire Wire Line
-	3550 3200 3550 2600
+	3900 2600 3900 1500
+Connection ~ 3900 2600
 Wire Wire Line
-	3550 2600 3550 1500
-Connection ~ 3550 2600
+	3900 900  3900 1500
+Connection ~ 3900 900 
 Wire Wire Line
-	3550 900  3550 1500
-Connection ~ 3550 900 
-Wire Wire Line
-	3550 900  3650 900 
-Connection ~ 3550 1500
-Text Label 3650 800  2    25   ~ 0
+	3900 900  4000 900 
+Connection ~ 3900 1500
+Text Label 4000 800  2    25   ~ 0
 V12
-Text Label 3650 1100 2    25   ~ 0
+Text Label 4000 1100 2    25   ~ 0
 V33
-Text Label 3650 900  2    25   ~ 0
+Text Label 4000 900  2    25   ~ 0
 V25
-Text Label 1950 2500 0    25   ~ 0
+Text Label 2250 2500 0    25   ~ 0
 GND
-Text Label 4550 1900 2    25   ~ 0
+Text Label 4950 1900 2    25   ~ 0
 GND
-Text Label 4550 1600 2    25   ~ 0
+Text Label 4950 1600 2    25   ~ 0
 CFGDONE
-Text Label 4550 1500 2    25   ~ 0
+Text Label 4950 1500 2    25   ~ 0
 GND
 Wire Wire Line
-	4400 1900 4550 1900
+	4800 1900 4950 1900
 $Comp
 L Device:C C1
 U 1 1 5EB0B638
-P 3850 2450
-F 0 "C1" H 3850 2550 50  0000 L CNN
-F 1 "104" H 3850 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 2300 50  0001 C CNN
-F 3 "~" H 3850 2450 50  0001 C CNN
-	1    3850 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5EB0B78F
-P 4050 2450
-F 0 "C2" H 4050 2550 50  0000 L CNN
-F 1 "104" H 4050 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4088 2300 50  0001 C CNN
-F 3 "~" H 4050 2450 50  0001 C CNN
-	1    4050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5EB0BA93
 P 4250 2450
-F 0 "C3" H 4250 2550 50  0000 L CNN
+F 0 "C1" H 4250 2550 50  0000 L CNN
 F 1 "104" H 4250 2350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4288 2300 50  0001 C CNN
 F 3 "~" H 4250 2450 50  0001 C CNN
@@ -543,80 +497,80 @@ F 3 "~" H 4250 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Device:C C2
+U 1 1 5EB0B78F
+P 4450 2450
+F 0 "C2" H 4450 2550 50  0000 L CNN
+F 1 "104" H 4450 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 2300 50  0001 C CNN
+F 3 "~" H 4450 2450 50  0001 C CNN
+	1    4450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5EB0BA93
+P 4650 2450
+F 0 "C3" H 4650 2550 50  0000 L CNN
+F 1 "104" H 4650 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 2300 50  0001 C CNN
+F 3 "~" H 4650 2450 50  0001 C CNN
+	1    4650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:C C4
 U 1 1 5EB0BABB
-P 3850 2750
-F 0 "C4" H 3850 2850 50  0000 L CNN
-F 1 "104" H 3850 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 2600 50  0001 C CNN
-F 3 "~" H 3850 2750 50  0001 C CNN
-	1    3850 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5EB0BAF1
-P 4050 2750
-F 0 "C5" H 4050 2850 50  0000 L CNN
-F 1 "104" H 4050 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4088 2600 50  0001 C CNN
-F 3 "~" H 4050 2750 50  0001 C CNN
-	1    4050 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5EB0BB1D
 P 4250 2750
-F 0 "C6" H 4250 2850 50  0000 L CNN
+F 0 "C4" H 4250 2850 50  0000 L CNN
 F 1 "104" H 4250 2650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4288 2600 50  0001 C CNN
 F 3 "~" H 4250 2750 50  0001 C CNN
 	1    4250 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C5
+U 1 1 5EB0BAF1
+P 4450 2750
+F 0 "C5" H 4450 2850 50  0000 L CNN
+F 1 "104" H 4450 2650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 2600 50  0001 C CNN
+F 3 "~" H 4450 2750 50  0001 C CNN
+	1    4450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5EB0BB1D
+P 4650 2750
+F 0 "C6" H 4650 2850 50  0000 L CNN
+F 1 "104" H 4650 2650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 2600 50  0001 C CNN
+F 3 "~" H 4650 2750 50  0001 C CNN
+	1    4650 2750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3850 2600 4050 2600
-Connection ~ 3850 2600
-Connection ~ 4050 2600
-Wire Wire Line
-	4050 2600 4250 2600
+	4250 2600 4450 2600
 Connection ~ 4250 2600
+Connection ~ 4450 2600
 Wire Wire Line
-	3850 2600 3750 2600
-Text Label 3750 3900 0    25   ~ 0
+	4450 2600 4650 2600
+Connection ~ 4650 2600
+Wire Wire Line
+	4250 2600 4150 2600
+Text Label 4150 3900 0    25   ~ 0
 V33
-Text Label 3750 2600 0    25   ~ 0
+Text Label 4150 2600 0    25   ~ 0
 GND
-Text Notes 3750 2250 0    50   ~ 0
+Text Notes 4150 2250 0    50   ~ 0
 Decoupling : V33
 $Comp
 L Device:C C7
 U 1 1 5EB56C5C
-P 3850 3250
-F 0 "C7" H 3850 3350 50  0000 L CNN
-F 1 "104" H 3850 3150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 3100 50  0001 C CNN
-F 3 "~" H 3850 3250 50  0001 C CNN
-	1    3850 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 5EB56C63
-P 4050 3250
-F 0 "C8" H 4050 3350 50  0000 L CNN
-F 1 "104" H 4050 3150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4088 3100 50  0001 C CNN
-F 3 "~" H 4050 3250 50  0001 C CNN
-	1    4050 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 5EB56C6A
 P 4250 3250
-F 0 "C9" H 4250 3350 50  0000 L CNN
+F 0 "C7" H 4250 3350 50  0000 L CNN
 F 1 "104" H 4250 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4288 3100 50  0001 C CNN
 F 3 "~" H 4250 3250 50  0001 C CNN
@@ -624,10 +578,10 @@ F 3 "~" H 4250 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
-U 1 1 5EB56C71
+L Device:C C8
+U 1 1 5EB56C63
 P 4450 3250
-F 0 "C10" H 4450 3350 50  0000 L CNN
+F 0 "C8" H 4450 3350 50  0000 L CNN
 F 1 "104" H 4450 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 3100 50  0001 C CNN
 F 3 "~" H 4450 3250 50  0001 C CNN
@@ -635,10 +589,10 @@ F 3 "~" H 4450 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
-U 1 1 5EB56C78
+L Device:C C9
+U 1 1 5EB56C6A
 P 4650 3250
-F 0 "C11" H 4650 3350 50  0000 L CNN
+F 0 "C9" H 4650 3350 50  0000 L CNN
 F 1 "104" H 4650 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 3100 50  0001 C CNN
 F 3 "~" H 4650 3250 50  0001 C CNN
@@ -646,10 +600,10 @@ F 3 "~" H 4650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C12
-U 1 1 5EB56C7F
+L Device:C C10
+U 1 1 5EB56C71
 P 4850 3250
-F 0 "C12" H 4850 3350 50  0000 L CNN
+F 0 "C10" H 4850 3350 50  0000 L CNN
 F 1 "104" H 4850 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4888 3100 50  0001 C CNN
 F 3 "~" H 4850 3250 50  0001 C CNN
@@ -657,32 +611,32 @@ F 3 "~" H 4850 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Device:C C11
+U 1 1 5EB56C78
+P 5050 3250
+F 0 "C11" H 5050 3350 50  0000 L CNN
+F 1 "104" H 5050 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5088 3100 50  0001 C CNN
+F 3 "~" H 5050 3250 50  0001 C CNN
+	1    5050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5EB56C7F
+P 5250 3250
+F 0 "C12" H 5250 3350 50  0000 L CNN
+F 1 "104" H 5250 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5288 3100 50  0001 C CNN
+F 3 "~" H 5250 3250 50  0001 C CNN
+	1    5250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:C C14
 U 1 1 5EB56C86
-P 3850 3550
-F 0 "C14" H 3850 3650 50  0000 L CNN
-F 1 "104" H 3850 3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 3400 50  0001 C CNN
-F 3 "~" H 3850 3550 50  0001 C CNN
-	1    3850 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C15
-U 1 1 5EB56C8D
-P 4050 3550
-F 0 "C15" H 4050 3650 50  0000 L CNN
-F 1 "104" H 4050 3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4088 3400 50  0001 C CNN
-F 3 "~" H 4050 3550 50  0001 C CNN
-	1    4050 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C16
-U 1 1 5EB56C94
 P 4250 3550
-F 0 "C16" H 4250 3650 50  0000 L CNN
+F 0 "C14" H 4250 3650 50  0000 L CNN
 F 1 "104" H 4250 3450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4288 3400 50  0001 C CNN
 F 3 "~" H 4250 3550 50  0001 C CNN
@@ -690,10 +644,10 @@ F 3 "~" H 4250 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
-U 1 1 5EB56C9B
+L Device:C C15
+U 1 1 5EB56C8D
 P 4450 3550
-F 0 "C17" H 4450 3650 50  0000 L CNN
+F 0 "C15" H 4450 3650 50  0000 L CNN
 F 1 "104" H 4450 3450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 3400 50  0001 C CNN
 F 3 "~" H 4450 3550 50  0001 C CNN
@@ -701,38 +655,54 @@ F 3 "~" H 4450 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C18
-U 1 1 5EB56CA2
+L Device:C C16
+U 1 1 5EB56C94
 P 4650 3550
-F 0 "C18" H 4650 3650 50  0000 L CNN
+F 0 "C16" H 4650 3650 50  0000 L CNN
 F 1 "104" H 4650 3450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 3400 50  0001 C CNN
 F 3 "~" H 4650 3550 50  0001 C CNN
 	1    4650 3550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 3400 4050 3400
-Connection ~ 3850 3400
-Connection ~ 4850 3400
-Connection ~ 4050 3400
-Wire Wire Line
-	4050 3400 4250 3400
-Connection ~ 4250 3400
+$Comp
+L Device:C C17
+U 1 1 5EB56C9B
+P 4850 3550
+F 0 "C17" H 4850 3650 50  0000 L CNN
+F 1 "104" H 4850 3450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4888 3400 50  0001 C CNN
+F 3 "~" H 4850 3550 50  0001 C CNN
+	1    4850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5EB56CA2
+P 5050 3550
+F 0 "C18" H 5050 3650 50  0000 L CNN
+F 1 "104" H 5050 3450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5088 3400 50  0001 C CNN
+F 3 "~" H 5050 3550 50  0001 C CNN
+	1    5050 3550
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4250 3400 4450 3400
+Connection ~ 4250 3400
+Connection ~ 5250 3400
 Connection ~ 4450 3400
 Wire Wire Line
 	4450 3400 4650 3400
 Connection ~ 4650 3400
 Wire Wire Line
 	4650 3400 4850 3400
+Connection ~ 4850 3400
 Wire Wire Line
-	3850 3100 4050 3100
-Connection ~ 4050 3100
+	4850 3400 5050 3400
+Connection ~ 5050 3400
 Wire Wire Line
-	4050 3100 4250 3100
-Connection ~ 4250 3100
+	5050 3400 5250 3400
 Wire Wire Line
 	4250 3100 4450 3100
 Connection ~ 4450 3100
@@ -741,157 +711,163 @@ Wire Wire Line
 Connection ~ 4650 3100
 Wire Wire Line
 	4650 3100 4850 3100
-Connection ~ 4050 3700
+Connection ~ 4850 3100
 Wire Wire Line
-	4050 3700 3850 3700
-Connection ~ 4250 3700
+	4850 3100 5050 3100
+Connection ~ 5050 3100
 Wire Wire Line
-	4250 3700 4050 3700
+	5050 3100 5250 3100
 Connection ~ 4450 3700
 Wire Wire Line
 	4450 3700 4250 3700
 Connection ~ 4650 3700
 Wire Wire Line
 	4650 3700 4450 3700
-Connection ~ 3850 3100
-Text Label 3750 3100 0    25   ~ 0
+Connection ~ 4850 3700
+Wire Wire Line
+	4850 3700 4650 3700
+Connection ~ 5050 3700
+Wire Wire Line
+	5050 3700 4850 3700
+Connection ~ 4250 3100
+Text Label 4150 3100 0    25   ~ 0
 V12
-Text Label 3750 3400 0    25   ~ 0
+Text Label 4150 3400 0    25   ~ 0
 GND
-Text Notes 3750 3050 0    50   ~ 0
+Text Notes 4150 3050 0    50   ~ 0
 Decoupling : V12
 $Comp
 L Device:C C13
 U 1 1 5EB6330B
-P 5050 3250
-F 0 "C13" H 5050 3350 50  0000 L CNN
-F 1 "104" H 5050 3150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5088 3100 50  0001 C CNN
-F 3 "~" H 5050 3250 50  0001 C CNN
-	1    5050 3250
+P 5450 3250
+F 0 "C13" H 5450 3350 50  0000 L CNN
+F 1 "104" H 5450 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5488 3100 50  0001 C CNN
+F 3 "~" H 5450 3250 50  0001 C CNN
+	1    5450 3250
 	1    0    0    -1  
 $EndComp
-Connection ~ 4850 3100
+Connection ~ 5250 3100
 Wire Wire Line
-	4400 2300 4400 2900
+	4800 2300 4800 2900
 Wire Wire Line
-	5200 3100 5200 3700
+	5600 3100 5600 3700
 Wire Wire Line
-	3750 3100 3850 3100
+	4150 3100 4250 3100
 $Comp
 L Device:C C20
 U 1 1 5EBD40BC
-P 4650 2450
-F 0 "C20" H 4650 2550 50  0000 L CNN
-F 1 "104" H 4650 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 2300 50  0001 C CNN
-F 3 "~" H 4650 2450 50  0001 C CNN
-	1    4650 2450
+P 5050 2450
+F 0 "C20" H 5050 2550 50  0000 L CNN
+F 1 "104" H 5050 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5088 2300 50  0001 C CNN
+F 3 "~" H 5050 2450 50  0001 C CNN
+	1    5050 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C21
 U 1 1 5EBD40C3
-P 4850 2450
-F 0 "C21" H 4850 2550 50  0000 L CNN
-F 1 "104" H 4850 2350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4888 2300 50  0001 C CNN
-F 3 "~" H 4850 2450 50  0001 C CNN
-	1    4850 2450
+P 5250 2450
+F 0 "C21" H 5250 2550 50  0000 L CNN
+F 1 "104" H 5250 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5288 2300 50  0001 C CNN
+F 3 "~" H 5250 2450 50  0001 C CNN
+	1    5250 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C22
 U 1 1 5EBD40CA
-P 4650 2750
-F 0 "C22" H 4650 2850 50  0000 L CNN
-F 1 "104" H 4650 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4688 2600 50  0001 C CNN
-F 3 "~" H 4650 2750 50  0001 C CNN
-	1    4650 2750
+P 5050 2750
+F 0 "C22" H 5050 2850 50  0000 L CNN
+F 1 "104" H 5050 2650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5088 2600 50  0001 C CNN
+F 3 "~" H 5050 2750 50  0001 C CNN
+	1    5050 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C23
 U 1 1 5EBD40D1
-P 4850 2750
-F 0 "C23" H 4850 2850 50  0000 L CNN
-F 1 "104" H 4850 2650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4888 2600 50  0001 C CNN
-F 3 "~" H 4850 2750 50  0001 C CNN
-	1    4850 2750
+P 5250 2750
+F 0 "C23" H 5250 2850 50  0000 L CNN
+F 1 "104" H 5250 2650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5288 2600 50  0001 C CNN
+F 3 "~" H 5250 2750 50  0001 C CNN
+	1    5250 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 2600 4850 2600
-Connection ~ 4650 2600
-Connection ~ 4850 2600
+	5050 2600 5250 2600
+Connection ~ 5050 2600
+Connection ~ 5250 2600
 Wire Wire Line
-	4650 2300 4850 2300
-Connection ~ 4850 2300
+	5050 2300 5250 2300
+Connection ~ 5250 2300
 Wire Wire Line
-	4850 2300 5000 2300
-Connection ~ 4850 2900
+	5250 2300 5400 2300
+Connection ~ 5250 2900
 Wire Wire Line
-	4850 2900 4650 2900
+	5250 2900 5050 2900
 Wire Wire Line
-	5000 2900 4850 2900
-Connection ~ 4650 2300
+	5400 2900 5250 2900
+Connection ~ 5050 2300
 Wire Wire Line
-	4650 2600 4550 2600
-Text Label 4550 2300 0    25   ~ 0
+	5050 2600 4950 2600
+Text Label 4950 2300 0    25   ~ 0
 V25
-Text Label 4550 2600 0    25   ~ 0
+Text Label 4950 2600 0    25   ~ 0
 GND
-Text Notes 4550 2250 0    50   ~ 0
+Text Notes 4950 2250 0    50   ~ 0
 Decoupling : V25
 Wire Wire Line
-	4550 2300 4650 2300
+	4950 2300 5050 2300
 Wire Wire Line
-	5000 2900 5000 2300
+	5400 2900 5400 2300
 Wire Wire Line
-	3750 3900 3850 3900
-Connection ~ 4250 2300
-Connection ~ 4050 2300
+	4150 3900 4250 3900
+Connection ~ 4650 2300
+Connection ~ 4450 2300
 Wire Wire Line
-	4050 2300 4250 2300
+	4450 2300 4650 2300
 Wire Wire Line
-	3850 2300 4050 2300
+	4250 2300 4450 2300
 Wire Wire Line
-	3850 2900 4050 2900
+	4250 2900 4450 2900
 Wire Wire Line
-	4250 2300 4400 2300
-Connection ~ 4050 2900
+	4650 2300 4800 2300
+Connection ~ 4450 2900
 Wire Wire Line
-	4050 2900 4250 2900
-Connection ~ 4250 2900
+	4450 2900 4650 2900
+Connection ~ 4650 2900
 Wire Wire Line
-	4250 2900 4400 2900
+	4650 2900 4800 2900
 Wire Wire Line
-	4850 3100 5050 3100
+	5250 3100 5450 3100
 Wire Wire Line
-	4850 3400 5050 3400
-Connection ~ 5050 3100
+	5250 3400 5450 3400
+Connection ~ 5450 3100
 Wire Wire Line
-	5050 3100 5200 3100
+	5450 3100 5600 3100
 Wire Wire Line
-	3750 3400 3850 3400
+	4150 3400 4250 3400
 Wire Wire Line
-	4650 3700 4850 3700
+	5050 3700 5250 3700
 $Comp
 L Device:C C19
 U 1 1 5EA20D1E
-P 4850 3550
-F 0 "C19" H 4850 3650 50  0000 L CNN
-F 1 "104" H 4850 3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4888 3400 50  0001 C CNN
-F 3 "~" H 4850 3550 50  0001 C CNN
-	1    4850 3550
+P 5250 3550
+F 0 "C19" H 5250 3650 50  0000 L CNN
+F 1 "104" H 5250 3450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5288 3400 50  0001 C CNN
+F 3 "~" H 5250 3550 50  0001 C CNN
+	1    5250 3550
 	1    0    0    -1  
 $EndComp
-Connection ~ 4850 3700
+Connection ~ 5250 3700
 Wire Wire Line
-	4850 3700 5200 3700
+	5250 3700 5600 3700
 Text Label 2050 5350 0    25   ~ 0
 V33
 Wire Wire Line
@@ -1276,242 +1252,263 @@ Text Label 550  6450 0    25   ~ 0
 RAS
 Text Label 1950 6450 2    25   ~ 0
 NHSYNC
-Text Notes 3750 3850 0    50   ~ 0
+Text Notes 4150 3850 0    50   ~ 0
 Bulk
-Text Label 3750 2300 0    25   ~ 0
+Text Label 4150 2300 0    25   ~ 0
 V33
 Wire Wire Line
-	3750 2300 3850 2300
-Connection ~ 3850 2300
-Text Label 4000 3900 0    25   ~ 0
+	4150 2300 4250 2300
+Connection ~ 4250 2300
+Text Label 4400 3900 0    25   ~ 0
 V25
 Wire Wire Line
-	4000 3900 4100 3900
+	4400 3900 4500 3900
 Wire Wire Line
-	4250 3900 4350 3900
-Text Label 4250 3900 0    25   ~ 0
+	4650 3900 4750 3900
+Text Label 4650 3900 0    25   ~ 0
 V12
 $Comp
 L Device:C C24
 U 1 1 5F919665
-P 3850 4050
-F 0 "C24" H 3850 4150 50  0000 L CNN
-F 1 "105" H 3850 3950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3888 3900 50  0001 C CNN
-F 3 "~" H 3850 4050 50  0001 C CNN
-	1    3850 4050
+P 4250 4050
+F 0 "C24" H 4250 4150 50  0000 L CNN
+F 1 "105" H 4250 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4288 3900 50  0001 C CNN
+F 3 "~" H 4250 4050 50  0001 C CNN
+	1    4250 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C25
 U 1 1 5F9196D7
-P 4100 4050
-F 0 "C25" H 4100 4150 50  0000 L CNN
-F 1 "105" H 4100 3950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4138 3900 50  0001 C CNN
-F 3 "~" H 4100 4050 50  0001 C CNN
-	1    4100 4050
+P 4500 4050
+F 0 "C25" H 4500 4150 50  0000 L CNN
+F 1 "105" H 4500 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4538 3900 50  0001 C CNN
+F 3 "~" H 4500 4050 50  0001 C CNN
+	1    4500 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C26
 U 1 1 5F91972F
-P 4350 4050
-F 0 "C26" H 4350 4150 50  0000 L CNN
-F 1 "105" H 4350 3950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 3900 50  0001 C CNN
-F 3 "~" H 4350 4050 50  0001 C CNN
-	1    4350 4050
+P 4750 4050
+F 0 "C26" H 4750 4150 50  0000 L CNN
+F 1 "105" H 4750 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4788 3900 50  0001 C CNN
+F 3 "~" H 4750 4050 50  0001 C CNN
+	1    4750 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 4200 3850 4200
+	4150 4200 4250 4200
 Wire Wire Line
-	3850 4200 4100 4200
-Connection ~ 3850 4200
+	4250 4200 4500 4200
+Connection ~ 4250 4200
 Wire Wire Line
-	4100 4200 4350 4200
-Connection ~ 4100 4200
-Text Label 3750 4200 0    25   ~ 0
+	4500 4200 4750 4200
+Connection ~ 4500 4200
+Text Label 4150 4200 0    25   ~ 0
 GND
 Wire Wire Line
-	2050 800  2050 900 
-Connection ~ 2050 2500
-Connection ~ 2050 900 
+	2000 800  2150 800 
 Wire Wire Line
-	2050 900  2050 1000
-Connection ~ 2050 1000
+	2000 900  2150 900 
 Wire Wire Line
-	2050 1000 2050 1100
-Connection ~ 2050 1100
+	2000 1000 2150 1000
 Wire Wire Line
-	2050 1100 2050 1200
-Connection ~ 2050 1200
+	2000 1100 2150 1100
 Wire Wire Line
-	2050 1200 2050 1300
-Connection ~ 2050 1300
+	2000 1200 2150 1200
 Wire Wire Line
-	2050 1300 2050 1400
-Connection ~ 2050 1400
+	2000 1300 2150 1300
 Wire Wire Line
-	2050 1400 2050 1500
-Connection ~ 2050 1500
+	2000 1400 2150 1400
 Wire Wire Line
-	2050 1500 2050 1600
-Connection ~ 2050 1600
+	2000 1500 2150 1500
 Wire Wire Line
-	2050 1600 2050 1700
-Connection ~ 2050 1700
+	2000 1600 2150 1600
 Wire Wire Line
-	2050 1700 2050 1800
-Connection ~ 2050 1800
+	2000 1700 2150 1700
 Wire Wire Line
-	2050 1800 2050 1900
-Connection ~ 2050 1900
+	2000 1800 2150 1800
 Wire Wire Line
-	2050 1900 2050 2000
-Connection ~ 2050 2000
+	2000 1900 2150 1900
 Wire Wire Line
-	2050 2000 2050 2100
-Connection ~ 2050 2100
+	2000 2000 2150 2000
 Wire Wire Line
-	2050 2100 2050 2200
-Connection ~ 2050 2200
+	2000 2100 2150 2100
 Wire Wire Line
-	2050 2200 2050 2300
-Connection ~ 2050 2300
+	2000 2200 2150 2200
 Wire Wire Line
-	2050 2300 2050 2500
+	2000 2300 2150 2300
 Wire Wire Line
-	1700 800  1850 800 
+	2000 2400 2150 2400
 Wire Wire Line
-	1700 900  1850 900 
+	2000 2500 2150 2500
 Wire Wire Line
-	1700 1000 1850 1000
+	2000 2600 2150 2600
 Wire Wire Line
-	1700 1100 1850 1100
+	2000 2700 2150 2700
 Wire Wire Line
-	1700 1200 1850 1200
+	2000 2800 2150 2800
 Wire Wire Line
-	1700 1300 1850 1300
+	2000 2900 2150 2900
 Wire Wire Line
-	1700 1400 1850 1400
+	2000 3000 2150 3000
 Wire Wire Line
-	1700 1500 1850 1500
+	2000 3100 2150 3100
 Wire Wire Line
-	1700 1600 1850 1600
+	2000 3200 2150 3200
 Wire Wire Line
-	1700 1700 1850 1700
+	2000 3300 2150 3300
 Wire Wire Line
-	1700 1800 1850 1800
+	2000 3400 2150 3400
 Wire Wire Line
-	1700 1900 1850 1900
+	2000 3500 2150 3500
 Wire Wire Line
-	1700 2000 1850 2000
+	2000 3600 2150 3600
 Wire Wire Line
-	1700 2100 1850 2100
+	2000 3700 2150 3700
 Wire Wire Line
-	1700 2200 1850 2200
+	2000 3800 2150 3800
 Wire Wire Line
-	1700 2300 1850 2300
+	2000 3900 2150 3900
 Wire Wire Line
-	1700 2400 1850 2400
+	2000 4000 2150 4000
 Wire Wire Line
-	1700 2500 1850 2500
+	2000 4100 2150 4100
 Wire Wire Line
-	1700 2600 1850 2600
+	2000 4200 2150 4200
 Wire Wire Line
-	1700 2700 1850 2700
+	2000 4300 2150 4300
 Wire Wire Line
-	1700 2800 1850 2800
+	2000 4400 2150 4400
 Wire Wire Line
-	1700 2900 1850 2900
+	2000 4500 2150 4500
 Wire Wire Line
-	1700 3000 1850 3000
+	2000 4600 2150 4600
 Wire Wire Line
-	1700 3100 1850 3100
+	2000 4700 2150 4700
 Wire Wire Line
-	1700 3200 1850 3200
-Wire Wire Line
-	1700 3300 1850 3300
-Wire Wire Line
-	1700 3400 1850 3400
-Wire Wire Line
-	1700 3500 1850 3500
-Wire Wire Line
-	1700 3600 1850 3600
-Wire Wire Line
-	1700 3700 1850 3700
-Wire Wire Line
-	1700 3800 1850 3800
-Wire Wire Line
-	1700 3900 1850 3900
-Wire Wire Line
-	1700 4000 1850 4000
-Wire Wire Line
-	1700 4100 1850 4100
-Wire Wire Line
-	1700 4200 1850 4200
-Wire Wire Line
-	1700 4300 1850 4300
-Wire Wire Line
-	1700 4400 1850 4400
-Wire Wire Line
-	1700 4500 1850 4500
-Wire Wire Line
-	1700 4600 1850 4600
-Wire Wire Line
-	1700 4700 1850 4700
-Wire Wire Line
-	1700 4800 1850 4800
-Wire Wire Line
-	4400 1700 4400 1800
-Connection ~ 4400 1900
-Connection ~ 4400 1800
-Wire Wire Line
-	4400 1800 4400 1900
+	2000 4800 2150 4800
 $Comp
-L KSK_HeikouBox:HeikouBox_Core J1
+L KSK_HeikouBox:HeikouBox-Core J1
 U 1 1 5FCEAF88
-P 850 5250
+P 1250 5250
 F 0 "J1" H 1250 5415 50  0000 C CNN
-F 1 "HeikouBox_Core" H 1250 5324 50  0000 C CNN
-F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 1150 5250 50  0001 C CNN
-F 3 "" H 1150 5250 50  0001 C CNN
-	1    850  5250
+F 1 "HeikouBox-Core" H 1250 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 1550 5250 50  0001 C CNN
+F 3 "" H 1550 5250 50  0001 C CNN
+	1    1250 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L KSK_HeikouBox:HeikouBox_Core J1
+L KSK_HeikouBox:HeikouBox-Core J1
 U 2 1 5FCEF84D
-P 2350 5250
+P 2750 5250
 F 0 "J1" H 2750 5415 50  0000 C CNN
-F 1 "HeikouBox_Core" H 2750 5324 50  0000 C CNN
-F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 2650 5250 50  0001 C CNN
-F 3 "" H 2650 5250 50  0001 C CNN
-	2    2350 5250
+F 1 "HeikouBox-Core" H 2750 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 3050 5250 50  0001 C CNN
+F 3 "" H 3050 5250 50  0001 C CNN
+	2    2750 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L KSK_HeikouBox:HeikouBox_Core J1
+L KSK_HeikouBox:HeikouBox-Core J1
 U 3 1 5FCF1408
-P 3850 5250
+P 4250 5250
 F 0 "J1" H 4250 5415 50  0000 C CNN
-F 1 "HeikouBox_Core" H 4250 5324 50  0000 C CNN
-F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 4150 5250 50  0001 C CNN
-F 3 "" H 4150 5250 50  0001 C CNN
-	3    3850 5250
+F 1 "HeikouBox-Core" H 4250 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 4550 5250 50  0001 C CNN
+F 3 "" H 4550 5250 50  0001 C CNN
+	3    4250 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L KSK_HeikouBox:HeikouBox_Core J1
+L KSK_HeikouBox:HeikouBox-Core J1
 U 4 1 5FCF324E
-P 5350 5250
+P 5750 5250
 F 0 "J1" H 5750 5415 50  0000 C CNN
-F 1 "HeikouBox_Core" H 5750 5324 50  0000 C CNN
-F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 5650 5250 50  0001 C CNN
-F 3 "" H 5650 5250 50  0001 C CNN
-	4    5350 5250
+F 1 "HeikouBox-Core" H 5750 5324 50  0000 C CNN
+F 2 "KSK_HeikouBox:HeikouBox-Core-Top" H 6050 5250 50  0001 C CNN
+F 3 "" H 6050 5250 50  0001 C CNN
+	4    5750 5250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2350 800  2350 900 
+Wire Wire Line
+	4800 1800 4800 1900
+Connection ~ 4800 1900
+$Comp
+L KSK_HeikouBox:EP3C25E144 U1
+U 1 1 5E5BAA29
+P 1350 700
+F 0 "U1" H 1350 865 50  0000 C CNN
+F 1 "EP3C25E144" H 1350 774 50  0000 C CNN
+F 2 "KSK_HeikouBox:EQFP-144-HANDSOLDER" H 3800 550 50  0001 C CNN
+F 3 "" H 1100 2900 50  0001 C CNN
+	1    1350 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2500 2350 2500
+$Comp
+L KSK_HeikouBox:EP3C25E144 U1
+U 2 1 5E5BAA8C
+P 3050 700
+F 0 "U1" H 3050 865 50  0000 C CNN
+F 1 "EP3C25E144" H 3050 774 50  0000 C CNN
+F 2 "KSK_HeikouBox:EQFP-144-HANDSOLDER" H 5500 550 50  0001 C CNN
+F 3 "" H 2800 2900 50  0001 C CNN
+	2    3050 700 
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 900 
+Wire Wire Line
+	2350 900  2350 1000
+Connection ~ 2350 1000
+Wire Wire Line
+	2350 1000 2350 1100
+Connection ~ 2350 1100
+Wire Wire Line
+	2350 1100 2350 1200
+Connection ~ 2350 1200
+Wire Wire Line
+	2350 1200 2350 1300
+Connection ~ 2350 1300
+Wire Wire Line
+	2350 1300 2350 1400
+Connection ~ 2350 1400
+Wire Wire Line
+	2350 1400 2350 1500
+Connection ~ 2350 1500
+Wire Wire Line
+	2350 1500 2350 1600
+Connection ~ 2350 1600
+Wire Wire Line
+	2350 1600 2350 1700
+Connection ~ 2350 1700
+Wire Wire Line
+	2350 1700 2350 1800
+Connection ~ 2350 1800
+Wire Wire Line
+	2350 1800 2350 1900
+Connection ~ 2350 1900
+Wire Wire Line
+	2350 1900 2350 2000
+Connection ~ 2350 2000
+Wire Wire Line
+	2350 2000 2350 2100
+Connection ~ 2350 2100
+Wire Wire Line
+	2350 2100 2350 2200
+Connection ~ 2350 2200
+Wire Wire Line
+	2350 2200 2350 2300
+Connection ~ 2350 2300
+Wire Wire Line
+	2350 2300 2350 2500
+Connection ~ 2350 2500
 $EndSCHEMATC
