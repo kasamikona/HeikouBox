@@ -4,4 +4,10 @@ $CMP EP3C25E144
 D Altera FGPA - Cyclone III - EP3C25 - EQFP144
 $ENDCMP
 #
+$CMP Mini-DIN-6_Shielded
+D 6-pin Mini-DIN connector with shield connection
+K Mini-DIN
+F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
 #End Doc Library
