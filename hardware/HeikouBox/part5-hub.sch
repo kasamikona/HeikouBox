@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 2 6
 Title "HeikouBox Mainboard - Hub"
 Date "2021-03-17"
 Rev "v1.0"
@@ -670,8 +670,8 @@ L Device:R R?
 U 1 1 630A62EE
 P 4000 4950
 AR Path="/630A62EE" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/630A62EE" Ref="R502"  Part="1" 
-F 0 "R502" V 3900 4950 50  0000 C CNN
+AR Path="/646E3FCF/630A62EE" Ref="R520"  Part="1" 
+F 0 "R520" V 3900 4950 50  0000 C CNN
 F 1 "RUSB" V 4000 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 4950 50  0001 C CNN
 F 3 "~" H 4000 4950 50  0001 C CNN
@@ -761,8 +761,8 @@ L Device:R R?
 U 1 1 640DEF09
 P 4450 1950
 AR Path="/640DEF09" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/640DEF09" Ref="R520"  Part="1" 
-F 0 "R520" V 4350 1950 50  0000 C CNN
+AR Path="/646E3FCF/640DEF09" Ref="R521"  Part="1" 
+F 0 "R521" V 4350 1950 50  0000 C CNN
 F 1 "100R" V 4450 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4380 1950 50  0001 C CNN
 F 3 "~" H 4450 1950 50  0001 C CNN
@@ -883,11 +883,11 @@ $EndComp
 Wire Wire Line
 	6400 4050 6900 4050
 Wire Wire Line
-	6400 4450 6900 4450
+	6400 4450 6750 4450
 Connection ~ 6900 4450
 Connection ~ 6900 4050
 Wire Wire Line
-	6250 3400 6250 4250
+	6250 3400 6250 4050
 Wire Wire Line
 	6250 3400 6350 3400
 Wire Wire Line
@@ -896,10 +896,22 @@ Wire Wire Line
 	6750 3950 6750 4250
 Wire Wire Line
 	6350 3500 6350 3950
-Wire Bus Line
-	6050 4100 6050 5000
 Wire Wire Line
 	4400 3200 6350 3200
 Wire Wire Line
 	4400 3300 6250 3300
+Wire Wire Line
+	6400 4050 6250 4050
+Connection ~ 6400 4050
+Connection ~ 6250 4050
+Wire Wire Line
+	6250 4050 6250 4250
+Wire Wire Line
+	6750 4250 6750 4450
+Wire Bus Line
+	6050 4100 6050 5000
+Connection ~ 6750 4250
+Connection ~ 6750 4450
+Wire Wire Line
+	6750 4450 6900 4450
 $EndSCHEMATC

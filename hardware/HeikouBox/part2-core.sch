@@ -96,7 +96,7 @@ mem_DQ9
 Text Notes 850  650  2    100  ~ 0
 Core
 $Comp
-L KSK_HeikouBox:HeikouBox-Core U?
+L KSK_HeikouBox:HeikouBox-Core-Socket U?
 U 4 1 67C578BE
 P 1450 5650
 AR Path="/67C578BE" Ref="U?"  Part="4" 
@@ -184,7 +184,7 @@ av_BLU3
 Text Label 900  2550 2    40   ~ 0
 av_BLU4
 $Comp
-L KSK_HeikouBox:HeikouBox-Core U?
+L KSK_HeikouBox:HeikouBox-Core-Socket U?
 U 2 1 67C578E9
 P 1450 2350
 AR Path="/67C578E9" Ref="U?"  Part="2" 
@@ -240,7 +240,7 @@ mdb1
 Text Label 2000 1500 0    40   ~ 0
 mdb3
 $Comp
-L KSK_HeikouBox:HeikouBox-Core U?
+L KSK_HeikouBox:HeikouBox-Core-Socket U?
 U 1 1 67C5790A
 P 1450 700
 AR Path="/67C5790A" Ref="U?"  Part="1" 
@@ -280,7 +280,7 @@ Text HLabel 900  5200 0    40   Input ~ 0
 Text Label 2000 6250 0    40   ~ 0
 mdb6
 $Comp
-L KSK_HeikouBox:HeikouBox-Core U?
+L KSK_HeikouBox:HeikouBox-Core-Socket U?
 U 3 1 67C5791D
 P 1450 4000
 AR Path="/67C5791D" Ref="U?"  Part="3" 
@@ -516,13 +516,13 @@ F 3 "~" H 4950 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4750 2850 4800 2850
+	4700 2850 4800 2850
 Wire Wire Line
-	4750 3100 4800 3100
+	4700 3100 4800 3100
 Wire Wire Line
-	4750 3350 4800 3350
+	4700 3350 4800 3350
 Wire Wire Line
-	4500 4100 4800 4100
+	4700 4100 4800 4100
 Text Notes 4700 2450 0    100  ~ 0
 JTAG
 Wire Wire Line
@@ -531,8 +531,6 @@ Wire Wire Line
 	5150 1850 5250 1850
 NoConn ~ 5150 2050
 NoConn ~ 5150 2150
-Wire Wire Line
-	5350 1950 5150 1950
 Wire Wire Line
 	5250 1850 5250 2250
 NoConn ~ 4650 2150
@@ -559,7 +557,7 @@ $EndComp
 NoConn ~ 3300 4850
 NoConn ~ 3300 4350
 Wire Wire Line
-	2700 5800 3200 5800
+	2800 5800 3300 5800
 Wire Wire Line
 	2700 650  2700 1100
 Wire Wire Line
@@ -597,15 +595,15 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 67C57A73
-P 2700 6300
+P 2800 6300
 AR Path="/67C57A73" Ref="C?"  Part="1" 
 AR Path="/71351D1D/67C57A73" Ref="C201"  Part="1" 
 AR Path="/729F86A7/67C57A73" Ref="C?"  Part="1" 
-F 0 "C201" H 2800 6350 50  0000 L CNN
-F 1 "100n" H 2800 6250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2738 6150 50  0001 C CNN
-F 3 "~" H 2700 6300 50  0001 C CNN
-	1    2700 6300
+F 0 "C201" H 2900 6350 50  0000 L CNN
+F 1 "100n" H 2900 6250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2838 6150 50  0001 C CNN
+F 3 "~" H 2800 6300 50  0001 C CNN
+	1    2800 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -639,15 +637,15 @@ $EndComp
 $Comp
 L 74xx:74HC04 U?
 U 7 1 67C57AA7
-P 3200 6300
+P 3300 6300
 AR Path="/67C57AA7" Ref="U?"  Part="7" 
 AR Path="/71351D1D/67C57AA7" Ref="U202"  Part="7" 
 AR Path="/729F86A7/67C57AA7" Ref="U?"  Part="7" 
-F 0 "U202" H 3450 6350 50  0000 L CNN
-F 1 "74HCU04" H 3450 6250 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3200 6300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3200 6300 50  0001 C CNN
-	7    3200 6300
+F 0 "U202" H 3550 6350 50  0000 L CNN
+F 1 "74HCU04" H 3550 6250 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3300 6300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3300 6300 50  0001 C CNN
+	7    3300 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -667,28 +665,26 @@ $EndComp
 Text Notes 3150 1400 2    100  ~ 0
 14M
 Wire Wire Line
-	5250 2300 5250 2250
-Text HLabel 5250 2300 3    40   Input ~ 0
+	5350 2250 5250 2250
+Text HLabel 5350 2250 2    40   Input ~ 0
 GND
 Connection ~ 5250 2250
-Text HLabel 4750 3350 0    40   Output ~ 0
+Text HLabel 4700 3350 0    40   Output ~ 0
 cfg_DONE
 Wire Wire Line
-	4500 3600 4800 3600
+	4700 3600 4800 3600
 Wire Wire Line
-	4500 3850 4800 3850
-Text HLabel 4750 3100 0    40   Output ~ 0
+	4700 3850 4800 3850
+Text HLabel 4700 3100 0    40   Output ~ 0
 cfg_NSTAT
-Text HLabel 4750 2850 0    40   Input ~ 0
+Text HLabel 4700 2850 0    40   Input ~ 0
 cfg_NCFG
 Wire Wire Line
 	5100 2800 5100 2850
 Text HLabel 5100 2800 1    40   Input ~ 0
 3V3
-Text HLabel 5350 1900 1    40   Input ~ 0
+Text HLabel 5350 1950 2    40   Input ~ 0
 3V3
-Wire Wire Line
-	5350 1900 5350 1950
 Wire Wire Line
 	5100 4150 5100 4100
 Text HLabel 5100 4150 3    40   Input ~ 0
@@ -727,7 +723,7 @@ Text Label 4400 2250 0    40   ~ 0
 jtag_TDI
 Text Label 2000 800  0    40   ~ 0
 mem_A3
-Text Label 4500 4100 0    40   ~ 0
+Text Label 4700 4100 2    40   ~ 0
 jtag_TCK
 Text Label 2000 1300 0    40   ~ 0
 jtag_TDI
@@ -738,28 +734,28 @@ jtag_TCK
 Text Label 900  1500 2    40   ~ 0
 jtag_TDO
 Wire Wire Line
-	2700 5800 2650 5800
-Text HLabel 2650 5800 0    40   Input ~ 0
+	2800 5800 2700 5800
+Text HLabel 2700 5800 0    40   Input ~ 0
 3V3
 Wire Wire Line
 	2700 4350 2700 4850
 Wire Wire Line
-	2650 6800 2700 6800
-Text HLabel 2650 6800 0    40   Input ~ 0
+	2700 6800 2800 6800
+Text HLabel 2700 6800 0    40   Input ~ 0
 GND
 Wire Wire Line
-	3200 6800 2700 6800
-Connection ~ 2700 6800
+	3300 6800 2800 6800
+Connection ~ 2800 6800
 Wire Wire Line
-	2700 6800 2700 6450
+	2800 6800 2800 6450
 Wire Wire Line
 	2650 4850 2700 4850
 Text HLabel 2650 4850 0    40   Input ~ 0
 GND
 Connection ~ 2700 4850
-Connection ~ 2700 5800
+Connection ~ 2800 5800
 Wire Wire Line
-	2700 6150 2700 5800
+	2800 6150 2800 5800
 Wire Wire Line
 	3150 650  3300 650 
 Wire Wire Line
@@ -967,9 +963,9 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3000 110
 	1    3000 1100
 	1    0    0    -1  
 $EndComp
-Text Label 4500 3850 0    40   ~ 0
+Text Label 4700 3850 2    40   ~ 0
 jtag_TMS
-Text Label 4500 3600 0    40   ~ 0
+Text Label 4700 3600 2    40   ~ 0
 jtag_TDI
 Text Notes 4000 4750 0    50   ~ 0
 NOTE: Config DATA[0] is on mdb4!, UART on mdb0/1
@@ -1102,4 +1098,6 @@ Text Label 4650 6600 2    40   ~ 0
 xbus14
 Text Label 4650 6700 2    40   ~ 0
 xbus15
+Wire Wire Line
+	5150 1950 5350 1950
 $EndSCHEMATC
