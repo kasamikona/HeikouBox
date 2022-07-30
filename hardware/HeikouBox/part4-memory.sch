@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 6
 Title "HeikouBox Mainboard - Memory"
 Date "2021-03-17"
 Rev "v1.0"
@@ -128,7 +128,7 @@ F 3 "~" H 2950 900 50  0001 C CNN
 	1    2950 900 
 	1    0    0    -1  
 $EndComp
-Text Notes 2400 3250 0    100  ~ 0
+Text Notes 2450 3250 0    100  ~ 0
 SDRAM 128Mbit
 Connection ~ 1900 3350
 Wire Wire Line
