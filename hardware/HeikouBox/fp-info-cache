@@ -1,4 +1,4 @@
-19232233277306748
+19234299910852251
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55139,6 +55139,13 @@ QFP 0.5
 145
 145
 KSK_HeikouBox
+Micro_SD_Card_TFP09-2-12B
+
+
+0
+13
+9
+KSK_HeikouBox
 OLED-4P-Generic-128x32-0.91in
 
 
@@ -55157,8 +55164,8 @@ STM32-BluePill-Socket
 
 
 0
-0
-0
+40
+40
 KSK_HeikouBox
 TE_Mini-DIN-6_Horizontal
 TE Connectivity Mini-DIN 6-pin Horizontal (5749265-1 etc)

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 5 6
 Title "HeikouBox Mainboard - Memory"
 Date "2021-03-17"
 Rev "v1.0"
@@ -14,47 +14,39 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Entry Wire Line
-	2650 950  2750 1050
+	3700 950  3800 1050
 Entry Wire Line
-	2650 1050 2750 1150
+	3700 1050 3800 1150
 Entry Wire Line
-	2650 1150 2750 1250
+	3700 1150 3800 1250
 Entry Wire Line
-	2650 1250 2750 1350
+	3700 1250 3800 1350
 Entry Wire Line
-	2650 1350 2750 1450
+	3700 1350 3800 1450
 Entry Wire Line
-	2650 1450 2750 1550
+	3700 1450 3800 1550
 Entry Wire Line
-	2650 1550 2750 1650
+	3700 1550 3800 1650
 Entry Wire Line
-	2650 1650 2750 1750
+	3700 1650 3800 1750
 Entry Wire Line
-	2650 1750 2750 1850
+	3700 1750 3800 1850
 Entry Wire Line
-	2650 1850 2750 1950
+	3700 1850 3800 1950
 Entry Wire Line
-	2650 1950 2750 2050
+	3700 1950 3800 2050
 Entry Wire Line
-	2650 2050 2750 2150
+	3700 2050 3800 2150
 Entry Wire Line
-	2650 2150 2750 2250
+	3700 2150 3800 2250
 Entry Wire Line
-	2650 2250 2750 2350
+	3700 2250 3800 2350
 Entry Wire Line
-	2650 2350 2750 2450
+	3700 2350 3800 2450
 Entry Wire Line
-	2650 2450 2750 2550
+	3700 2450 3800 2550
 Entry Wire Line
 	1200 950  1100 850 
-Wire Wire Line
-	2500 1450 2650 1450
-Wire Wire Line
-	2500 1550 2650 1550
-Wire Wire Line
-	2500 1650 2650 1650
-Wire Wire Line
-	2500 950  2650 950 
 Wire Wire Line
 	1200 950  1400 950 
 Wire Wire Line
@@ -63,30 +55,6 @@ Wire Wire Line
 	1300 3150 1350 3150
 Wire Wire Line
 	1300 3050 1350 3050
-Wire Wire Line
-	2500 1050 2650 1050
-Wire Wire Line
-	2500 1750 2650 1750
-Wire Wire Line
-	2500 1850 2650 1850
-Wire Wire Line
-	2500 1950 2650 1950
-Wire Wire Line
-	2500 2050 2650 2050
-Wire Wire Line
-	2500 2150 2650 2150
-Wire Wire Line
-	2500 1150 2650 1150
-Wire Wire Line
-	2500 2250 2650 2250
-Wire Wire Line
-	2500 2350 2650 2350
-Wire Wire Line
-	2500 2450 2650 2450
-Wire Wire Line
-	2500 1250 2650 1250
-Wire Wire Line
-	2500 1350 2650 1350
 Wire Wire Line
 	1900 3350 2000 3350
 Entry Wire Line
@@ -112,20 +80,20 @@ Wire Wire Line
 	1300 2650 1350 2650
 Wire Wire Line
 	1300 2950 1350 2950
-Text Notes 2800 2500 0    50   ~ 0
+Text Notes 3900 2500 0    50   ~ 0
 Mind LDQM / UDQM if DQ remapped!
 $Comp
 L Device:C C?
 U 1 1 67C6E5D3
-P 2950 900
+P 4850 900
 AR Path="/67C6E5D3" Ref="C?"  Part="1" 
 AR Path="/729F40C7/67C6E5D3" Ref="C401"  Part="1" 
 AR Path="/729F86A7/67C6E5D3" Ref="C?"  Part="1" 
-F 0 "C401" H 3050 950 50  0000 L CNN
-F 1 "100n" H 3050 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2988 750 50  0001 C CNN
-F 3 "~" H 2950 900 50  0001 C CNN
-	1    2950 900 
+F 0 "C401" H 4950 950 50  0000 L CNN
+F 1 "100n" H 4950 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4888 750 50  0001 C CNN
+F 3 "~" H 4850 900 50  0001 C CNN
+	1    4850 900 
 	1    0    0    -1  
 $EndComp
 Text Notes 2450 3250 0    100  ~ 0
@@ -140,18 +108,18 @@ Wire Wire Line
 Text HLabel 1900 700  1    40   Input ~ 0
 3V3
 Wire Wire Line
-	2950 700  2950 750 
-Text HLabel 2950 700  1    40   Input ~ 0
+	4850 700  4850 750 
+Text HLabel 4850 700  1    40   Input ~ 0
 3V3
-Connection ~ 2950 750 
+Connection ~ 4850 750 
 Wire Wire Line
-	2950 1100 2950 1050
-Text HLabel 2950 1100 3    40   Input ~ 0
+	4850 1100 4850 1050
+Text HLabel 4850 1100 3    40   Input ~ 0
 GND
-Connection ~ 2950 1050
+Connection ~ 4850 1050
 Wire Bus Line
-	2750 2550 2800 2550
-Text HLabel 2800 2550 2    40   BiDi ~ 0
+	3800 2550 3850 2550
+Text HLabel 3850 2550 2    40   BiDi ~ 0
 DQ[0..15]
 Wire Bus Line
 	1100 850  1050 850 
@@ -255,96 +223,96 @@ Text Label 1200 2150 0    40   ~ 0
 A10
 Text Label 1200 2250 0    40   ~ 0
 A11
-Text Label 2500 950  0    40   ~ 0
+Text Label 3700 950  2    40   ~ 0
 DQ0
-Text Label 2500 1050 0    40   ~ 0
+Text Label 3700 1050 2    40   ~ 0
 DQ1
-Text Label 2500 1150 0    40   ~ 0
+Text Label 3700 1150 2    40   ~ 0
 DQ2
-Text Label 2500 1250 0    40   ~ 0
+Text Label 3700 1250 2    40   ~ 0
 DQ3
-Text Label 2500 1350 0    40   ~ 0
+Text Label 3700 1350 2    40   ~ 0
 DQ4
-Text Label 2500 1450 0    40   ~ 0
+Text Label 3700 1450 2    40   ~ 0
 DQ5
-Text Label 2500 1550 0    40   ~ 0
+Text Label 3700 1550 2    40   ~ 0
 DQ6
-Text Label 2500 1650 0    40   ~ 0
+Text Label 3700 1650 2    40   ~ 0
 DQ7
-Text Label 2500 1750 0    40   ~ 0
+Text Label 3700 1750 2    40   ~ 0
 DQ8
-Text Label 2500 1850 0    40   ~ 0
+Text Label 3700 1850 2    40   ~ 0
 DQ9
-Text Label 2500 1950 0    40   ~ 0
+Text Label 3700 1950 2    40   ~ 0
 DQ10
-Text Label 2500 2050 0    40   ~ 0
+Text Label 3700 2050 2    40   ~ 0
 DQ11
-Text Label 2500 2150 0    40   ~ 0
+Text Label 3700 2150 2    40   ~ 0
 DQ12
-Text Label 2500 2250 0    40   ~ 0
+Text Label 3700 2250 2    40   ~ 0
 DQ13
-Text Label 2500 2350 0    40   ~ 0
+Text Label 3700 2350 2    40   ~ 0
 DQ14
-Text Label 2500 2450 0    40   ~ 0
+Text Label 3700 2450 2    40   ~ 0
 DQ15
 Wire Wire Line
-	2950 750  3350 750 
+	4850 750  5250 750 
 Wire Wire Line
-	2950 1050 3350 1050
+	4850 1050 5250 1050
 $Comp
 L Device:C C?
 U 1 1 67C75BAD
-P 3350 900
+P 5250 900
 AR Path="/67C75BAD" Ref="C?"  Part="1" 
 AR Path="/729F40C7/67C75BAD" Ref="C402"  Part="1" 
 AR Path="/729F86A7/67C75BAD" Ref="C?"  Part="1" 
-F 0 "C402" H 3450 950 50  0000 L CNN
-F 1 "100n" H 3450 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3388 750 50  0001 C CNN
-F 3 "~" H 3350 900 50  0001 C CNN
-	1    3350 900 
+F 0 "C402" H 5350 950 50  0000 L CNN
+F 1 "100n" H 5350 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5288 750 50  0001 C CNN
+F 3 "~" H 5250 900 50  0001 C CNN
+	1    5250 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 67C77112
-P 3750 900
+P 5650 900
 AR Path="/67C77112" Ref="C?"  Part="1" 
 AR Path="/729F40C7/67C77112" Ref="C403"  Part="1" 
 AR Path="/729F86A7/67C77112" Ref="C?"  Part="1" 
-F 0 "C403" H 3850 950 50  0000 L CNN
-F 1 "100n" H 3850 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 750 50  0001 C CNN
-F 3 "~" H 3750 900 50  0001 C CNN
-	1    3750 900 
+F 0 "C403" H 5750 950 50  0000 L CNN
+F 1 "100n" H 5750 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5688 750 50  0001 C CNN
+F 3 "~" H 5650 900 50  0001 C CNN
+	1    5650 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 67C78383
-P 4150 900
+P 6050 900
 AR Path="/67C78383" Ref="C?"  Part="1" 
 AR Path="/729F40C7/67C78383" Ref="C404"  Part="1" 
 AR Path="/729F86A7/67C78383" Ref="C?"  Part="1" 
-F 0 "C404" H 4250 950 50  0000 L CNN
-F 1 "100n" H 4250 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 750 50  0001 C CNN
-F 3 "~" H 4150 900 50  0001 C CNN
-	1    4150 900 
+F 0 "C404" H 6150 950 50  0000 L CNN
+F 1 "100n" H 6150 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6088 750 50  0001 C CNN
+F 3 "~" H 6050 900 50  0001 C CNN
+	1    6050 900 
 	1    0    0    -1  
 $EndComp
-Connection ~ 3350 750 
+Connection ~ 5250 750 
 Wire Wire Line
-	3350 750  3750 750 
-Connection ~ 3350 1050
+	5250 750  5650 750 
+Connection ~ 5250 1050
 Wire Wire Line
-	3350 1050 3750 1050
-Connection ~ 3750 750 
+	5250 1050 5650 1050
+Connection ~ 5650 750 
 Wire Wire Line
-	3750 750  4150 750 
-Connection ~ 3750 1050
+	5650 750  6050 750 
+Connection ~ 5650 1050
 Wire Wire Line
-	3750 1050 4150 1050
+	5650 1050 6050 1050
 Text HLabel 750  3100 0    40   Input ~ 0
 XCAS
 Text HLabel 750  2900 0    40   Input ~ 0
@@ -417,7 +385,7 @@ AR Path="/646E3FCF/683F9E5B" Ref="R?"  Part="1"
 AR Path="/729F40C7/683F9E5B" Ref="R403"  Part="1" 
 F 0 "R403" V 850 3100 50  0000 C CNN
 F 1 "1K" V 950 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 880 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 3100 50  0001 C CNN
 F 3 "~" H 950 3100 50  0001 C CNN
 	1    950  3100
 	0    1    1    0   
@@ -431,7 +399,7 @@ AR Path="/646E3FCF/686DF49A" Ref="R?"  Part="1"
 AR Path="/729F40C7/686DF49A" Ref="R404"  Part="1" 
 F 0 "R404" V 850 3300 50  0000 C CNN
 F 1 "1K" V 950 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 880 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 3300 50  0001 C CNN
 F 3 "~" H 950 3300 50  0001 C CNN
 	1    950  3300
 	0    1    1    0   
@@ -445,7 +413,7 @@ AR Path="/646E3FCF/683FD000" Ref="R?"  Part="1"
 AR Path="/729F40C7/683FD000" Ref="R402"  Part="1" 
 F 0 "R402" V 850 2900 50  0000 C CNN
 F 1 "1K" V 950 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 880 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 2900 50  0001 C CNN
 F 3 "~" H 950 2900 50  0001 C CNN
 	1    950  2900
 	0    1    1    0   
@@ -459,7 +427,7 @@ AR Path="/646E3FCF/683DF4DC" Ref="R?"  Part="1"
 AR Path="/729F40C7/683DF4DC" Ref="R401"  Part="1" 
 F 0 "R401" V 850 2700 50  0000 C CNN
 F 1 "1K" V 950 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 880 2700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 2700 50  0001 C CNN
 F 3 "~" H 950 2700 50  0001 C CNN
 	1    950  2700
 	0    1    1    0   
@@ -473,15 +441,67 @@ AR Path="/646E3FCF/6848DBCA" Ref="R?"  Part="1"
 AR Path="/729F40C7/6848DBCA" Ref="R405"  Part="1" 
 F 0 "R405" V 850 2300 50  0000 C CNN
 F 1 "1K" V 950 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 880 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 2300 50  0001 C CNN
 F 3 "~" H 950 2300 50  0001 C CNN
 	1    950  2300
 	0    1    1    0   
 $EndComp
-Text Notes 3050 700  0    50   ~ 0
+Text Notes 4950 700  0    50   ~ 0
 Place near SDRAM
+Wire Wire Line
+	2500 950  3700 950 
+Wire Wire Line
+	2500 1050 3700 1050
+Wire Wire Line
+	2500 1150 3700 1150
+Wire Wire Line
+	2500 1250 3700 1250
+Wire Wire Line
+	2500 1350 3700 1350
+Wire Wire Line
+	2500 1450 3700 1450
+Wire Wire Line
+	2500 1550 3700 1550
+Wire Wire Line
+	2500 1650 3700 1650
+Wire Wire Line
+	2500 1750 3700 1750
+Wire Wire Line
+	2500 1850 3700 1850
+Wire Wire Line
+	2500 1950 3700 1950
+Wire Wire Line
+	2500 2050 3700 2050
+Wire Wire Line
+	2500 2150 3700 2150
+Wire Wire Line
+	2500 2250 3700 2250
+Wire Wire Line
+	2500 2350 3700 2350
+Wire Wire Line
+	2500 2450 3700 2450
+$Comp
+L Device:C C?
+U 1 1 6428D654
+P 6450 900
+AR Path="/6428D654" Ref="C?"  Part="1" 
+AR Path="/729F40C7/6428D654" Ref="C405"  Part="1" 
+AR Path="/729F86A7/6428D654" Ref="C?"  Part="1" 
+F 0 "C405" H 6550 950 50  0000 L CNN
+F 1 "100n" H 6550 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6488 750 50  0001 C CNN
+F 3 "~" H 6450 900 50  0001 C CNN
+	1    6450 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 750  6450 750 
+Connection ~ 6050 750 
+Connection ~ 6050 1050
+Wire Wire Line
+	6450 1050 6050 1050
 Wire Bus Line
 	1100 1050 1100 2150
 Wire Bus Line
-	2750 1050 2750 2550
+	3800 1050 3800 2550
 $EndSCHEMATC

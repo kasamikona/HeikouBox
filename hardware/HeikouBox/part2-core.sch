@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 2 6
 Title "HeikouBox Mainboard - Core Interface"
 Date "2021-03-17"
 Rev "v1.0"
@@ -440,7 +440,7 @@ AR Path="/71351D1D/67C57990" Ref="R205"  Part="1"
 AR Path="/729F86A7/67C57990" Ref="R?"  Part="1" 
 F 0 "R205" V 4850 2850 50  0000 C CNN
 F 1 "10K" V 4950 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 2850 50  0001 C CNN
 F 3 "~" H 4950 2850 50  0001 C CNN
 	1    4950 2850
 	0    1    1    0   
@@ -454,7 +454,7 @@ AR Path="/71351D1D/67C57996" Ref="R206"  Part="1"
 AR Path="/729F86A7/67C57996" Ref="R?"  Part="1" 
 F 0 "R206" V 4850 3100 50  0000 C CNN
 F 1 "10K" V 4950 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 3100 50  0001 C CNN
 F 3 "~" H 4950 3100 50  0001 C CNN
 	1    4950 3100
 	0    1    1    0   
@@ -468,7 +468,7 @@ AR Path="/71351D1D/67C5799C" Ref="R207"  Part="1"
 AR Path="/729F86A7/67C5799C" Ref="R?"  Part="1" 
 F 0 "R207" V 4850 3350 50  0000 C CNN
 F 1 "10K" V 4950 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 3350 50  0001 C CNN
 F 3 "~" H 4950 3350 50  0001 C CNN
 	1    4950 3350
 	0    1    1    0   
@@ -482,7 +482,7 @@ AR Path="/71351D1D/67C579A2" Ref="R208"  Part="1"
 AR Path="/729F86A7/67C579A2" Ref="R?"  Part="1" 
 F 0 "R208" V 4850 3600 50  0000 C CNN
 F 1 "10K" V 4950 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 3600 50  0001 C CNN
 F 3 "~" H 4950 3600 50  0001 C CNN
 	1    4950 3600
 	0    1    1    0   
@@ -496,7 +496,7 @@ AR Path="/71351D1D/67C579A8" Ref="R209"  Part="1"
 AR Path="/729F86A7/67C579A8" Ref="R?"  Part="1" 
 F 0 "R209" V 4850 3850 50  0000 C CNN
 F 1 "10K" V 4950 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 3850 50  0001 C CNN
 F 3 "~" H 4950 3850 50  0001 C CNN
 	1    4950 3850
 	0    1    1    0   
@@ -510,7 +510,7 @@ AR Path="/71351D1D/67C579AE" Ref="R210"  Part="1"
 AR Path="/729F86A7/67C579AE" Ref="R?"  Part="1" 
 F 0 "R210" V 4850 4100 50  0000 C CNN
 F 1 "10K" V 4950 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4880 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 4100 50  0001 C CNN
 F 3 "~" H 4950 4100 50  0001 C CNN
 	1    4950 4100
 	0    1    1    0   
@@ -573,7 +573,7 @@ AR Path="/71351D1D/67C57A4F" Ref="R201"  Part="1"
 AR Path="/729F86A7/67C57A4F" Ref="R?"  Part="1" 
 F 0 "R201" V 2900 650 50  0000 C CNN
 F 1 "1M" V 3000 650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2930 650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2930 650 50  0001 C CNN
 F 3 "~" H 3000 650 50  0001 C CNN
 	1    3000 650 
 	0    1    1    0   
@@ -587,7 +587,7 @@ AR Path="/71351D1D/67C57A5D" Ref="R203"  Part="1"
 AR Path="/729F86A7/67C57A5D" Ref="R?"  Part="1" 
 F 0 "R203" H 3350 1300 50  0000 L CNN
 F 1 "1K" V 3300 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3230 1300 50  0001 C CNN
 F 3 "~" H 3300 1300 50  0001 C CNN
 	1    3300 1300
 	1    0    0    -1  
@@ -601,7 +601,7 @@ AR Path="/71351D1D/67C57A73" Ref="C201"  Part="1"
 AR Path="/729F86A7/67C57A73" Ref="C?"  Part="1" 
 F 0 "C201" H 2900 6350 50  0000 L CNN
 F 1 "100n" H 2900 6250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2838 6150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2838 6150 50  0001 C CNN
 F 3 "~" H 2800 6300 50  0001 C CNN
 	1    2800 6300
 	1    0    0    -1  
@@ -609,29 +609,29 @@ $EndComp
 $Comp
 L 74xx:74HC04 U?
 U 6 1 67C57A8F
-P 3000 4850
+P 3000 2750
 AR Path="/67C57A8F" Ref="U?"  Part="6" 
 AR Path="/71351D1D/67C57A8F" Ref="U202"  Part="6" 
 AR Path="/729F86A7/67C57A8F" Ref="U?"  Part="6" 
-F 0 "U202" H 3000 5150 50  0000 C CNN
-F 1 "74HCU04" H 3000 5050 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 4850 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3000 4850 50  0001 C CNN
-	6    3000 4850
+F 0 "U202" H 3000 3050 50  0000 C CNN
+F 1 "74HCU04" H 3000 2950 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 2750 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3000 2750 50  0001 C CNN
+	6    3000 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HC04 U?
 U 5 1 67C57A95
-P 3000 4350
+P 3600 2750
 AR Path="/67C57A95" Ref="U?"  Part="5" 
 AR Path="/71351D1D/67C57A95" Ref="U202"  Part="5" 
 AR Path="/729F86A7/67C57A95" Ref="U?"  Part="5" 
-F 0 "U202" H 3000 4650 50  0000 C CNN
-F 1 "74HCU04" H 3000 4550 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 4350 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3000 4350 50  0001 C CNN
-	5    3000 4350
+F 0 "U202" H 3600 3050 50  0000 C CNN
+F 1 "74HCU04" H 3600 2950 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3600 2750 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3600 2750 50  0001 C CNN
+	5    3600 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -791,7 +791,7 @@ AR Path="/71351D1D/67C57A35" Ref="C202"  Part="1"
 AR Path="/729F86A7/67C57A35" Ref="C?"  Part="1" 
 F 0 "C202" H 2800 2000 50  0000 L CNN
 F 1 "22p" H 2800 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2738 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2738 1800 50  0001 C CNN
 F 3 "~" H 2700 1950 50  0001 C CNN
 	1    2700 1950
 	1    0    0    -1  
@@ -805,7 +805,7 @@ AR Path="/71351D1D/681800CA" Ref="C203"  Part="1"
 AR Path="/729F86A7/681800CA" Ref="C?"  Part="1" 
 F 0 "C203" H 3400 2000 50  0000 L CNN
 F 1 "22p" H 3400 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3338 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3338 1800 50  0001 C CNN
 F 3 "~" H 3300 1950 50  0001 C CNN
 	1    3300 1950
 	1    0    0    -1  
@@ -825,11 +825,6 @@ Connection ~ 3300 1500
 Wire Wire Line
 	2700 2100 3300 2100
 Wire Wire Line
-	2650 2100 2700 2100
-Text HLabel 2650 2100 0    40   Input ~ 0
-GND
-Connection ~ 2700 2100
-Wire Wire Line
 	2700 2300 2700 2750
 Wire Wire Line
 	2700 2300 2850 2300
@@ -844,7 +839,7 @@ AR Path="/71351D1D/6822753C" Ref="R202"  Part="1"
 AR Path="/729F86A7/6822753C" Ref="R?"  Part="1" 
 F 0 "R202" V 2900 2300 50  0000 C CNN
 F 1 "1M" V 3000 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2930 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2930 2300 50  0001 C CNN
 F 3 "~" H 3000 2300 50  0001 C CNN
 	1    3000 2300
 	0    1    1    0   
@@ -858,7 +853,7 @@ AR Path="/71351D1D/68227542" Ref="R204"  Part="1"
 AR Path="/729F86A7/68227542" Ref="R?"  Part="1" 
 F 0 "R204" H 3350 2950 50  0000 L CNN
 F 1 "1K" V 3300 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3230 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3230 2950 50  0001 C CNN
 F 3 "~" H 3300 2950 50  0001 C CNN
 	1    3300 2950
 	1    0    0    -1  
@@ -866,15 +861,15 @@ $EndComp
 $Comp
 L 74xx:74HC04 U?
 U 3 1 68227548
-P 3000 2750
+P 3000 4350
 AR Path="/68227548" Ref="U?"  Part="1" 
 AR Path="/71351D1D/68227548" Ref="U202"  Part="3" 
 AR Path="/729F86A7/68227548" Ref="U?"  Part="1" 
-F 0 "U202" H 3000 3050 50  0000 C CNN
-F 1 "74HCU04" H 3000 2950 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 2750 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3000 2750 50  0001 C CNN
-	3    3000 2750
+F 0 "U202" H 3000 4650 50  0000 C CNN
+F 1 "74HCU04" H 3000 4550 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 4350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3000 4350 50  0001 C CNN
+	3    3000 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -900,15 +895,15 @@ Wire Wire Line
 $Comp
 L 74xx:74HC04 U?
 U 4 1 68227557
-P 3600 2750
+P 3000 4850
 AR Path="/68227557" Ref="U?"  Part="2" 
 AR Path="/71351D1D/68227557" Ref="U202"  Part="4" 
 AR Path="/729F86A7/68227557" Ref="U?"  Part="2" 
-F 0 "U202" H 3600 3050 50  0000 C CNN
-F 1 "74HCU04" H 3600 2950 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3600 2750 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3600 2750 50  0001 C CNN
-	4    3600 2750
+F 0 "U202" H 3000 5150 50  0000 C CNN
+F 1 "74HCU04" H 3000 5050 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 4850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3000 4850 50  0001 C CNN
+	4    3000 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -928,7 +923,7 @@ AR Path="/71351D1D/68227567" Ref="C205"  Part="1"
 AR Path="/729F86A7/68227567" Ref="C?"  Part="1" 
 F 0 "C205" H 3400 3650 50  0000 L CNN
 F 1 "22p" H 3400 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3338 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3338 3450 50  0001 C CNN
 F 3 "~" H 3300 3600 50  0001 C CNN
 	1    3300 3600
 	1    0    0    -1  
@@ -943,8 +938,6 @@ Connection ~ 3300 2750
 Wire Wire Line
 	3300 3100 3300 3150
 Connection ~ 3300 3150
-Text HLabel 2650 3750 0    40   Input ~ 0
-GND
 Text Label 900  3050 2    40   ~ 0
 clk_14
 Text Label 2000 6350 0    40   ~ 0
@@ -999,13 +992,90 @@ Wire Bus Line
 	4450 1200 4400 1200
 Wire Bus Line
 	4450 1300 4400 1300
-Connection ~ 2700 3750
-Wire Wire Line
-	2650 3750 2700 3750
 Wire Wire Line
 	2700 3750 3300 3750
 Wire Wire Line
 	2700 3450 2700 3150
+Wire Wire Line
+	4650 5200 4700 5200
+Wire Wire Line
+	5250 5200 5200 5200
+Wire Wire Line
+	4650 5300 4700 5300
+Wire Wire Line
+	5250 5300 5200 5300
+Wire Wire Line
+	4650 5400 4700 5400
+Wire Wire Line
+	5250 5400 5200 5400
+Wire Wire Line
+	4650 5500 4700 5500
+Wire Wire Line
+	5250 5500 5200 5500
+Wire Wire Line
+	4650 5600 4700 5600
+Wire Wire Line
+	5250 5600 5200 5600
+Wire Wire Line
+	4650 5700 4700 5700
+Wire Wire Line
+	5250 5700 5200 5700
+Wire Wire Line
+	4650 5800 4700 5800
+Wire Wire Line
+	5250 5800 5200 5800
+Wire Wire Line
+	4650 5900 4700 5900
+Wire Wire Line
+	5250 5900 5200 5900
+Text Label 4650 5200 2    40   ~ 0
+xbus0
+Text Label 5250 5200 0    40   ~ 0
+xbus1
+Text Label 4650 5300 2    40   ~ 0
+xbus2
+Text Label 5250 5300 0    40   ~ 0
+xbus3
+Text Label 4650 5400 2    40   ~ 0
+xbus4
+Text Label 4650 5500 2    40   ~ 0
+xbus6
+Text Label 5250 5500 0    40   ~ 0
+xbus7
+Text Label 4650 5600 2    40   ~ 0
+xbus8
+Text Label 5250 5600 0    40   ~ 0
+xbus9
+Text Label 4650 5700 2    40   ~ 0
+xbus10
+Text Label 5250 5700 0    40   ~ 0
+xbus11
+Text Label 4650 5800 2    40   ~ 0
+xbus12
+Text Label 5250 5800 0    40   ~ 0
+xbus13
+Text Label 4650 5900 2    40   ~ 0
+xbus14
+Text Label 5250 5900 0    40   ~ 0
+xbus15
+Wire Wire Line
+	5150 1950 5350 1950
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J?
+U 1 1 67DB6733
+P 4900 5500
+AR Path="/67DB6733" Ref="J?"  Part="1" 
+AR Path="/6592BA05/67DB6733" Ref="J?"  Part="1" 
+AR Path="/71351D1D/67DB6733" Ref="J202"  Part="1" 
+F 0 "J202" H 4950 6017 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 4950 5926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 4900 5500 50  0001 C CNN
+F 3 "~" H 4900 5500 50  0001 C CNN
+	1    4900 5500
+	1    0    0    -1  
+$EndComp
+Text Label 5250 5400 0    40   ~ 0
+xbus5
 $Comp
 L Device:C C?
 U 1 1 68227561
@@ -1015,89 +1085,19 @@ AR Path="/71351D1D/68227561" Ref="C204"  Part="1"
 AR Path="/729F86A7/68227561" Ref="C?"  Part="1" 
 F 0 "C204" H 2800 3650 50  0000 L CNN
 F 1 "22p" H 2800 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2738 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2738 3450 50  0001 C CNN
 F 3 "~" H 2700 3600 50  0001 C CNN
 	1    2700 3600
 	1    0    0    -1  
 $EndComp
+Connection ~ 2700 2100
 Wire Wire Line
-	4650 5200 4700 5200
+	2650 2100 2700 2100
+Text HLabel 2650 2100 0    40   Input ~ 0
+GND
+Connection ~ 2700 3750
 Wire Wire Line
-	4650 5300 4700 5300
-Wire Wire Line
-	4650 5400 4700 5400
-Wire Wire Line
-	4650 5500 4700 5500
-Wire Wire Line
-	4650 5600 4700 5600
-Wire Wire Line
-	4650 5700 4700 5700
-Wire Wire Line
-	4650 5800 4700 5800
-Wire Wire Line
-	4650 5900 4700 5900
-Wire Wire Line
-	4650 6000 4700 6000
-Wire Wire Line
-	4650 6100 4700 6100
-Wire Wire Line
-	4650 6200 4700 6200
-Wire Wire Line
-	4650 6300 4700 6300
-Wire Wire Line
-	4650 6400 4700 6400
-Wire Wire Line
-	4650 6500 4700 6500
-Wire Wire Line
-	4650 6600 4700 6600
-Wire Wire Line
-	4650 6700 4700 6700
-$Comp
-L Connector_Generic:Conn_01x16 J?
-U 1 1 67DB6733
-P 4900 5900
-AR Path="/67DB6733" Ref="J?"  Part="1" 
-AR Path="/6592BA05/67DB6733" Ref="J?"  Part="1" 
-AR Path="/71351D1D/67DB6733" Ref="J202"  Part="1" 
-F 0 "J202" H 5000 5900 50  0000 L CNN
-F 1 "Conn_01x16" H 5000 5800 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 4900 5900 50  0001 C CNN
-F 3 "~" H 4900 5900 50  0001 C CNN
-	1    4900 5900
-	1    0    0    -1  
-$EndComp
-Text Label 4650 5200 2    40   ~ 0
-xbus0
-Text Label 4650 5300 2    40   ~ 0
-xbus1
-Text Label 4650 5400 2    40   ~ 0
-xbus2
-Text Label 4650 5500 2    40   ~ 0
-xbus3
-Text Label 4650 5600 2    40   ~ 0
-xbus4
-Text Label 4650 5700 2    40   ~ 0
-xbus5
-Text Label 4650 5800 2    40   ~ 0
-xbus6
-Text Label 4650 5900 2    40   ~ 0
-xbus7
-Text Label 4650 6000 2    40   ~ 0
-xbus8
-Text Label 4650 6100 2    40   ~ 0
-xbus9
-Text Label 4650 6200 2    40   ~ 0
-xbus10
-Text Label 4650 6300 2    40   ~ 0
-xbus11
-Text Label 4650 6400 2    40   ~ 0
-xbus12
-Text Label 4650 6500 2    40   ~ 0
-xbus13
-Text Label 4650 6600 2    40   ~ 0
-xbus14
-Text Label 4650 6700 2    40   ~ 0
-xbus15
-Wire Wire Line
-	5150 1950 5350 1950
+	2650 3750 2700 3750
+Text HLabel 2650 3750 0    40   Input ~ 0
+GND
 $EndSCHEMATC
