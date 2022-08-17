@@ -14,9 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3300 2800 3600 2800
+	3400 2800 3600 2800
 Wire Wire Line
-	3400 2900 3600 2900
+	3500 2900 3600 2900
 Text HLabel 6650 3750 1    40   Input ~ 0
 3V3
 Text HLabel 6000 2600 2    40   Input ~ 0
@@ -39,47 +39,39 @@ Wire Wire Line
 Text HLabel 6650 4350 3    40   Output ~ 0
 GND
 Wire Wire Line
-	1300 2300 3000 2300
+	1300 2300 3100 2300
 Wire Wire Line
-	1300 1850 3100 1850
+	1300 1850 3200 1850
 Wire Wire Line
-	1300 1400 3200 1400
+	1300 1400 3300 1400
 Wire Wire Line
-	1300 950  3300 950 
+	1300 950  3400 950 
 Text Notes 3600 3400 2    40   ~ 0
 SPI1_SCK
 Text Notes 3600 3500 2    40   ~ 0
 SPI1_MISO
 Wire Wire Line
-	3500 4000 3500 4600
+	3000 4600 5000 4600
 Wire Wire Line
-	3500 4000 3600 4000
+	3300 3000 3600 3000
 Wire Wire Line
-	3500 4600 5000 4600
+	3200 3100 3600 3100
 Wire Wire Line
-	3400 3900 3600 3900
-Wire Wire Line
-	3200 3000 3600 3000
-Wire Wire Line
-	3100 3100 3600 3100
-Wire Wire Line
-	3000 3200 3600 3200
+	3100 3200 3600 3200
 Text Notes 900  2700 0    100  ~ 0
 SD card
 Wire Wire Line
 	2400 3600 3600 3600
 Wire Wire Line
-	2800 3500 3600 3500
+	2700 3500 3600 3500
 Wire Wire Line
 	2400 3400 3600 3400
 Wire Wire Line
-	2700 3300 3600 3300
-Wire Wire Line
-	2550 3900 2500 3900
-Text HLabel 2550 3900 2    40   Output ~ 0
+	2800 3300 3600 3300
+Text HLabel 2600 3800 3    40   Output ~ 0
 GND
 Wire Wire Line
-	2500 3300 2500 3900
+	2600 3300 2600 3800
 Text Notes 3350 4900 0    100  ~ 0
 STM32 Blue Pill
 Wire Wire Line
@@ -148,24 +140,22 @@ Wire Wire Line
 Wire Wire Line
 	4400 3800 5000 3800
 Wire Wire Line
-	2700 2800 2700 3300
-Wire Wire Line
-	2700 3700 2400 3700
-Text HLabel 2500 2500 0    40   Input ~ 0
+	2800 3700 2400 3700
+Text HLabel 2500 3000 1    40   Input ~ 0
 3V3
 NoConn ~ 2400 3100
 Wire Wire Line
-	2500 3300 2400 3300
+	2600 3300 2400 3300
 Wire Wire Line
-	2600 3500 2400 3500
+	2500 3500 2400 3500
 NoConn ~ 2400 3800
 Wire Wire Line
-	2700 3300 2700 3700
+	2800 3300 2800 3700
 Wire Wire Line
-	2800 3200 2400 3200
+	2700 3200 2400 3200
 Wire Wire Line
-	2800 3200 2800 3500
-Connection ~ 2700 3300
+	2700 3200 2700 3500
+Connection ~ 2800 3300
 Text HLabel 4500 3200 2    40   Input ~ 0
 cfg_NSTAT
 Text Notes 5050 5350 0    50   ~ 0
@@ -369,7 +359,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 800  1300 650 
 Wire Wire Line
-	2200 2150 2300 2150
+	2200 800  2300 800 
 Wire Wire Line
 	1000 800  1000 650 
 $Comp
@@ -387,14 +377,14 @@ F 3 "~" H 1550 800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 3800 3500 3800
-Text HLabel 1050 4600 2    40   Output ~ 0
+Text HLabel 950  4550 2    40   Output ~ 0
 mem_XRAS
-Text HLabel 1050 4500 2    40   Output ~ 0
+Text HLabel 950  4450 2    40   Output ~ 0
 mem_XAP
 Wire Wire Line
-	1050 4500 950  4500
+	950  4450 850  4450
 Wire Wire Line
-	1050 4600 950  4600
+	950  4550 850  4550
 Entry Wire Line
 	5700 3900 5800 4000
 Wire Wire Line
@@ -474,7 +464,7 @@ $EndComp
 Wire Wire Line
 	4400 4200 5000 4200
 Wire Wire Line
-	3300 4400 3600 4400
+	3500 4400 3600 4400
 Wire Wire Line
 	3600 3700 3500 3700
 Text Notes 4400 4300 0    40   ~ 0
@@ -503,17 +493,17 @@ UART1_TX
 Text HLabel 4700 4300 2    40   Output ~ 0
 cfg_DCLK
 NoConn ~ 4400 3700
-Text HLabel 950  4500 0    40   Input ~ 0
+Text HLabel 850  4450 0    40   Input ~ 0
 3V3
-Text Notes 800  4450 0    50   ~ 0
+Text Notes 700  4400 0    50   ~ 0
 Pulled high to precharge all banks on LLHL command
-Text Notes 800  4700 0    50   ~ 0
+Text Notes 700  4650 0    50   ~ 0
 Low in both LLHL and LLLH commands, save a pin
-Text HLabel 950  4600 0    40   Input ~ 0
+Text HLabel 850  4550 0    40   Input ~ 0
 GND
 Text Notes 4400 3000 0    40   ~ 0
 I2C1_SDA
-Text HLabel 3300 4400 0    40   Output ~ 0
+Text HLabel 3500 4400 0    40   Output ~ 0
 GND
 Wire Wire Line
 	3600 4300 3600 4400
@@ -542,7 +532,7 @@ F 3 "~" H 1150 650 50  0001 C CNN
 	1    1150 650 
 	0    -1   -1   0   
 $EndComp
-Text HLabel 2300 2150 2    40   Input ~ 0
+Text HLabel 2300 800  2    40   Input ~ 0
 GND
 $Comp
 L Switch:SW_Push SW?
@@ -618,26 +608,10 @@ F 3 "" H 3700 4500 25  0001 C CNN
 	1    4000 3450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 6752703B
-P 2700 2650
-AR Path="/6752703B" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/6752703B" Ref="R509"  Part="1" 
-F 0 "R509" H 2650 2650 50  0000 R CNN
-F 1 "10K" V 2700 2650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2630 2650 50  0001 C CNN
-F 3 "~" H 2700 2650 50  0001 C CNN
-	1    2700 2650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	2600 2500 2600 3500
+	2500 3100 2500 3500
 Wire Wire Line
-	2500 2500 2600 2500
-Wire Wire Line
-	2600 2500 2700 2500
-Connection ~ 2600 2500
+	2500 3000 2500 3100
 $Comp
 L Jumper:SolderJumper_3_Open JP503
 U 1 1 645F491A
@@ -730,13 +704,13 @@ Wire Wire Line
 Wire Wire Line
 	4400 3100 5750 3100
 Wire Wire Line
-	3000 2300 3000 3200
+	3100 2300 3100 3200
 Wire Wire Line
-	3100 1850 3100 3100
+	3200 1850 3200 3100
 Wire Wire Line
-	3200 1400 3200 3000
+	3300 1400 3300 3000
 Wire Wire Line
-	3300 950  3300 2800
+	3400 950  3400 2800
 $Comp
 L KSK_HeikouBox:Micro_SD_Card_TFP09-2-12B J?
 U 1 1 647411C4
@@ -750,22 +724,10 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	1    1500 3400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3600 2600 3500 2600
-Wire Wire Line
-	3500 2600 3500 1900
-Wire Wire Line
-	4400 2900 4900 2900
-Text Notes 7000 2500 2    40   ~ 0
+Text Notes 3800 6400 2    40   ~ 0
 PS/2 Clock
-Text Notes 7000 1900 2    40   ~ 0
+Text Notes 3800 5800 2    40   ~ 0
 PS/2 Data
-Wire Wire Line
-	2900 2700 3600 2700
-Wire Wire Line
-	2400 3000 2900 3000
-Wire Wire Line
-	2900 3000 2900 2700
 Wire Wire Line
 	5300 4700 5700 4700
 $Comp
@@ -782,9 +744,7 @@ F 3 "~" H 5150 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3400 4700 3400 3900
-Wire Wire Line
-	3400 4700 5000 4700
+	2900 4700 5000 4700
 Wire Wire Line
 	6000 3200 6000 4050
 Wire Wire Line
@@ -977,167 +937,163 @@ F 3 "~" H 4550 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3400 1100 3400 2900
+	3500 1100 3500 2900
 Wire Wire Line
-	3700 1100 3400 1100
+	3700 1100 3500 1100
 Connection ~ 3700 1100
-Wire Wire Line
-	4900 2500 4900 2900
-Text HLabel 7100 2200 0    40   Input ~ 0
+Text HLabel 3900 6100 0    40   Input ~ 0
 3V3
 $Comp
 L KSK_HeikouBox:Mini-DIN-6_Shielded J503
 U 1 1 6374C140
-P 8600 2000
-F 0 "J503" H 8600 1650 50  0000 C CNN
-F 1 "PS/2" H 8600 1750 50  0000 C CNN
-F 2 "KSK_HeikouBox:TE_Mini-DIN-6_Horizontal" H 8600 2000 50  0001 C CNN
-F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 8600 2000 50  0001 C CNN
-	1    8600 2000
+P 5400 5900
+F 0 "J503" H 5400 5550 50  0000 C CNN
+F 1 "PS/2" H 5400 5650 50  0000 C CNN
+F 2 "KSK_HeikouBox:TE_Mini-DIN-6_Horizontal" H 5400 5900 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 5400 5900 50  0001 C CNN
+	1    5400 5900
 	-1   0    0    1   
 $EndComp
-NoConn ~ 8900 2100
-NoConn ~ 8900 1900
+NoConn ~ 5700 6000
+NoConn ~ 5700 5800
 Wire Wire Line
-	8200 2200 8200 2000
+	5000 6100 5000 5900
 Wire Wire Line
-	8200 2000 8300 2000
+	5000 5900 5100 5900
 Wire Wire Line
-	8300 2200 8200 2200
+	5100 6100 5000 6100
 Wire Wire Line
-	8300 2100 8100 2100
-Text HLabel 9000 2000 2    40   Input ~ 0
+	5100 6000 4900 6000
+Text HLabel 5800 5900 2    40   Input ~ 0
 5V
 Wire Wire Line
-	9000 2000 8900 2000
+	5800 5900 5700 5900
 $Comp
 L Transistor_FET:BSS138 Q502
 U 1 1 6378E82D
-P 7500 1800
-F 0 "Q502" V 7750 1800 50  0000 C CNN
-F 1 "BSS138" V 7850 1800 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7700 1725 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 7500 1800 50  0001 L CNN
-	1    7500 1800
+P 4300 5700
+F 0 "Q502" V 4550 5700 50  0000 C CNN
+F 1 "BSS138" V 4650 5700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 5625 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4300 5700 50  0001 L CNN
+	1    4300 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 637A13D7
-P 7200 1750
+P 4000 5650
 AR Path="/637A13D7" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/637A13D7" Ref="R525"  Part="1" 
-F 0 "R525" H 7250 1750 50  0000 L CNN
-F 1 "10K" V 7200 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7130 1750 50  0001 C CNN
-F 3 "~" H 7200 1750 50  0001 C CNN
-	1    7200 1750
+F 0 "R525" H 4050 5650 50  0000 L CNN
+F 1 "10K" V 4000 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 5650 50  0001 C CNN
+F 3 "~" H 4000 5650 50  0001 C CNN
+	1    4000 5650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 637A13DD
-P 7800 1750
+P 4600 5650
 AR Path="/637A13DD" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/637A13DD" Ref="R526"  Part="1" 
-F 0 "R526" H 7750 1750 50  0000 R CNN
-F 1 "10K" V 7800 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7730 1750 50  0001 C CNN
-F 3 "~" H 7800 1750 50  0001 C CNN
-	1    7800 1750
+F 0 "R526" H 4550 5650 50  0000 R CNN
+F 1 "10K" V 4600 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4530 5650 50  0001 C CNN
+F 3 "~" H 4600 5650 50  0001 C CNN
+	1    4600 5650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7200 1900 7300 1900
+	4000 5800 4100 5800
 Wire Wire Line
-	7800 1900 7700 1900
+	4600 5800 4500 5800
 $Comp
 L Transistor_FET:BSS138 Q503
 U 1 1 637DC67B
-P 7500 2400
-F 0 "Q503" V 7750 2400 50  0000 C CNN
-F 1 "BSS138" V 7850 2400 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7700 2325 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 7500 2400 50  0001 L CNN
-	1    7500 2400
+P 4300 6300
+F 0 "Q503" V 4550 6300 50  0000 C CNN
+F 1 "BSS138" V 4650 6300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 6225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4300 6300 50  0001 L CNN
+	1    4300 6300
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 637DC681
-P 7200 2350
+P 4000 6250
 AR Path="/637DC681" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/637DC681" Ref="R527"  Part="1" 
-F 0 "R527" H 7250 2350 50  0000 L CNN
-F 1 "10K" V 7200 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7130 2350 50  0001 C CNN
-F 3 "~" H 7200 2350 50  0001 C CNN
-	1    7200 2350
+F 0 "R527" H 4050 6250 50  0000 L CNN
+F 1 "10K" V 4000 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 6250 50  0001 C CNN
+F 3 "~" H 4000 6250 50  0001 C CNN
+	1    4000 6250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 637DC687
-P 7800 2350
+P 4600 6250
 AR Path="/637DC687" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/637DC687" Ref="R528"  Part="1" 
-F 0 "R528" H 7750 2350 50  0000 R CNN
-F 1 "10K" V 7800 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7730 2350 50  0001 C CNN
-F 3 "~" H 7800 2350 50  0001 C CNN
-	1    7800 2350
+F 0 "R528" H 4550 6250 50  0000 R CNN
+F 1 "10K" V 4600 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4530 6250 50  0001 C CNN
+F 3 "~" H 4600 6250 50  0001 C CNN
+	1    4600 6250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7200 2200 7500 2200
+	4000 6100 4300 6100
 Wire Wire Line
-	7200 2500 7300 2500
+	4000 6400 4100 6400
 Wire Wire Line
-	7800 2500 7700 2500
+	4600 6400 4500 6400
 Wire Wire Line
-	7200 2200 7100 2200
-Connection ~ 7200 2200
+	4000 6100 3900 6100
+Connection ~ 4000 6100
 Wire Wire Line
-	7800 2200 7900 2200
-Text HLabel 7900 2200 2    40   Input ~ 0
+	4600 6100 4700 6100
+Text HLabel 4700 6100 2    40   Input ~ 0
 5V
 Wire Wire Line
-	7800 1900 8300 1900
-Connection ~ 7800 1900
+	4600 5800 5100 5800
+Connection ~ 4600 5800
 Wire Wire Line
-	8100 2100 8100 2500
+	4900 6000 4900 6400
 Wire Wire Line
-	8100 2500 7800 2500
-Connection ~ 7800 2500
+	4900 6400 4600 6400
+Connection ~ 4600 6400
 Wire Wire Line
-	8100 2000 8200 2000
-Text HLabel 8100 2000 0    40   Output ~ 0
+	4900 5900 5000 5900
+Text HLabel 4900 5900 0    40   Output ~ 0
 GND
-Text Notes 8250 2350 0    100  ~ 0
+Text Notes 5050 6250 0    100  ~ 0
 Keyboard
-Connection ~ 8200 2000
-Connection ~ 7200 2500
-Connection ~ 7200 1900
+Connection ~ 5000 5900
+Connection ~ 4000 6400
+Connection ~ 4000 5800
 Wire Wire Line
-	7200 2500 4900 2500
-Connection ~ 7200 1600
+	4000 6400 3100 6400
+Connection ~ 4000 5500
 Wire Wire Line
-	7200 1600 7500 1600
+	4000 5500 4300 5500
 Wire Wire Line
-	7800 1600 7900 1600
-Text HLabel 7900 1600 2    40   Input ~ 0
+	4600 5500 4700 5500
+Text HLabel 4700 5500 2    40   Input ~ 0
 5V
 Wire Wire Line
-	7200 1600 7100 1600
-Text HLabel 7100 1600 0    40   Input ~ 0
+	4000 5500 3900 5500
+Text HLabel 3900 5500 0    40   Input ~ 0
 3V3
 Connection ~ 5100 1400
 Wire Wire Line
 	7200 1400 8000 1400
 Wire Wire Line
 	4800 1100 4700 1100
-Wire Wire Line
-	3500 1900 7200 1900
 $Comp
 L Jumper:SolderJumper_2_Open JP501
 U 1 1 63F7A378
@@ -1171,7 +1127,6 @@ Wire Wire Line
 Connection ~ 2200 1700
 Wire Wire Line
 	2200 1700 2200 2150
-Connection ~ 2200 2150
 Connection ~ 1000 1250
 Connection ~ 1000 800 
 Connection ~ 1000 1700
@@ -1189,6 +1144,51 @@ F 3 "~" H 6150 4050 50  0001 C CNN
 	1    6150 4050
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 6752703B
+P 2650 3100
+AR Path="/6752703B" Ref="R?"  Part="1" 
+AR Path="/646E3FCF/6752703B" Ref="R509"  Part="1" 
+F 0 "R509" V 2550 3100 50  0000 C CNN
+F 1 "10K" V 2650 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2580 3100 50  0001 C CNN
+F 3 "~" H 2650 3100 50  0001 C CNN
+	1    2650 3100
+	0    1    1    0   
+$EndComp
+Connection ~ 2500 3100
+Wire Wire Line
+	2800 3100 2800 3300
+Wire Wire Line
+	2900 2600 3600 2600
+Wire Wire Line
+	3000 2700 3600 2700
+Wire Wire Line
+	2900 2600 2900 4700
+Wire Wire Line
+	3000 2700 3000 4600
+Wire Wire Line
+	3200 5800 3200 4000
+Wire Wire Line
+	3200 4000 3600 4000
+Wire Wire Line
+	3200 5800 4000 5800
+Wire Wire Line
+	3600 3900 3100 3900
+Wire Wire Line
+	3100 3900 3100 6400
+Wire Wire Line
+	4400 2900 4900 2900
+Wire Wire Line
+	4900 2900 4900 2100
+Wire Wire Line
+	4900 2100 2400 2100
+Wire Wire Line
+	2400 2400 2400 3000
+Wire Wire Line
+	2400 2400 2400 2100
+Connection ~ 2200 800 
 Wire Bus Line
 	5800 3900 5800 4850
 $EndSCHEMATC
