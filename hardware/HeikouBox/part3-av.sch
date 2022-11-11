@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "HeikouBox Mainboard - Audio Video Interface"
-Date "2021-03-17"
-Rev "v1.0"
+Date "2022-11-11"
+Rev "v0.1"
 Comp "ksk"
 Comment1 ""
 Comment2 ""

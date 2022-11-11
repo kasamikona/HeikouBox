@@ -10,6 +10,13 @@
   )
 
   (page A4)
+  (title_block
+    (title "HeikouBox Mainboard")
+    (date 2022-11-11)
+    (rev v0.1)
+    (company ksk)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
