@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 4 6
 Title "HeikouBox Mainboard - Memory"
 Date "2021-03-17"
 Rev "v1.0"
@@ -52,10 +52,6 @@ Wire Wire Line
 Wire Wire Line
 	1200 1050 1400 1050
 Wire Wire Line
-	1300 3150 1350 3150
-Wire Wire Line
-	1300 3050 1350 3050
-Wire Wire Line
 	1900 3350 2000 3350
 Entry Wire Line
 	1200 1050 1100 950 
@@ -76,10 +72,6 @@ $EndComp
 Wire Wire Line
 	1900 750  2000 750 
 Connection ~ 1900 750 
-Wire Wire Line
-	1300 2650 1350 2650
-Wire Wire Line
-	1300 2950 1350 2950
 Text Notes 3900 2500 0    50   ~ 0
 Mind LDQM / UDQM if DQ remapped!
 $Comp
@@ -197,8 +189,6 @@ Text HLabel 1300 3050 0    40   Input ~ 0
 CAS
 Text HLabel 1300 3150 0    40   Input ~ 0
 RAS
-Text HLabel 1300 2550 0    40   Input ~ 0
-CKE
 Text Label 1200 1150 0    40   ~ 0
 A0
 Text Label 1200 1250 0    40   ~ 0
@@ -313,139 +303,10 @@ Wire Wire Line
 Connection ~ 5650 1050
 Wire Wire Line
 	5650 1050 6050 1050
-Text HLabel 750  3100 0    40   Input ~ 0
-XCAS
-Text HLabel 750  2900 0    40   Input ~ 0
-XWE
-Wire Wire Line
-	1350 2650 1350 2700
-Connection ~ 1350 2650
-Wire Wire Line
-	1350 2650 1400 2650
-Wire Wire Line
-	1350 2900 1350 2950
-Connection ~ 1350 2950
-Wire Wire Line
-	1350 2950 1400 2950
-Wire Wire Line
-	1350 3100 1350 3050
-Connection ~ 1350 3050
-Wire Wire Line
-	1350 3050 1400 3050
-Wire Wire Line
-	1200 2150 1350 2150
-Wire Wire Line
-	1350 2150 1350 2300
-Connection ~ 1350 2150
-Wire Wire Line
-	1350 2150 1400 2150
-Text HLabel 750  2300 0    40   Input ~ 0
-XAP
-Wire Wire Line
-	750  2300 800  2300
-Wire Wire Line
-	1100 2700 1350 2700
-Wire Wire Line
-	1350 2300 1100 2300
 Text HLabel 1300 2450 0    40   Input ~ 0
 GND
 Wire Wire Line
-	1100 2900 1350 2900
-Wire Wire Line
-	750  2900 800  2900
-Wire Wire Line
-	1100 3100 1350 3100
-Wire Wire Line
-	750  3100 800  3100
-Wire Wire Line
 	1300 2450 1400 2450
-Wire Wire Line
-	750  2700 800  2700
-Text HLabel 750  2700 0    40   Input ~ 0
-XCLK
-Text HLabel 750  3300 0    40   Input ~ 0
-XRAS
-Wire Wire Line
-	1100 3300 1350 3300
-Wire Wire Line
-	750  3300 800  3300
-Wire Wire Line
-	1350 3300 1350 3150
-Connection ~ 1350 3150
-Wire Wire Line
-	1350 3150 1400 3150
-Wire Wire Line
-	1300 2550 1400 2550
-$Comp
-L Device:R R?
-U 1 1 683F9E5B
-P 950 3100
-AR Path="/683F9E5B" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/683F9E5B" Ref="R?"  Part="1" 
-AR Path="/729F40C7/683F9E5B" Ref="R403"  Part="1" 
-F 0 "R403" V 850 3100 50  0000 C CNN
-F 1 "1K" V 950 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 3100 50  0001 C CNN
-F 3 "~" H 950 3100 50  0001 C CNN
-	1    950  3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 686DF49A
-P 950 3300
-AR Path="/686DF49A" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/686DF49A" Ref="R?"  Part="1" 
-AR Path="/729F40C7/686DF49A" Ref="R404"  Part="1" 
-F 0 "R404" V 850 3300 50  0000 C CNN
-F 1 "1K" V 950 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 3300 50  0001 C CNN
-F 3 "~" H 950 3300 50  0001 C CNN
-	1    950  3300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 683FD000
-P 950 2900
-AR Path="/683FD000" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/683FD000" Ref="R?"  Part="1" 
-AR Path="/729F40C7/683FD000" Ref="R402"  Part="1" 
-F 0 "R402" V 850 2900 50  0000 C CNN
-F 1 "1K" V 950 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 2900 50  0001 C CNN
-F 3 "~" H 950 2900 50  0001 C CNN
-	1    950  2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 683DF4DC
-P 950 2700
-AR Path="/683DF4DC" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/683DF4DC" Ref="R?"  Part="1" 
-AR Path="/729F40C7/683DF4DC" Ref="R401"  Part="1" 
-F 0 "R401" V 850 2700 50  0000 C CNN
-F 1 "1K" V 950 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 2700 50  0001 C CNN
-F 3 "~" H 950 2700 50  0001 C CNN
-	1    950  2700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6848DBCA
-P 950 2300
-AR Path="/6848DBCA" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/6848DBCA" Ref="R?"  Part="1" 
-AR Path="/729F40C7/6848DBCA" Ref="R405"  Part="1" 
-F 0 "R405" V 850 2300 50  0000 C CNN
-F 1 "1K" V 950 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 880 2300 50  0001 C CNN
-F 3 "~" H 950 2300 50  0001 C CNN
-	1    950  2300
-	0    1    1    0   
-$EndComp
 Text Notes 4950 700  0    50   ~ 0
 Place near SDRAM
 Wire Wire Line
@@ -500,6 +361,20 @@ Connection ~ 6050 750
 Connection ~ 6050 1050
 Wire Wire Line
 	6450 1050 6050 1050
+Wire Wire Line
+	1200 2150 1400 2150
+Wire Wire Line
+	1300 2650 1400 2650
+Wire Wire Line
+	1300 2950 1400 2950
+Wire Wire Line
+	1300 3050 1400 3050
+Wire Wire Line
+	1300 3150 1400 3150
+Text HLabel 1300 2550 0    40   Input ~ 0
+3V3
+Wire Wire Line
+	1300 2550 1400 2550
 Wire Bus Line
 	1100 1050 1100 2150
 Wire Bus Line
