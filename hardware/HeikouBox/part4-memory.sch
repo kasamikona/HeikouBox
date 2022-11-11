@@ -92,22 +92,16 @@ Text Notes 2450 3250 0    100  ~ 0
 SDRAM 128Mbit
 Connection ~ 1900 3350
 Wire Wire Line
-	1900 3400 1900 3350
-Text HLabel 1900 3400 3    40   Input ~ 0
-GND
+	1900 3450 1900 3350
 Wire Wire Line
-	1900 700  1900 750 
-Text HLabel 1900 700  1    40   Input ~ 0
+	1900 650  1900 750 
+Text HLabel 700  3850 0    40   Input ~ 0
 3V3
 Wire Wire Line
-	4850 700  4850 750 
-Text HLabel 4850 700  1    40   Input ~ 0
-3V3
+	4850 650  4850 750 
 Connection ~ 4850 750 
 Wire Wire Line
-	4850 1100 4850 1050
-Text HLabel 4850 1100 3    40   Input ~ 0
-GND
+	4850 1150 4850 1050
 Connection ~ 4850 1050
 Wire Bus Line
 	3800 2550 3850 2550
@@ -303,8 +297,6 @@ Wire Wire Line
 Connection ~ 5650 1050
 Wire Wire Line
 	5650 1050 6050 1050
-Text HLabel 1300 2450 0    40   Input ~ 0
-GND
 Wire Wire Line
 	1300 2450 1400 2450
 Text Notes 4950 700  0    50   ~ 0
@@ -371,10 +363,30 @@ Wire Wire Line
 	1300 3050 1400 3050
 Wire Wire Line
 	1300 3150 1400 3150
-Text HLabel 1300 2550 0    40   Input ~ 0
-3V3
 Wire Wire Line
 	1300 2550 1400 2550
+Text Label 800  3850 0    40   ~ 8
+3V3
+Wire Wire Line
+	800  3850 700  3850
+Text Label 1900 650  1    40   ~ 8
+3V3
+Text HLabel 700  3950 0    40   Input ~ 0
+GND
+Text Label 800  3950 0    40   ~ 8
+GND
+Wire Wire Line
+	800  3950 700  3950
+Text Label 1900 3450 3    40   ~ 8
+GND
+Text Label 1300 2450 2    40   ~ 8
+GND
+Text Label 1300 2550 2    40   ~ 8
+3V3
+Text Label 4850 650  1    40   ~ 8
+3V3
+Text Label 4850 1150 3    40   ~ 8
+GND
 Wire Bus Line
 	1100 1050 1100 2150
 Wire Bus Line

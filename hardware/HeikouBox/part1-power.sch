@@ -17,7 +17,7 @@ Text Notes 800  2850 0    50   ~ 0
 Regulator stability not guaranteed with low ESR output caps
 Wire Wire Line
 	1800 1100 1800 800 
-Text HLabel 1000 2700 0    40   BiDi ~ 0
+Text HLabel 1000 2700 0    40   Output ~ 0
 GND
 Wire Wire Line
 	1800 1100 1900 1100
@@ -47,7 +47,7 @@ F 3 "~" H 2600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 1100 2600 1100
+	3400 1100 3300 1100
 $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 U?
 U 1 1 67C00DDA
@@ -182,21 +182,21 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 67C00DA5
-P 3400 2250
+P 3300 2250
 AR Path="/67C00DA5" Ref="R?"  Part="1" 
 AR Path="/644CBAED/67C00DA5" Ref="R101"  Part="1" 
 AR Path="/729F86A7/67C00DA5" Ref="R?"  Part="1" 
-F 0 "R101" H 3450 2250 50  0000 L CNN
-F 1 "330R" V 3400 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3330 2250 50  0001 C CNN
-F 3 "~" H 3400 2250 50  0001 C CNN
-	1    3400 2250
+F 0 "R101" H 3350 2250 50  0000 L CNN
+F 1 "330R" V 3300 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3230 2250 50  0001 C CNN
+F 3 "~" H 3300 2250 50  0001 C CNN
+	1    3300 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1000 2700 1100 2700
 Wire Wire Line
-	3400 2000 3400 2100
+	3300 2000 3300 2100
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 62F3D058
@@ -240,31 +240,23 @@ F 3 "~" H 1600 2550 50  0001 C CNN
 	1    1600 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 1700 3400 1600
 $Comp
 L Device:LED D?
 U 1 1 67C00D9C
-P 3400 1850
+P 3300 1850
 AR Path="/67C00D9C" Ref="D?"  Part="1" 
 AR Path="/644CBAED/67C00D9C" Ref="D101"  Part="1" 
 AR Path="/729F86A7/67C00D9C" Ref="D?"  Part="1" 
-F 0 "D101" V 3450 1800 50  0000 R CNN
-F 1 "Power" V 3350 1800 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 1850 50  0001 C CNN
-F 3 "~" H 3400 1850 50  0001 C CNN
-	1    3400 1850
+F 0 "D101" V 3350 1800 50  0000 R CNN
+F 1 "Power" V 3250 1800 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 1850 50  0001 C CNN
+F 3 "~" H 3300 1850 50  0001 C CNN
+	1    3300 1850
 	0    -1   -1   0   
 $EndComp
-Text HLabel 3400 2500 3    40   BiDi ~ 0
-GND
-Wire Wire Line
-	3400 2400 3400 2500
-Text HLabel 3400 1600 1    40   BiDi ~ 0
-3V3
 Wire Wire Line
 	3700 900  3600 900 
-Text HLabel 3700 900  2    40   BiDi ~ 0
+Text HLabel 3700 900  2    40   Output ~ 0
 VUSB
 $Comp
 L Connector:Barrel_Jack_Switch J101
@@ -281,7 +273,7 @@ Wire Wire Line
 	1100 800  1200 800 
 Wire Wire Line
 	1100 1000 1100 2700
-Text HLabel 2700 1100 2    40   Output ~ 0
+Text HLabel 3400 1100 2    40   Output ~ 0
 3V3
 $Comp
 L Device:Polyfuse_Small F?
@@ -340,6 +332,16 @@ Wire Wire Line
 Connection ~ 2600 800 
 Wire Wire Line
 	2600 800  2700 800 
-Text HLabel 2700 800  2    40   BiDi ~ 0
+Text HLabel 2700 800  2    40   Output ~ 0
 5V
+Wire Wire Line
+	3300 1100 3300 1700
+Connection ~ 3300 1100
+Wire Wire Line
+	3300 1100 2600 1100
+Wire Wire Line
+	3300 2700 3000 2700
+Wire Wire Line
+	3300 2400 3300 2700
+Connection ~ 3000 2700
 $EndSCHEMATC

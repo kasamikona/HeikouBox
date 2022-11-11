@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title "HeikouBox Mainboard - Hub"
 Date "2021-03-17"
 Rev "v1.0"
@@ -784,7 +784,7 @@ PWR_DET
 Wire Wire Line
 	3600 1150 3600 1050
 Text Notes 2450 2400 0    40   ~ 0
-USB_DM
+USB_DM not needed
 Wire Wire Line
 	3650 3650 3550 3650
 Wire Wire Line
@@ -794,9 +794,9 @@ Wire Wire Line
 Text Label 2450 2200 0    40   ~ 0
 MDB3_R
 NoConn ~ 2350 2400
-Text Notes 1200 2000 2    40   ~ 0
+Text Notes 1150 2000 2    40   ~ 0
 SPI1_NSS
-Text Notes 1200 2100 2    40   ~ 0
+Text Notes 1150 2100 2    40   ~ 0
 SPI1_SCK
 Text Label 1450 2100 2    40   ~ 0
 SD_SCK
@@ -832,11 +832,11 @@ Text Label 2450 2900 0    40   ~ 0
 CFG_DONE_R
 Wire Wire Line
 	2450 2900 2350 2900
-Text Notes 2800 3000 0    40   ~ 0
+Text Notes 2850 3050 0    40   ~ 0
 SPI2_SCK
 Wire Wire Line
 	2450 3000 2350 3000
-Text Notes 2800 3100 0    40   ~ 0
+Text Notes 2850 3150 0    40   ~ 0
 ?SPI2_NSS
 Wire Wire Line
 	2450 3100 2350 3100
@@ -848,9 +848,9 @@ Wire Wire Line
 	1450 1900 1550 1900
 Wire Wire Line
 	1450 2500 1550 2500
-Text Notes 2800 1600 0    40   ~ 0
+Text Notes 2850 1600 0    40   ~ 0
 I2C1_SCL
-Text Notes 2800 1500 0    40   ~ 0
+Text Notes 2850 1500 0    40   ~ 0
 I2C1_SDA
 Wire Wire Line
 	2350 1500 2450 1500
@@ -898,13 +898,13 @@ Text Notes 1500 1300 2    40   ~ 0
 Onboard LED
 NoConn ~ 1550 1300
 Wire Wire Line
-	900  7550 800  7550
-Text HLabel 800  7550 0    40   BiDi ~ 0
+	850  7400 750  7400
+Text HLabel 750  7400 0    40   BiDi ~ 0
 VUSB
 Connection ~ 1550 3100
 Wire Wire Line
 	1550 3100 1550 3000
-Text HLabel 800  7650 0    40   BiDi ~ 0
+Text HLabel 750  7700 0    40   Input ~ 0
 GND
 NoConn ~ 1550 1200
 $Comp
@@ -1160,8 +1160,8 @@ Connection ~ 7750 5300
 Connection ~ 8650 5300
 Connection ~ 9550 5300
 Wire Wire Line
-	2350 1200 2450 1200
-Text Label 2450 1200 0    40   ~ 8
+	2350 1200 2550 1200
+Text Label 2650 1200 0    40   ~ 8
 3V3_HUB
 Text Label 4350 5400 0    40   ~ 8
 3V3_HUB
@@ -1174,7 +1174,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 4800 3600 5200
 Wire Wire Line
-	800  7650 900  7650
+	750  7700 850  7700
 Wire Wire Line
 	1550 3100 1450 3100
 Text Label 1450 3100 2    40   ~ 8
@@ -1183,9 +1183,9 @@ Text Label 2450 1300 0    40   ~ 8
 GND
 Wire Wire Line
 	2350 1300 2450 1300
-Text Label 900  7650 0    40   ~ 8
+Text Label 850  7700 0    40   ~ 8
 GND
-Text Label 900  7550 0    40   ~ 8
+Text Label 850  7400 0    40   ~ 8
 VUSB
 Text Label 3600 1050 1    40   ~ 8
 3V3
@@ -1194,20 +1194,20 @@ Wire Wire Line
 Text Label 2450 1400 0    40   ~ 8
 VUSB
 Wire Wire Line
-	900  7450 800  7450
-Text HLabel 800  7450 0    40   Input ~ 0
+	850  7600 750  7600
+Text HLabel 750  7600 0    40   Input ~ 0
 3V3
-Text Label 900  7450 0    40   ~ 8
+Text Label 850  7600 0    40   ~ 8
 3V3
 Text Label 6500 2200 1    40   ~ 8
 3V3
 Text Label 6500 2900 1    40   ~ 8
 3V3
 Wire Wire Line
-	900  7350 800  7350
-Text HLabel 800  7350 0    40   Input ~ 0
+	850  7500 750  7500
+Text HLabel 750  7500 0    40   Input ~ 0
 5V
-Text Label 900  7350 0    40   ~ 8
+Text Label 850  7500 0    40   ~ 8
 5V
 Text Label 7100 2900 1    40   ~ 8
 5V
@@ -1307,6 +1307,24 @@ Text Label 3650 3650 0    40   ~ 8
 3V3_HUB
 Text Label 3400 4100 2    40   ~ 8
 3V3_HUB
+Wire Wire Line
+	2550 1200 2550 1100
+Connection ~ 2550 1200
+Wire Wire Line
+	2550 1200 2650 1200
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 63A8F722
+P 2550 1100
+F 0 "#FLG0104" H 2550 1175 50  0001 C CNN
+F 1 "PWR_FLAG" H 2550 1273 50  0000 C CNN
+F 2 "" H 2550 1100 50  0001 C CNN
+F 3 "~" H 2550 1100 50  0001 C CNN
+	1    2550 1100
+	1    0    0    -1  
+$EndComp
+Text Notes 2750 2300 0    40   ~ 0
+to resistor fix
 Wire Bus Line
 	4700 6900 4700 7700
 $EndSCHEMATC

@@ -810,11 +810,7 @@ Wire Wire Line
 	6200 1900 6200 1800
 Wire Wire Line
 	6000 2100 7400 2100
-Text HLabel 5500 3500 1    40   Input ~ 0
-3V3
-Text HLabel 7400 1400 1    40   Input ~ 0
-3V3
-Text HLabel 1000 4500 3    40   Input ~ 0
+Text HLabel 700  5700 0    40   Input ~ 0
 GND
 Wire Wire Line
 	7400 1400 7400 1500
@@ -833,30 +829,13 @@ F 3 "~" H 6200 1650 50  0001 C CNN
 	1    6200 1650
 	-1   0    0    -1  
 $EndComp
-Text HLabel 6200 3000 3    40   Input ~ 0
-GND
-Text HLabel 5200 2700 3    40   Input ~ 0
-GND
-Wire Wire Line
-	5200 2700 5200 2600
-Connection ~ 5200 2600
 Wire Wire Line
 	4300 2200 4300 2300
-Text HLabel 4300 2200 1    40   Input ~ 0
-3V3
 Connection ~ 4300 2300
-Text HLabel 5500 4000 3    40   Input ~ 0
-GND
 Wire Wire Line
 	5500 4000 5500 3900
-Text HLabel 3900 2000 3    40   Input ~ 0
-GND
 Wire Wire Line
-	1000 4500 1000 4400
-Text HLabel 1000 1700 3    40   Input ~ 0
-GND
-Wire Wire Line
-	1000 1700 1000 1600
+	700  5700 800  5700
 Connection ~ 3900 1600
 Connection ~ 3900 4000
 Wire Wire Line
@@ -874,8 +853,6 @@ F 3 "~" H 3900 4150 50  0001 C CNN
 	1    3900 4150
 	1    0    0    -1  
 $EndComp
-Text HLabel 3900 4800 3    40   Input ~ 0
-GND
 Wire Wire Line
 	4050 4400 4050 4550
 $Comp
@@ -898,8 +875,6 @@ Wire Wire Line
 	3900 3700 4300 3700
 Wire Wire Line
 	4300 3600 4300 3700
-Text HLabel 4300 3600 1    40   Input ~ 0
-3V3
 $Comp
 L Device:R R?
 U 1 1 6492C392
@@ -915,12 +890,9 @@ F 3 "~" H 3900 1050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 900  4300 1000
-Connection ~ 4300 900 
 Wire Wire Line
 	3900 900  4300 900 
-Wire Wire Line
-	4300 800  4300 900 
-Text HLabel 4300 800  1    40   Input ~ 0
+Text HLabel 700  5600 0    40   Input ~ 0
 3V3
 Wire Wire Line
 	3900 2600 4000 2600
@@ -952,8 +924,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4200 2600 50  000
 $EndComp
 Wire Wire Line
 	3900 2900 3900 3000
-Text HLabel 3900 3400 3    40   Input ~ 0
-GND
 Wire Wire Line
 	3900 3400 3900 3300
 Wire Wire Line
@@ -1065,10 +1035,6 @@ Wire Wire Line
 	1400 2550 1400 2600
 Wire Wire Line
 	1400 2600 1400 2650
-Wire Wire Line
-	1000 3100 1000 3000
-Text HLabel 1000 3100 3    40   Input ~ 0
-GND
 Wire Wire Line
 	3500 2100 3500 2200
 Connection ~ 3100 2600
@@ -1384,8 +1350,6 @@ GRN5
 Entry Wire Line
 	3500 2100 3400 2000
 Connection ~ 1000 1200
-Wire Wire Line
-	3900 1900 3900 2000
 $Comp
 L Device:R_POT_TRIM RV?
 U 1 1 62CE66A4
@@ -1468,9 +1432,6 @@ Wire Wire Line
 Connection ~ 7700 2500
 Wire Wire Line
 	7700 2900 7400 2900
-Connection ~ 7400 2900
-Wire Wire Line
-	7400 2900 7400 3000
 Wire Wire Line
 	6200 2300 6200 1900
 Connection ~ 6200 1900
@@ -1509,8 +1470,6 @@ Connection ~ 9300 3800
 Connection ~ 9300 5200
 Text Notes 10500 4300 0    50   ~ 0
 Bulk capacitor\nfor audio buffers
-Text HLabel 10400 4700 3    40   Input ~ 0
-GND
 Wire Wire Line
 	10400 4700 10400 4600
 $Comp
@@ -1543,18 +1502,10 @@ Connection ~ 8100 5600
 Connection ~ 8100 4200
 Wire Wire Line
 	10200 6000 10200 6100
-Text HLabel 10200 6100 3    40   Input ~ 0
-GND
-Text HLabel 8100 6300 3    40   Input ~ 0
-GND
 Wire Wire Line
 	8100 4900 8100 4800
-Text HLabel 10400 4200 1    40   Input ~ 0
-3V3
 Wire Wire Line
 	9300 5100 9300 5200
-Text HLabel 9300 5100 1    40   Input ~ 0
-3V3
 Wire Wire Line
 	9300 3700 9300 3800
 Connection ~ 10200 5700
@@ -1601,8 +1552,6 @@ Wire Wire Line
 Connection ~ 9300 4500
 Wire Wire Line
 	9300 4500 9400 4500
-Text HLabel 9300 3700 1    40   Input ~ 0
-3V3
 Wire Wire Line
 	8100 5600 8100 5800
 Wire Wire Line
@@ -1614,8 +1563,6 @@ Wire Wire Line
 Connection ~ 8100 6200
 Wire Wire Line
 	8200 5600 8100 5600
-Text HLabel 8100 4900 3    40   Input ~ 0
-GND
 Text HLabel 7700 5600 0    40   Input ~ 0
 RSIGMA
 Wire Wire Line
@@ -1900,15 +1847,79 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9200 5600 50  000
 	1    9200 5600
 	1    0    0    -1  
 $EndComp
-Text HLabel 7400 3000 3    40   Input ~ 0
-GND
 Wire Wire Line
 	3500 2600 3900 2600
+Connection ~ 3500 2600
+Text Label 800  5700 0    40   ~ 8
+GND
+Wire Wire Line
+	1000 4400 1000 4500
+Text Label 1000 4500 3    40   ~ 8
+GND
+Wire Wire Line
+	1000 1600 1000 1700
+Text Label 1000 1700 3    40   ~ 8
+GND
+Wire Wire Line
+	1000 3000 1000 3100
+Text Label 1000 3100 3    40   ~ 8
+GND
+Wire Wire Line
+	3900 1900 3900 2000
+Text Label 3900 2000 3    40   ~ 8
+GND
+Text Label 5500 4000 3    40   ~ 8
+GND
+Text Label 3900 3400 3    40   ~ 8
+GND
+Text Label 3900 4800 3    40   ~ 8
+GND
+Text Label 6200 3000 3    40   ~ 8
+GND
+Wire Wire Line
+	5700 2600 5700 2700
+Text Label 5700 2700 3    40   ~ 8
+GND
+Wire Wire Line
+	7400 2900 6500 2900
+Connection ~ 6500 2900
+Connection ~ 7400 2900
+Connection ~ 5700 2600
+Text Label 8100 6300 3    40   ~ 8
+GND
+Text Label 8100 4900 3    40   ~ 8
+GND
+Text Label 10400 4700 3    40   ~ 8
+GND
+Text Label 10200 6100 3    40   ~ 8
+GND
+Text Label 4300 800  1    40   ~ 8
+3V3
+Wire Wire Line
+	4300 800  4300 900 
+Text Label 800  5600 0    40   ~ 8
+3V3
+Wire Wire Line
+	700  5600 800  5600
+Text Label 5500 3500 1    40   ~ 8
+3V3
+Text Label 4300 3600 1    40   ~ 8
+3V3
+Text Label 4300 2200 1    40   ~ 8
+3V3
+Connection ~ 4300 900 
+Text Label 7400 1400 1    40   ~ 8
+3V3
+Text Label 9300 5100 1    40   ~ 8
+3V3
+Text Label 9300 3700 1    40   ~ 8
+3V3
+Text Label 10400 4200 1    40   ~ 8
+3V3
 Wire Bus Line
 	850  3400 2900 3400
 Wire Bus Line
 	850  600  2900 600 
 Wire Bus Line
 	850  2000 3400 2000
-Connection ~ 3500 2600
 $EndSCHEMATC
