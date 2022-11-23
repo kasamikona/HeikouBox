@@ -1,0 +1,13 @@
+Firmware:
+- Start making it
+
+Core:
+- Hope I didn't screw it up
+
+Mainboard:
+- Add 1ohm ESR-sub resistors to vreg output caps
+- Add more vreg input caps?
+- Run 1.2v vreg from 3.3v to spread power
+- Fix dumb routing around the JTAG
+- Reposition xbus header and add power and ground
+- See if non-handsolder footprints ok, to save space
