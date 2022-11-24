@@ -5,8 +5,7 @@ Core:
 - Hope I didn't screw it up
 
 Mainboard:
-- Add 1ohm ESR-sub resistors to vreg output caps
 - Add more vreg input caps?
 - Reposition xbus header and add power and ground
-- See if non-handsolder footprints ok, to save space
 - Change mounting holes to PTH
+- Replace handsolder footprints with non-handsolder
