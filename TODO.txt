@@ -5,7 +5,5 @@ Core:
 - Hope I didn't screw it up
 
 Mainboard:
-- Add more vreg input caps?
 - Reposition xbus header and add power and ground
-- Change mounting holes to PTH
 - Replace handsolder footprints with non-handsolder
