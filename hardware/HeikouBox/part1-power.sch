@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title "HeikouBox Mainboard - Power Suppli"
 Date "2022-11-11"
 Rev "v0.1"
@@ -167,7 +167,7 @@ AR Path="/644CBAED/67C00E15" Ref="C106"  Part="1"
 AR Path="/729F86A7/67C00E15" Ref="C?"  Part="1" 
 F 0 "C106" H 4315 2896 50  0000 L CNN
 F 1 "10u" H 4315 2805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4238 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4238 2700 50  0001 C CNN
 F 3 "~" H 4200 2850 50  0001 C CNN
 	1    4200 2850
 	1    0    0    -1  
@@ -255,7 +255,7 @@ AR Path="/644CBAED/67C00E04" Ref="C105"  Part="1"
 AR Path="/729F86A7/67C00E04" Ref="C?"  Part="1" 
 F 0 "C105" H 2715 2896 50  0000 L CNN
 F 1 "10u" H 2715 2805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2638 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2638 2700 50  0001 C CNN
 F 3 "~" H 2600 2850 50  0001 C CNN
 	1    2600 2850
 	1    0    0    -1  
@@ -277,7 +277,7 @@ AR Path="/644CBAED/67C00DAB" Ref="C104"  Part="1"
 AR Path="/729F86A7/67C00DAB" Ref="C?"  Part="1" 
 F 0 "C104" H 2700 1800 50  0000 L CNN
 F 1 "10u" H 2700 1700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2638 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2638 1600 50  0001 C CNN
 F 3 "~" H 2600 1750 50  0001 C CNN
 	1    2600 1750
 	1    0    0    -1  
@@ -410,7 +410,7 @@ AR Path="/644CBAED/67C00DB6" Ref="C101"  Part="1"
 AR Path="/729F86A7/67C00DB6" Ref="C?"  Part="1" 
 F 0 "C101" H 1715 2896 50  0000 L CNN
 F 1 "10u" H 1715 2805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1638 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1638 2700 50  0001 C CNN
 F 3 "~" H 1600 2850 50  0001 C CNN
 	1    1600 2850
 	1    0    0    -1  

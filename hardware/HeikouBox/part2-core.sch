@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 6 6
 Title "HeikouBox Mainboard - Core Interface"
 Date "2022-11-11"
 Rev "v0.1"

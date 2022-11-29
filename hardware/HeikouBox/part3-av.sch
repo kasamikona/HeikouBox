@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 2 6
 Title "HeikouBox Mainboard - Audio Video Interface"
 Date "2022-11-11"
 Rev "v0.1"
@@ -160,14 +160,14 @@ Connection ~ 1400 1200
 Wire Wire Line
 	1400 1200 1400 1250
 $Comp
-L Device:CP1 C?
+L Device:C C?
 U 1 1 62CE6848
 P 5500 3750
 AR Path="/62CE6848" Ref="C?"  Part="1" 
 AR Path="/62C73AC4/62CE6848" Ref="C301"  Part="1" 
 F 0 "C301" H 5600 3800 50  0000 L CNN
 F 1 "10u" H 5600 3700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5538 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5538 3600 50  0001 C CNN
 F 3 "~" H 5500 3750 50  0001 C CNN
 	1    5500 3750
 	1    0    0    -1  
@@ -1533,19 +1533,6 @@ F 3 "~" H 9950 5900 50  0001 C CNN
 	1    9950 5900
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 63510156
-P 9950 4500
-AR Path="/63510156" Ref="R?"  Part="1" 
-AR Path="/62C73AC4/63510156" Ref="R371"  Part="1" 
-F 0 "R371" V 10050 4500 50  0000 C CNN
-F 1 "100" V 9950 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9880 4500 50  0001 C CNN
-F 3 "~" H 9950 4500 50  0001 C CNN
-	1    9950 4500
-	0    -1   -1   0   
-$EndComp
 Connection ~ 9300 5900
 Wire Wire Line
 	9400 5900 9300 5900
@@ -1660,14 +1647,14 @@ F 3 "~" H 8100 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:C C?
 U 1 1 682AA55C
 P 10400 4450
 AR Path="/682AA55C" Ref="C?"  Part="1" 
 AR Path="/62C73AC4/682AA55C" Ref="C302"  Part="1" 
 F 0 "C302" H 10500 4500 50  0000 L CNN
 F 1 "10u" H 10500 4400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 10438 4300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10438 4300 50  0001 C CNN
 F 3 "~" H 10400 4450 50  0001 C CNN
 	1    10400 4450
 	1    0    0    -1  
@@ -1922,4 +1909,17 @@ Wire Bus Line
 	850  600  2900 600 
 Wire Bus Line
 	850  2000 3400 2000
+$Comp
+L Device:R R?
+U 1 1 63510156
+P 9950 4500
+AR Path="/63510156" Ref="R?"  Part="1" 
+AR Path="/62C73AC4/63510156" Ref="R371"  Part="1" 
+F 0 "R371" V 10050 4500 50  0000 C CNN
+F 1 "100" V 9950 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9880 4500 50  0001 C CNN
+F 3 "~" H 9950 4500 50  0001 C CNN
+	1    9950 4500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
