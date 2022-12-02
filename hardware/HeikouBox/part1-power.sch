@@ -43,8 +43,6 @@ F 3 "~" H 2900 1100 50  0001 C CNN
 	1    2900 1100
 	0    -1   -1   0   
 $EndComp
-Text HLabel 4500 1200 2    40   Output ~ 0
-3V3
 Wire Wire Line
 	1100 800  1200 800 
 $Comp
@@ -132,9 +130,6 @@ Wire Wire Line
 Connection ~ 2200 3000
 Wire Wire Line
 	2200 2600 2200 3000
-Connection ~ 1400 3000
-Wire Wire Line
-	1100 3000 1400 3000
 Wire Wire Line
 	4500 3000 4200 3000
 Wire Wire Line
@@ -177,15 +172,15 @@ Text HLabel 4500 2000 2    40   Output ~ 0
 $Comp
 L Device:LED D?
 U 1 1 67C00D9C
-P 3000 1350
+P 3000 1750
 AR Path="/67C00D9C" Ref="D?"  Part="1" 
 AR Path="/644CBAED/67C00D9C" Ref="D101"  Part="1" 
 AR Path="/729F86A7/67C00D9C" Ref="D?"  Part="1" 
-F 0 "D101" V 3039 1232 50  0000 R CNN
-F 1 "Power" V 2948 1232 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 1350 50  0001 C CNN
-F 3 "~" H 3000 1350 50  0001 C CNN
-	1    3000 1350
+F 0 "D101" V 3039 1632 50  0000 R CNN
+F 1 "Power" V 2948 1632 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3000 1750 50  0001 C CNN
+F 3 "~" H 3000 1750 50  0001 C CNN
+	1    3000 1750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -193,15 +188,15 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 67C00DA5
-P 3000 1750
+P 3000 1350
 AR Path="/67C00DA5" Ref="R?"  Part="1" 
 AR Path="/644CBAED/67C00DA5" Ref="R101"  Part="1" 
 AR Path="/729F86A7/67C00DA5" Ref="R?"  Part="1" 
-F 0 "R101" H 3050 1750 50  0000 L CNN
-F 1 "330R" V 3000 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2930 1750 50  0001 C CNN
-F 3 "~" H 3000 1750 50  0001 C CNN
-	1    3000 1750
+F 0 "R101" H 3050 1350 50  0000 L CNN
+F 1 "1K" V 3000 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2930 1350 50  0001 C CNN
+F 3 "~" H 3000 1350 50  0001 C CNN
+	1    3000 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -334,7 +329,6 @@ F 3 "~" H 1800 2450 50  0001 C CNN
 	1    1800 2450
 	1    0    0    -1  
 $EndComp
-Connection ~ 1400 2700
 Connection ~ 1800 2300
 Wire Wire Line
 	1800 2300 1900 2300
@@ -375,12 +369,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2600 3800 2600
 Connection ~ 3800 2600
-Wire Wire Line
-	3400 2300 3400 1200
 Connection ~ 3400 2300
-Connection ~ 3400 1200
-Wire Wire Line
-	3400 1200 4500 1200
 Connection ~ 4200 3000
 Wire Wire Line
 	2600 2000 2600 2300
@@ -396,25 +385,9 @@ Wire Wire Line
 Connection ~ 2600 800 
 Wire Wire Line
 	1600 3000 2200 3000
-Wire Wire Line
-	1400 3000 1600 3000
 Connection ~ 1600 3000
 Wire Wire Line
 	1600 2700 1400 2700
-$Comp
-L Device:C C?
-U 1 1 67C00DB6
-P 1600 2850
-AR Path="/67C00DB6" Ref="C?"  Part="1" 
-AR Path="/644CBAED/67C00DB6" Ref="C101"  Part="1" 
-AR Path="/729F86A7/67C00DB6" Ref="C?"  Part="1" 
-F 0 "C101" H 1715 2896 50  0000 L CNN
-F 1 "10u" H 1715 2805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1638 2700 50  0001 C CNN
-F 3 "~" H 1600 2850 50  0001 C CNN
-	1    1600 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 3000 3800 3000
 Wire Wire Line
@@ -426,12 +399,41 @@ Wire Wire Line
 $Comp
 L Device:D_Zener D103
 U 1 1 644C5C9C
-P 1400 2850
-F 0 "D103" V 1350 2800 50  0000 R CNN
-F 1 "5.6V" V 1450 2800 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 1400 2850 50  0001 C CNN
-F 3 "~" H 1400 2850 50  0001 C CNN
-	1    1400 2850
+P 1600 2850
+F 0 "D103" V 1550 2950 50  0000 L CNN
+F 1 "5.6V" V 1650 2950 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1600 2850 50  0001 C CNN
+F 3 "~" H 1600 2850 50  0001 C CNN
+	1    1600 2850
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1100 3000 1400 3000
+Connection ~ 1400 2700
+Connection ~ 1400 3000
+Wire Wire Line
+	1400 3000 1600 3000
+$Comp
+L Device:C C?
+U 1 1 67C00DB6
+P 1400 2850
+AR Path="/67C00DB6" Ref="C?"  Part="1" 
+AR Path="/644CBAED/67C00DB6" Ref="C101"  Part="1" 
+AR Path="/729F86A7/67C00DB6" Ref="C?"  Part="1" 
+F 0 "C101" H 1300 2900 50  0000 R CNN
+F 1 "10u" H 1300 2800 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1438 2700 50  0001 C CNN
+F 3 "~" H 1400 2850 50  0001 C CNN
+	1    1400 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2300 3400 1500
+Wire Wire Line
+	3400 1500 4500 1500
+Text HLabel 4500 1500 2    40   Output ~ 0
+3V3
+Connection ~ 3400 1500
+Wire Wire Line
+	3400 1500 3400 1200
 $EndSCHEMATC

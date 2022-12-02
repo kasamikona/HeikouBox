@@ -5,6 +5,5 @@ Core:
 - Hope I didn't screw it up
 
 Mainboard:
-- Replace handsolder footprints with non-handsolder
 - Reposition xbus header and add power and ground
 - Clock generator Si5351A-B-GT
