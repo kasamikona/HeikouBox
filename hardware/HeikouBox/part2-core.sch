@@ -233,14 +233,8 @@ Text Label 4400 2250 0    40   ~ 0
 jtag_TDI
 Text Label 4700 4350 2    40   ~ 0
 jtag_TCK
-Text HLabel 700  7350 0    40   Input ~ 0
-3V3
 Wire Wire Line
 	2700 4500 2700 5000
-Wire Wire Line
-	700  7650 800  7650
-Text HLabel 700  7650 0    40   Input ~ 0
-GND
 Wire Wire Line
 	3300 6800 2800 6800
 Wire Wire Line
@@ -418,35 +412,33 @@ jtag_TDI
 Text Notes 4000 4750 0    50   ~ 0
 NOTE: Config DATA[0] is on mdb4!, UART on mdb0/1
 Wire Bus Line
-	4450 700  4400 700 
-Text Notes 4400 650  0    50   ~ 0
-Sheet bus connections
-Text HLabel 4450 700  2    40   Output ~ 0
+	1550 7050 1500 7050
+Text HLabel 1500 7050 0    40   Output ~ 0
 mem_BA[0..1]
-Text HLabel 4450 800  2    40   Output ~ 0
+Text HLabel 1500 7150 0    40   Output ~ 0
 mem_A[0..11]
 Wire Bus Line
-	4450 800  4400 800 
-Text HLabel 4450 900  2    40   BiDi ~ 0
+	1550 7150 1500 7150
+Text HLabel 1500 7250 0    40   BiDi ~ 0
 mem_DQ[0..15]
 Wire Bus Line
-	4450 900  4400 900 
-Text HLabel 4450 1000 2    40   BiDi ~ 0
+	1550 7250 1500 7250
+Text HLabel 1500 7350 0    40   BiDi ~ 0
 mdb[0..7]
 Wire Bus Line
-	4450 1000 4400 1000
-Text HLabel 4450 1100 2    40   Output ~ 0
+	1550 7350 1500 7350
+Text HLabel 1500 7450 0    40   Output ~ 0
 av_RED[0..4]
-Text HLabel 4450 1200 2    40   Output ~ 0
+Text HLabel 1500 7550 0    40   Output ~ 0
 av_GRN[0..5]
-Text HLabel 4450 1300 2    40   Output ~ 0
+Text HLabel 1500 7650 0    40   Output ~ 0
 av_BLU[0..4]
 Wire Bus Line
-	4450 1100 4400 1100
+	1550 7450 1500 7450
 Wire Bus Line
-	4450 1200 4400 1200
+	1550 7550 1500 7550
 Wire Bus Line
-	4450 1300 4400 1300
+	1550 7650 1500 7650
 Wire Wire Line
 	2700 3900 3300 3900
 Wire Wire Line
@@ -548,10 +540,6 @@ Connection ~ 2700 3900
 Wire Wire Line
 	2800 5800 2700 5800
 Connection ~ 2800 5800
-Text Label 800  7350 0    40   ~ 8
-3V3
-Wire Wire Line
-	700  7350 800  7350
 Text Label 2700 5800 2    40   ~ 8
 3V3
 Wire Wire Line
@@ -559,8 +547,6 @@ Wire Wire Line
 Text Label 2700 6800 2    40   ~ 8
 GND
 Connection ~ 2800 6800
-Text Label 800  7650 0    40   ~ 8
-GND
 Wire Wire Line
 	2700 5000 2600 5000
 Connection ~ 2700 5000
@@ -586,18 +572,6 @@ Text Label 5350 1950 0    40   ~ 8
 3V3
 Wire Wire Line
 	5150 1950 5350 1950
-Text HLabel 700  7450 0    40   Input ~ 0
-2V5
-Text Label 800  7450 0    40   ~ 8
-2V5
-Wire Wire Line
-	700  7450 800  7450
-Text HLabel 700  7550 0    40   Input ~ 0
-1V2
-Text Label 800  7550 0    40   ~ 8
-1V2
-Wire Wire Line
-	700  7550 800  7550
 Text Label 4600 3350 2    40   ~ 0
 cfg_NSTAT
 Wire Wire Line
@@ -1161,4 +1135,28 @@ F 3 "~" H 3300 3050 50  0001 C CNN
 	1    3300 3050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	700  7550 800  7550
+Text Label 800  7550 0    40   ~ 8
+1V2
+Text HLabel 700  7550 0    40   Input ~ 0
+1V2
+Wire Wire Line
+	700  7450 800  7450
+Text Label 800  7450 0    40   ~ 8
+2V5
+Text HLabel 700  7450 0    40   Input ~ 0
+2V5
+Text Label 800  7650 0    40   ~ 8
+GND
+Wire Wire Line
+	700  7350 800  7350
+Text Label 800  7350 0    40   ~ 8
+3V3
+Text HLabel 700  7650 0    40   Input ~ 0
+GND
+Wire Wire Line
+	700  7650 800  7650
+Text HLabel 700  7350 0    40   Input ~ 0
+3V3
 $EndSCHEMATC

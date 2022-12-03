@@ -959,7 +959,7 @@ Text Label 6200 2600 2    40   ~ 0
 KEYBOARD_DAT
 Wire Wire Line
 	6200 2600 6500 2600
-Text Label 6200 3300 2    40   ~ 0
+Text Label 6200 3400 2    40   ~ 0
 KEYBOARD_CLK
 Wire Wire Line
 	6500 2300 6500 2200
@@ -967,38 +967,38 @@ Wire Wire Line
 	6500 2300 6800 2300
 Connection ~ 6500 2300
 Wire Wire Line
-	6500 3300 6200 3300
+	6500 3400 6200 3400
 Connection ~ 6500 2600
-Connection ~ 6500 3300
-Connection ~ 6500 3000
+Connection ~ 6500 3400
+Connection ~ 6500 3100
 Wire Wire Line
-	6500 3000 6500 2900
+	6500 3100 6500 3000
 Wire Wire Line
-	6500 3300 6600 3300
+	6500 3400 6600 3400
 Wire Wire Line
-	6500 3000 6800 3000
+	6500 3100 6800 3100
 $Comp
 L Device:R R?
 U 1 1 637DC681
-P 6500 3150
+P 6500 3250
 AR Path="/637DC681" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/637DC681" Ref="R527"  Part="1" 
-F 0 "R527" H 6550 3150 50  0000 L CNN
-F 1 "10K" V 6500 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6430 3150 50  0001 C CNN
-F 3 "~" H 6500 3150 50  0001 C CNN
-	1    6500 3150
+F 0 "R527" H 6550 3250 50  0000 L CNN
+F 1 "10K" V 6500 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6430 3250 50  0001 C CNN
+F 3 "~" H 6500 3250 50  0001 C CNN
+	1    6500 3250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Transistor_FET:BSS138 Q503
 U 1 1 637DC67B
-P 6800 3200
-F 0 "Q503" V 7050 3200 50  0000 C CNN
-F 1 "BSS138" V 7150 3200 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 3125 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 6800 3200 50  0001 L CNN
-	1    6800 3200
+P 6800 3300
+F 0 "Q503" V 7050 3300 50  0000 C CNN
+F 1 "BSS138" V 7150 3300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 3225 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 6800 3300 50  0001 L CNN
+	1    6800 3300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1034,23 +1034,23 @@ Wire Wire Line
 Wire Wire Line
 	7500 2800 7400 2800
 Wire Wire Line
-	7400 2800 7400 3300
-Connection ~ 7100 3300
+	7400 2800 7400 3400
+Connection ~ 7100 3400
 Wire Wire Line
-	7400 3300 7100 3300
+	7400 3400 7100 3400
 Wire Wire Line
-	7100 3300 7000 3300
+	7100 3400 7000 3400
 $Comp
 L Device:R R?
 U 1 1 637DC687
-P 7100 3150
+P 7100 3250
 AR Path="/637DC687" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/637DC687" Ref="R528"  Part="1" 
-F 0 "R528" H 7050 3150 50  0000 R CNN
-F 1 "10K" V 7100 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7030 3150 50  0001 C CNN
-F 3 "~" H 7100 3150 50  0001 C CNN
-	1    7100 3150
+F 0 "R528" H 7050 3250 50  0000 R CNN
+F 1 "10K" V 7100 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7030 3250 50  0001 C CNN
+F 3 "~" H 7100 3250 50  0001 C CNN
+	1    7100 3250
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1072,7 +1072,7 @@ F 3 "~" H 7100 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7100 3000 7100 2900
+	7100 3100 7100 3000
 Wire Wire Line
 	7100 2300 7100 2200
 $Comp
@@ -1082,7 +1082,7 @@ P 7650 2800
 AR Path="/63C0F973" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/63C0F973" Ref="R529"  Part="1" 
 F 0 "R529" V 7550 2800 50  0000 C CNN
-F 1 "1K" V 7650 2800 50  0000 C CNN
+F 1 "75R" V 7650 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7580 2800 50  0001 C CNN
 F 3 "~" H 7650 2800 50  0001 C CNN
 	1    7650 2800
@@ -1095,7 +1095,7 @@ P 7650 2600
 AR Path="/63BFC404" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/63BFC404" Ref="R524"  Part="1" 
 F 0 "R524" V 7750 2600 50  0000 C CNN
-F 1 "1K" V 7650 2600 50  0000 C CNN
+F 1 "75R" V 7650 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7580 2600 50  0001 C CNN
 F 3 "~" H 7650 2600 50  0001 C CNN
 	1    7650 2600
@@ -1199,17 +1199,13 @@ Text HLabel 750  7600 0    40   Input ~ 0
 3V3
 Text Label 850  7600 0    40   ~ 8
 3V3
-Text Label 6500 2200 1    40   ~ 8
-3V3
-Text Label 6500 2900 1    40   ~ 8
-3V3
 Wire Wire Line
 	850  7500 750  7500
 Text HLabel 750  7500 0    40   Input ~ 0
 5V
 Text Label 850  7500 0    40   ~ 8
 5V
-Text Label 7100 2900 1    40   ~ 8
+Text Label 7100 3000 1    40   ~ 8
 5V
 Text Label 7100 2200 1    40   ~ 8
 5V
@@ -1325,6 +1321,10 @@ F 3 "~" H 2550 1100 50  0001 C CNN
 $EndComp
 Text Notes 2750 2300 0    40   ~ 0
 to resistor fix
+Text Label 6500 3000 1    40   ~ 8
+3V3_HUB
+Text Label 6500 2200 1    40   ~ 8
+3V3_HUB
 Wire Bus Line
 	4700 6900 4700 7700
 $EndSCHEMATC
