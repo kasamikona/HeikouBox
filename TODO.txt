@@ -1,9 +1,6 @@
 Firmware:
-- Start making it
+- Boot file loader
+- Dumper loader and recording
 
 Core:
 - Hope I didn't screw it up
-
-Mainboard:
-- Reposition xbus header and add power and ground
-- Clock generator Si5351A-B-GT
