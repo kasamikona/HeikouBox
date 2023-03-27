@@ -45,22 +45,10 @@ F 3 "~" H 2900 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 800  1200 800 
-$Comp
-L Connector:Barrel_Jack_Switch J101
-U 1 1 63132537
-P 800 900
-F 0 "J101" H 800 1200 50  0000 C CNN
-F 1 "5V" H 800 1100 50  0000 C CNN
-F 2 "KSK_HeikouBox:BarrelJack_Multi" H 850 860 50  0001 C CNN
-F 3 "~" H 850 860 50  0001 C CNN
-	1    800  900 
-	1    0    0    -1  
-$EndComp
 Text HLabel 4500 1100 2    40   BiDi ~ 0
 VUSB
 Wire Wire Line
 	4500 1100 3400 1100
-NoConn ~ 1100 900 
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 62F3D058
@@ -436,4 +424,18 @@ F 3 "~" H 2600 2450 50  0001 C CNN
 	1    2600 2450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J101
+U 1 1 63132537
+P 800 900
+F 0 "J101" H 800 1200 50  0000 C CNN
+F 1 "5V" H 800 1100 50  0000 C CNN
+F 2 "KSK_HeikouBox:BarrelJack_Multi" H 850 860 50  0001 C CNN
+F 3 "~" H 850 860 50  0001 C CNN
+	1    800  900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 900  1100 1000
+Connection ~ 1100 1000
 $EndSCHEMATC
