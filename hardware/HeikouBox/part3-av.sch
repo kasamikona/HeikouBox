@@ -600,7 +600,7 @@ P 7400 1650
 AR Path="/6081298B" Ref="R?"  Part="1" 
 AR Path="/62C73AC4/6081298B" Ref="R312"  Part="1" 
 F 0 "R312" H 7250 1650 50  0000 C CNN
-F 1 "2K2" V 7400 1650 50  0000 C CNN
+F 1 "1K" V 7400 1650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7330 1650 50  0001 C CNN
 F 3 "~" H 7400 1650 50  0001 C CNN
 	1    7400 1650
@@ -609,24 +609,9 @@ $EndComp
 Wire Wire Line
 	6200 1500 7400 1500
 Wire Wire Line
-	6500 2500 6600 2500
+	6500 2600 6600 2600
 Wire Wire Line
-	7700 2500 7800 2500
-Wire Wire Line
-	6000 1900 6200 1900
-$Comp
-L Device:R R?
-U 1 1 6086A55B
-P 6500 2750
-AR Path="/6086A55B" Ref="R?"  Part="1" 
-AR Path="/62C73AC4/6086A55B" Ref="R309"  Part="1" 
-F 0 "R309" H 6350 2750 50  0000 C CNN
-F 1 "1K" V 6500 2750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6430 2750 50  0001 C CNN
-F 3 "~" H 6500 2750 50  0001 C CNN
-	1    6500 2750
-	-1   0    0    -1  
-$EndComp
+	7700 2600 7800 2600
 $Comp
 L Connector:DB15_Female_HighDensity_MountingHoles J?
 U 1 1 62CE6879
@@ -645,61 +630,53 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 6086A561
-P 6750 2500
+P 6750 2600
 AR Path="/6086A561" Ref="R?"  Part="1" 
 AR Path="/62C73AC4/6086A561" Ref="R307"  Part="1" 
-F 0 "R307" V 6650 2500 50  0000 C CNN
-F 1 "1K" V 6750 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6680 2500 50  0001 C CNN
-F 3 "~" H 6750 2500 50  0001 C CNN
-	1    6750 2500
+F 0 "R307" V 6650 2600 50  0000 C CNN
+F 1 "1K" V 6750 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6680 2600 50  0001 C CNN
+F 3 "~" H 6750 2600 50  0001 C CNN
+	1    6750 2600
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	8200 2500 8100 2500
-Text HLabel 8200 2500 2    40   Input ~ 0
-NVSYNC
 $Comp
 L Transistor_BJT:MMBT3904 Q?
 U 1 1 62CE65EF
-P 6300 2500
+P 6300 2600
 AR Path="/62CE65EF" Ref="Q?"  Part="1" 
 AR Path="/62C73AC4/62CE65EF" Ref="Q304"  Part="1" 
-F 0 "Q304" H 6300 2750 50  0000 R CNN
-F 1 "MMBT3904" H 6300 2650 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 2425 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6300 2500 50  0001 L CNN
-	1    6300 2500
+F 0 "Q304" H 6300 2450 50  0000 R CNN
+F 1 "MMBT3904" H 6300 2350 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6300 2600 50  0001 L CNN
+	1    6300 2600
 	-1   0    0    -1  
 $EndComp
-Text HLabel 7000 2500 2    40   Input ~ 0
-NHSYNC
-Wire Wire Line
-	7000 2500 6900 2500
 $Comp
 L Device:R R?
 U 1 1 62CE65B1
-P 7700 2750
+P 7950 2500
 AR Path="/62CE65B1" Ref="R?"  Part="1" 
 AR Path="/62C73AC4/62CE65B1" Ref="R310"  Part="1" 
-F 0 "R310" H 7550 2750 50  0000 C CNN
-F 1 "1K" V 7700 2750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7630 2750 50  0001 C CNN
-F 3 "~" H 7700 2750 50  0001 C CNN
-	1    7700 2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62CE65B7
-P 7950 2500
-AR Path="/62CE65B7" Ref="R?"  Part="1" 
-AR Path="/62C73AC4/62CE65B7" Ref="R308"  Part="1" 
-F 0 "R308" V 7850 2500 50  0000 C CNN
+F 0 "R310" V 8050 2500 50  0000 C CNN
 F 1 "1K" V 7950 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7880 2500 50  0001 C CNN
 F 3 "~" H 7950 2500 50  0001 C CNN
 	1    7950 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62CE65B7
+P 7950 2600
+AR Path="/62CE65B7" Ref="R?"  Part="1" 
+AR Path="/62C73AC4/62CE65B7" Ref="R308"  Part="1" 
+F 0 "R308" V 7850 2600 50  0000 C CNN
+F 1 "1K" V 7950 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7880 2600 50  0001 C CNN
+F 3 "~" H 7950 2600 50  0001 C CNN
+	1    7950 2600
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
@@ -796,26 +773,20 @@ $EndComp
 $Comp
 L Transistor_BJT:MMBT3904 Q?
 U 1 1 6086A569
-P 7500 2500
+P 7500 2600
 AR Path="/6086A569" Ref="Q?"  Part="1" 
 AR Path="/62C73AC4/6086A569" Ref="Q305"  Part="1" 
-F 0 "Q305" H 7500 2750 50  0000 R CNN
-F 1 "MMBT3904" H 7500 2650 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7700 2425 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7500 2500 50  0001 L CNN
-	1    7500 2500
+F 0 "Q305" H 7500 2450 50  0000 R CNN
+F 1 "MMBT3904" H 7500 2350 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7700 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7500 2600 50  0001 L CNN
+	1    7500 2600
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 1900 6200 1800
-Wire Wire Line
-	6000 2100 7400 2100
 Text HLabel 700  5700 0    40   Input ~ 0
 GND
 Wire Wire Line
 	7400 1400 7400 1500
-Wire Wire Line
-	7400 1800 7400 2100
 $Comp
 L Device:R R?
 U 1 1 6086A577
@@ -823,7 +794,7 @@ P 6200 1650
 AR Path="/6086A577" Ref="R?"  Part="1" 
 AR Path="/62C73AC4/6086A577" Ref="R311"  Part="1" 
 F 0 "R311" H 6050 1650 50  0000 C CNN
-F 1 "2K2" V 6200 1650 50  0000 C CNN
+F 1 "1K" V 6200 1650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6130 1650 50  0001 C CNN
 F 3 "~" H 6200 1650 50  0001 C CNN
 	1    6200 1650
@@ -1416,28 +1387,12 @@ Wire Wire Line
 Wire Wire Line
 	5000 1900 5000 4300
 Wire Wire Line
-	6200 2700 6200 2900
+	6200 2800 6200 3000
+Connection ~ 6200 3000
 Wire Wire Line
-	6500 2600 6500 2500
-Connection ~ 6500 2500
+	6200 3000 6200 3100
 Wire Wire Line
-	6500 2900 6200 2900
-Connection ~ 6200 2900
-Wire Wire Line
-	6200 2900 6200 3000
-Wire Wire Line
-	7700 2600 7700 2500
-Wire Wire Line
-	7400 2700 7400 2900
-Connection ~ 7700 2500
-Wire Wire Line
-	7700 2900 7400 2900
-Wire Wire Line
-	6200 2300 6200 1900
-Connection ~ 6200 1900
-Wire Wire Line
-	7400 2100 7400 2300
-Connection ~ 7400 2100
+	7400 2800 7400 3000
 Text Notes 5600 3600 0    50   ~ 0
 Bulk capacitor\nfor VGA buffers
 Connection ~ 7400 1500
@@ -1847,16 +1802,12 @@ Text Label 3900 3400 3    40   ~ 8
 GND
 Text Label 3900 4800 3    40   ~ 8
 GND
-Text Label 6200 3000 3    40   ~ 8
+Text Label 6200 3100 3    40   ~ 8
 GND
 Wire Wire Line
 	5700 2600 5700 2700
 Text Label 5700 2700 3    40   ~ 8
 GND
-Wire Wire Line
-	7400 2900 6500 2900
-Connection ~ 6500 2900
-Connection ~ 7400 2900
 Connection ~ 5700 2600
 Text Label 8100 6300 3    40   ~ 8
 GND
@@ -1942,10 +1893,87 @@ $EndComp
 Connection ~ 9300 5100
 Wire Wire Line
 	9300 5100 9300 5400
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 642F41AE
+P 7600 2300
+AR Path="/646E3FCF/642F41AE" Ref="JP?"  Part="1" 
+AR Path="/62C73AC4/642F41AE" Ref="JP302"  Part="1" 
+F 0 "JP302" H 7600 2413 50  0000 C CNN
+F 1 "HS" H 7600 2504 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7600 2300 50  0001 C CNN
+F 3 "~" H 7600 2300 50  0001 C CNN
+	1    7600 2300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7400 1800 7400 2300
+Wire Wire Line
+	6200 3000 7400 3000
+Wire Wire Line
+	6000 2100 7600 2100
+Wire Wire Line
+	8100 2500 8100 2600
+Connection ~ 8100 2600
+Connection ~ 6900 2600
+Wire Wire Line
+	6200 1800 6200 2300
+Wire Wire Line
+	6400 1900 6000 1900
+Connection ~ 6200 2300
+Wire Wire Line
+	6200 2300 6200 2400
+Wire Wire Line
+	6400 1900 6400 2150
+Wire Wire Line
+	7800 2300 7800 2500
+Connection ~ 7400 2300
+Wire Wire Line
+	7400 2300 7400 2400
+Wire Wire Line
+	7600 2100 7600 2150
+Wire Wire Line
+	6600 2300 6600 2500
+Wire Wire Line
+	6900 2500 6900 2600
+$Comp
+L Device:R R?
+U 1 1 6086A55B
+P 6750 2500
+AR Path="/6086A55B" Ref="R?"  Part="1" 
+AR Path="/62C73AC4/6086A55B" Ref="R309"  Part="1" 
+F 0 "R309" V 6850 2500 50  0000 C CNN
+F 1 "1K" V 6750 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6680 2500 50  0001 C CNN
+F 3 "~" H 6750 2500 50  0001 C CNN
+	1    6750 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP?
+U 1 1 64392E8C
+P 6400 2300
+AR Path="/646E3FCF/64392E8C" Ref="JP?"  Part="1" 
+AR Path="/62C73AC4/64392E8C" Ref="JP301"  Part="1" 
+F 0 "JP301" H 6400 2400 50  0000 C CNN
+F 1 "HS" H 6400 2500 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6400 2300 50  0001 C CNN
+F 3 "~" H 6400 2300 50  0001 C CNN
+	1    6400 2300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8200 2600 8100 2600
+Text HLabel 8200 2600 2    40   Input ~ 0
+NVSYNC
+Wire Bus Line
+	850  2000 3400 2000
 Wire Bus Line
 	850  3400 2900 3400
 Wire Bus Line
 	850  600  2900 600 
-Wire Bus Line
-	850  2000 3400 2000
+Wire Wire Line
+	7000 2600 6900 2600
+Text HLabel 7000 2600 2    40   Input ~ 0
+NHSYNC
 $EndSCHEMATC
