@@ -43,19 +43,6 @@ Entry Wire Line
 	900  600  1000 700 
 Wire Wire Line
 	1000 700  1000 800 
-$Comp
-L Transistor_BJT:MMBT3904 Q?
-U 1 1 610B6F8F
-P 4200 4000
-AR Path="/610B6F8F" Ref="Q?"  Part="1" 
-AR Path="/62C73AC4/610B6F8F" Ref="Q303"  Part="1" 
-F 0 "Q303" H 4400 4050 50  0000 L CNN
-F 1 "MMBT3904" H 4400 3950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 3925 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4200 4000 50  0001 L CNN
-	1    4200 4000
-	1    0    0    -1  
-$EndComp
 Text HLabel 850  3400 0    40   Input ~ 0
 BLU[0..4]
 Text Label 1000 3500 0    40   ~ 0
@@ -783,7 +770,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7500 2600 50  000
 	1    7500 2600
 	-1   0    0    -1  
 $EndComp
-Text HLabel 700  5700 0    40   Input ~ 0
+Text HLabel 700  7700 0    40   Input ~ 0
 GND
 Wire Wire Line
 	7400 1400 7400 1500
@@ -806,7 +793,7 @@ Connection ~ 4300 2300
 Wire Wire Line
 	5500 4000 5500 3900
 Wire Wire Line
-	700  5700 800  5700
+	700  7700 800  7700
 Connection ~ 3900 1600
 Connection ~ 3900 4000
 Wire Wire Line
@@ -817,7 +804,7 @@ U 1 1 6328C84B
 P 3900 4150
 AR Path="/6328C84B" Ref="R?"  Part="1" 
 AR Path="/62C73AC4/6328C84B" Ref="R306"  Part="1" 
-F 0 "R306" V 4000 4150 50  0000 C CNN
+F 0 "R306" H 3950 4150 50  0000 L CNN
 F 1 "1K" V 3900 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3830 4150 50  0001 C CNN
 F 3 "~" H 3900 4150 50  0001 C CNN
@@ -863,7 +850,7 @@ Wire Wire Line
 	4300 900  4300 1000
 Wire Wire Line
 	3900 900  4300 900 
-Text HLabel 700  5600 0    40   Input ~ 0
+Text HLabel 700  7600 0    40   Input ~ 0
 3V3
 Wire Wire Line
 	3900 2600 4000 2600
@@ -1402,7 +1389,7 @@ Wire Wire Line
 	5400 1900 5000 1900
 Wire Wire Line
 	4700 1500 5400 1500
-Text Notes 950  4950 0    50   ~ 0
+Text Notes 550  4800 0    50   ~ 0
 DAC resistors should be same batch for value matching
 $Comp
 L Device:R R?
@@ -1505,25 +1492,12 @@ Wire Wire Line
 	7700 5600 7800 5600
 $Comp
 L Device:R R?
-U 1 1 62F010C1
-P 7950 5600
-AR Path="/62F010C1" Ref="R?"  Part="1" 
-AR Path="/62C73AC4/62F010C1" Ref="R314"  Part="1" 
-F 0 "R314" V 8050 5600 50  0000 C CNN
-F 1 "1K" V 7950 5600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7880 5600 50  0001 C CNN
-F 3 "~" H 7950 5600 50  0001 C CNN
-	1    7950 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 62F01086
 P 8350 5600
 AR Path="/62F01086" Ref="R?"  Part="1" 
 AR Path="/62C73AC4/62F01086" Ref="R316"  Part="1" 
 F 0 "R316" V 8450 5600 50  0000 C CNN
-F 1 "10K" V 8350 5600 50  0000 C CNN
+F 1 "1K" V 8350 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8280 5600 50  0001 C CNN
 F 3 "~" H 8350 5600 50  0001 C CNN
 	1    8350 5600
@@ -1558,25 +1532,12 @@ Wire Wire Line
 	7700 4200 7800 4200
 $Comp
 L Device:R R?
-U 1 1 60742614
-P 7950 4200
-AR Path="/60742614" Ref="R?"  Part="1" 
-AR Path="/62C73AC4/60742614" Ref="R313"  Part="1" 
-F 0 "R313" V 8050 4200 50  0000 C CNN
-F 1 "1K" V 7950 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7880 4200 50  0001 C CNN
-F 3 "~" H 7950 4200 50  0001 C CNN
-	1    7950 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 6074260E
 P 8350 4200
 AR Path="/6074260E" Ref="R?"  Part="1" 
 AR Path="/62C73AC4/6074260E" Ref="R315"  Part="1" 
 F 0 "R315" V 8450 4200 50  0000 C CNN
-F 1 "10K" V 8350 4200 50  0000 C CNN
+F 1 "1K" V 8350 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8280 4200 50  0001 C CNN
 F 3 "~" H 8350 4200 50  0001 C CNN
 	1    8350 4200
@@ -1778,7 +1739,7 @@ $EndComp
 Wire Wire Line
 	3500 2600 3900 2600
 Connection ~ 3500 2600
-Text Label 800  5700 0    40   ~ 8
+Text Label 800  7700 0    40   ~ 8
 GND
 Wire Wire Line
 	1000 4400 1000 4500
@@ -1821,10 +1782,10 @@ Text Label 4300 800  1    40   ~ 8
 3V3
 Wire Wire Line
 	4300 800  4300 900 
-Text Label 800  5600 0    40   ~ 8
+Text Label 800  7600 0    40   ~ 8
 3V3
 Wire Wire Line
-	700  5600 800  5600
+	700  7600 800  7600
 Text Label 5500 3500 1    40   ~ 8
 3V3
 Text Label 4300 3600 1    40   ~ 8
@@ -1966,14 +1927,55 @@ Wire Wire Line
 	8200 2600 8100 2600
 Text HLabel 8200 2600 2    40   Input ~ 0
 NVSYNC
-Wire Bus Line
-	850  2000 3400 2000
-Wire Bus Line
-	850  3400 2900 3400
-Wire Bus Line
-	850  600  2900 600 
 Wire Wire Line
 	7000 2600 6900 2600
 Text HLabel 7000 2600 2    40   Input ~ 0
 NHSYNC
+Text Notes 4150 4750 0    50   ~ 0
+Levels OK with potentiometer centered\ncan place 470R 0603 instead\nor stack 2x 1K 0603\nor short and use R304,5,6=1K5
+$Comp
+L Transistor_BJT:MMBT3904 Q?
+U 1 1 610B6F8F
+P 4200 4000
+AR Path="/610B6F8F" Ref="Q?"  Part="1" 
+AR Path="/62C73AC4/610B6F8F" Ref="Q303"  Part="1" 
+F 0 "Q303" H 4400 4050 50  0000 L CNN
+F 1 "MMBT3904" H 4400 3950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 3925 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4200 4000 50  0001 L CNN
+	1    4200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62F010C1
+P 7950 5600
+AR Path="/62F010C1" Ref="R?"  Part="1" 
+AR Path="/62C73AC4/62F010C1" Ref="R314"  Part="1" 
+F 0 "R314" V 8050 5600 50  0000 C CNN
+F 1 "2K2" V 7950 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7880 5600 50  0001 C CNN
+F 3 "~" H 7950 5600 50  0001 C CNN
+	1    7950 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60742614
+P 7950 4200
+AR Path="/60742614" Ref="R?"  Part="1" 
+AR Path="/62C73AC4/60742614" Ref="R313"  Part="1" 
+F 0 "R313" V 8050 4200 50  0000 C CNN
+F 1 "2K2" V 7950 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7880 4200 50  0001 C CNN
+F 3 "~" H 7950 4200 50  0001 C CNN
+	1    7950 4200
+	0    -1   -1   0   
+$EndComp
+Wire Bus Line
+	850  3400 2900 3400
+Wire Bus Line
+	850  600  2900 600 
+Wire Bus Line
+	850  2000 3400 2000
 $EndSCHEMATC
