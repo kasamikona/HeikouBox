@@ -2,7 +2,7 @@
 // Board: "Generic STM32F1 series"
 // Board part number: "BluePill F103C8"
 // U(S)ART support: "Enabled (no generic 'Serial')"
-// USB support (if available): "CDC (no generic 'Serial')"
+// USB support (if available): "CDC (generic 'Serial' supersede U(S)ART)"
 // USB speed (if available): "Low/Full Speed"
 // Upload method:
 // - For SWD with ST-link: "STM32CubeProgrammer (SWD)"
@@ -19,6 +19,8 @@
 // MISO will read CONF_DONE signal
 SPIClass SPI_2(MDB4_CFG_DATA,CFG_DONE,CFG_DCLK);
 
+HardwareSerial SerialMDB(MDB1_TX, MDB0_RX);
+
 void setup() {
   File bootfile;
   
@@ -29,17 +31,13 @@ void setup() {
   pinMode(CFG_NSTATUS, INPUT);
   pinMode(CFG_NCONFIG, OUTPUT);
   digitalWrite(CFG_NCONFIG, HIGH);
-  pinMode(CFG_DCLK, OUTPUT);
-  digitalWrite(CFG_NCONFIG, LOW);
   pinMode(CFG_DONE, INPUT);
-  pinMode(MDB4_CFG_DATA, OUTPUT);
-
-  pinMode(MDB0_RX, INPUT_PULLUP);
-  
-  delay(10); // Let pins stabilize
   
   Serial.begin();
-  //while (!Serial) {}
+  
+  delay(2000); // Let pins and serial stabilize
+
+  SerialMDB.begin(9600);
 
   while(!digitalRead(PWR_DET)) {
     Serial.println("No power detected! Please connect 5VDC.");
@@ -68,6 +66,12 @@ void setup() {
 }
 
 void loop() {
+  while(SerialMDB.available()) {
+    Serial.write(SerialMDB.read());
+  }
+  while(Serial.available()) {
+    SerialMDB.write(Serial.read());
+  }
 }
 
 void doReconfigure(File f) {
@@ -77,13 +81,14 @@ void doReconfigure(File f) {
   Serial.print(" (");
   Serial.print(f.size());
   Serial.println(" bytes)");
-  progMsgInterval = f.size()/50;
+  progMsgInterval = f.size()/20;
   progMsgCount = progMsgInterval;
   progCount = 0;
 
   digitalWrite(ONBOARD_LED, HIGH);
 
   //delayMicroseconds(1);
+  pinMode(CFG_NCONFIG, OUTPUT);
   digitalWrite(CFG_NCONFIG, LOW);
   // Wait for nSTATUS to be low
   while(digitalRead(CFG_NSTATUS)) {}
@@ -92,16 +97,12 @@ void doReconfigure(File f) {
   digitalWrite(CFG_NCONFIG, HIGH);
   // Wait for nSTATUS to be high
   while(!digitalRead(CFG_NSTATUS)) {}
-  
-  Serial.println("Device ready to receive");
 
-  SPI_2.begin();
   SPI_2.beginTransaction(SPISettings(400000000, LSBFIRST, SPI_MODE0));
 
   uint8_t buf[256];
   int bufCnt;
   while (f.available()) {
-    //shiftOut(MDB4_CFG_DATA, CFG_DCLK, LSBFIRST, f.read());
     bufCnt = f.read(&buf, 256);
     SPI_2.transfer(&buf, bufCnt);
     progMsgCount -= bufCnt;
@@ -116,7 +117,11 @@ void doReconfigure(File f) {
   uint8_t doneStatus = SPI_2.transfer(0) & 0x80 ;
   
   SPI_2.endTransaction();
-  SPI_2.end();
+  
+  pinMode(MDB4_CFG_DATA, INPUT); // allow the serial to come in on MDB4, bridged to MDB1
+  while(SerialMDB.available()) SerialMDB.read(); // flush serial input
+  
+  //pinMode(CFG_NCONFIG, INPUT_PULLUP);
   
   // Check CONF_DONE went high
   if(!doneStatus) {
