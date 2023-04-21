@@ -37,7 +37,7 @@ void setup() {
   
   delay(2000); // Let pins and serial stabilize
 
-  SerialMDB.begin(9600);
+  SerialMDB.begin(115200);
 
   while(!digitalRead(PWR_DET)) {
     Serial.println("No power detected! Please connect 5VDC.");
@@ -129,5 +129,6 @@ void doReconfigure(File f) {
     return;
   }
   
+  digitalWrite(ONBOARD_LED, LOW);
   Serial.println("Done!");
 }
