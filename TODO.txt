@@ -1,6 +1,0 @@
-Firmware:
-- Boot file loader
-- Dumper loader and recording
-
-Core:
-- Hope I didn't screw it up
