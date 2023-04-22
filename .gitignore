@@ -3,3 +3,8 @@
 *.bak
 _autosave*
 *.bck
+
+# Dump files
+/*.bin
+/*.png
+/*.wav
