@@ -1,4 +1,4 @@
-import serial, struct, time
+import serial, struct, time, sys, os
 
 def dump(ser, addr, count):
 	request = struct.pack(">LH", addr&0xFFFFFF, count)[1:]
@@ -36,16 +36,19 @@ def dump(ser, addr, count):
 	
 	return response
 
-ser = serial.Serial("COM4",timeout=2,baudrate=115200)
-try:
-	with open("dump.bin", "wb") as dumpfile:
-		for addr in range(0x000000, 0x0FFFFF, 4096):
-			print("Read chunk {0:#08x}".format(addr))
-			data = dump(ser, addr, 4096)
-			if data == None:
-				break
-			dumpfile.write(data)
-except KeyboardInterrupt:
-	pass
-	
-ser.close()
+if __name__ == "__main__":
+	if len(sys.argv) == 3:
+		ser = serial.Serial(sys.argv[1],timeout=2,baudrate=115200)
+		try:
+			with open(sys.argv[2], "wb") as dumpfile:
+				for addr in range(0x000000, 0x0FFFFF, 4096):
+					print("Read chunk {0:#08x}".format(addr))
+					data = dump(ser, addr, 4096)
+					if data == None:
+						break
+					dumpfile.write(data)
+		except KeyboardInterrupt:
+			pass
+		ser.close()
+	else:
+		print(sys.argv[0], "<port>", "<output.bin>")
