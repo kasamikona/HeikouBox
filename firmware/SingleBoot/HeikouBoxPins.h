@@ -7,9 +7,9 @@
 #define CFG_DCLK PB13
 #define CFG_DONE PB14
 #define SD_SS PA4
-#define SD_SCK PA5
-#define SD_MISO PA6
-#define SD_MOSI PA7
+//#define SD_SCK PA5
+//#define SD_MISO PA6
+//#define SD_MOSI PA7
 #define SD_DET PA8
 #define BUTTON_L PB0
 #define BUTTON_R PB1

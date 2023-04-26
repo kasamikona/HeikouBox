@@ -50,7 +50,7 @@ void setup() {
   }
   
   Serial.print("Initializing SD card... ");
-  if (!SD.begin(SD_SS)) {
+  if (!SD.begin(36000000, SD_SS)) { // 36MHz working with tested cards
     Serial.println("failed.");
     return;
   }
@@ -75,7 +75,8 @@ void loop() {
 }
 
 void doReconfigure(File f) {
-  int progMsgInterval, progMsgCount, progCount; 
+  int progMsgInterval, progMsgCount, progCount;
+  int cfgtime;
   Serial.print("Configuring with ");
   Serial.print(f.name());
   Serial.print(" (");
@@ -98,12 +99,13 @@ void doReconfigure(File f) {
   // Wait for nSTATUS to be high
   while(!digitalRead(CFG_NSTATUS)) {}
 
-  SPI_2.beginTransaction(SPISettings(400000000, LSBFIRST, SPI_MODE0));
+  cfgtime = millis();
+  SPI_2.beginTransaction(SPISettings(100000000, LSBFIRST, SPI_MODE0)); // Go for max speed
 
-  uint8_t buf[256];
+  uint8_t buf[512];
   int bufCnt;
   while (f.available()) {
-    bufCnt = f.read(&buf, 256);
+    bufCnt = f.read(&buf, 512);
     SPI_2.transfer(&buf, bufCnt);
     progMsgCount -= bufCnt;
     if(progMsgCount <= 0) {
@@ -117,6 +119,7 @@ void doReconfigure(File f) {
   uint8_t doneStatus = SPI_2.transfer(0) & 0x80 ;
   
   SPI_2.endTransaction();
+  cfgtime = millis()-cfgtime;
   
   pinMode(MDB4_CFG_DATA, INPUT); // allow the serial to come in on MDB4, bridged to MDB1
   while(SerialMDB.available()) SerialMDB.read(); // flush serial input
@@ -130,5 +133,7 @@ void doReconfigure(File f) {
   }
   
   digitalWrite(ONBOARD_LED, LOW);
-  Serial.println("Done!");
+  Serial.print("Done! (took ");
+  Serial.print(cfgtime);
+  Serial.println("ms)");
 }
