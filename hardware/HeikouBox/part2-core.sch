@@ -13,98 +13,98 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 4600 2950 0    40   Input ~ 0
+Text HLabel 4800 2850 2    40   Input ~ 0
 cfg_DCLK
 $Comp
 L Device:R R?
 U 1 1 67C57990
-P 4950 3100
+P 5150 3100
 AR Path="/67C57990" Ref="R?"  Part="1" 
 AR Path="/71351D1D/67C57990" Ref="R205"  Part="1" 
 AR Path="/729F86A7/67C57990" Ref="R?"  Part="1" 
-F 0 "R205" V 4850 3100 50  0000 C CNN
-F 1 "10K" V 4950 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 3100 50  0001 C CNN
-F 3 "~" H 4950 3100 50  0001 C CNN
-	1    4950 3100
+F 0 "R205" V 5100 2900 50  0000 C CNN
+F 1 "10K" V 5150 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5080 3100 50  0001 C CNN
+F 3 "~" H 5150 3100 50  0001 C CNN
+	1    5150 3100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 67C57996
-P 4950 3350
+P 5150 3350
 AR Path="/67C57996" Ref="R?"  Part="1" 
 AR Path="/71351D1D/67C57996" Ref="R206"  Part="1" 
 AR Path="/729F86A7/67C57996" Ref="R?"  Part="1" 
-F 0 "R206" V 4850 3350 50  0000 C CNN
-F 1 "10K" V 4950 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 3350 50  0001 C CNN
-F 3 "~" H 4950 3350 50  0001 C CNN
-	1    4950 3350
+F 0 "R206" V 5100 3150 50  0000 C CNN
+F 1 "10K" V 5150 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5080 3350 50  0001 C CNN
+F 3 "~" H 5150 3350 50  0001 C CNN
+	1    5150 3350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 67C5799C
-P 4950 3600
+P 5150 3600
 AR Path="/67C5799C" Ref="R?"  Part="1" 
 AR Path="/71351D1D/67C5799C" Ref="R207"  Part="1" 
 AR Path="/729F86A7/67C5799C" Ref="R?"  Part="1" 
-F 0 "R207" V 4850 3600 50  0000 C CNN
-F 1 "10K" V 4950 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 3600 50  0001 C CNN
-F 3 "~" H 4950 3600 50  0001 C CNN
-	1    4950 3600
+F 0 "R207" V 5100 3400 50  0000 C CNN
+F 1 "10K" V 5150 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5080 3600 50  0001 C CNN
+F 3 "~" H 5150 3600 50  0001 C CNN
+	1    5150 3600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 67C579A2
-P 4950 3850
+P 5150 3850
 AR Path="/67C579A2" Ref="R?"  Part="1" 
 AR Path="/71351D1D/67C579A2" Ref="R208"  Part="1" 
 AR Path="/729F86A7/67C579A2" Ref="R?"  Part="1" 
-F 0 "R208" V 4850 3850 50  0000 C CNN
-F 1 "10K" V 4950 3850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 3850 50  0001 C CNN
-F 3 "~" H 4950 3850 50  0001 C CNN
-	1    4950 3850
+F 0 "R208" V 5100 3650 50  0000 C CNN
+F 1 "10K" V 5150 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5080 3850 50  0001 C CNN
+F 3 "~" H 5150 3850 50  0001 C CNN
+	1    5150 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 67C579A8
-P 4950 4100
+P 5150 4100
 AR Path="/67C579A8" Ref="R?"  Part="1" 
 AR Path="/71351D1D/67C579A8" Ref="R209"  Part="1" 
 AR Path="/729F86A7/67C579A8" Ref="R?"  Part="1" 
-F 0 "R209" V 4850 4100 50  0000 C CNN
-F 1 "10K" V 4950 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 4100 50  0001 C CNN
-F 3 "~" H 4950 4100 50  0001 C CNN
-	1    4950 4100
+F 0 "R209" V 5100 3900 50  0000 C CNN
+F 1 "10K" V 5150 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5080 4100 50  0001 C CNN
+F 3 "~" H 5150 4100 50  0001 C CNN
+	1    5150 4100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 67C579AE
-P 4950 4350
+P 5150 4350
 AR Path="/67C579AE" Ref="R?"  Part="1" 
 AR Path="/71351D1D/67C579AE" Ref="R210"  Part="1" 
 AR Path="/729F86A7/67C579AE" Ref="R?"  Part="1" 
-F 0 "R210" V 4850 4350 50  0000 C CNN
-F 1 "10K" V 4950 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 4350 50  0001 C CNN
-F 3 "~" H 4950 4350 50  0001 C CNN
-	1    4950 4350
+F 0 "R210" V 5100 4150 50  0000 C CNN
+F 1 "10K" V 5150 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5080 4350 50  0001 C CNN
+F 3 "~" H 5150 4350 50  0001 C CNN
+	1    5150 4350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4700 3100 4800 3100
+	4700 3100 5000 3100
 Wire Wire Line
-	4700 3350 4800 3350
+	4700 3350 5000 3350
 Wire Wire Line
-	4700 4350 4800 4350
+	4700 4350 5000 4350
 Text Notes 4700 2450 0    100  ~ 0
 JTAG
 Wire Wire Line
@@ -200,27 +200,27 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3300 630
 $EndComp
 Text Notes 3150 1400 2    100  ~ 0
 14M
-Text HLabel 4600 3700 0    40   Output ~ 0
+Text HLabel 4800 3700 2    40   Output ~ 0
 cfg_DONE
 Wire Wire Line
-	4700 3850 4800 3850
+	4700 3850 5000 3850
 Wire Wire Line
-	4700 4100 4800 4100
-Text HLabel 4600 3450 0    40   Output ~ 0
+	4700 4100 5000 4100
+Text HLabel 4800 3450 2    40   Output ~ 0
 cfg_NSTAT
-Text HLabel 4600 3200 0    40   Input ~ 0
+Text HLabel 4800 3200 2    40   Input ~ 0
 cfg_NCFG
 Wire Wire Line
-	5100 4100 5100 3850
-Connection ~ 5100 3350
+	5300 4100 5300 3850
+Connection ~ 5300 3350
 Wire Wire Line
-	5100 3350 5100 3100
-Connection ~ 5100 3600
+	5300 3350 5300 3100
+Connection ~ 5300 3600
 Wire Wire Line
-	5100 3600 5100 3350
-Connection ~ 5100 3850
+	5300 3600 5300 3350
+Connection ~ 5300 3850
 Wire Wire Line
-	5100 3850 5100 3600
+	5300 3850 5300 3600
 Text Label 4400 1850 0    40   ~ 0
 jtag_TCK
 Text Label 4400 1950 0    40   ~ 0
@@ -412,33 +412,29 @@ jtag_TDI
 Text Notes 4000 4750 0    50   ~ 0
 NOTE: Config DATA[0] is on mdb4!, UART on mdb0/1
 Wire Bus Line
-	1550 7050 1500 7050
-Text HLabel 1500 7050 0    40   Output ~ 0
+	1600 7200 1550 7200
+Text HLabel 1550 7200 0    40   Output ~ 0
 mem_BA[0..1]
-Text HLabel 1500 7150 0    40   Output ~ 0
+Text HLabel 1550 7300 0    40   Output ~ 0
 mem_A[0..11]
 Wire Bus Line
-	1550 7150 1500 7150
-Text HLabel 1500 7250 0    40   BiDi ~ 0
+	1600 7300 1550 7300
+Text HLabel 1550 7400 0    40   BiDi ~ 0
 mem_DQ[0..15]
 Wire Bus Line
-	1550 7250 1500 7250
-Text HLabel 1500 7350 0    40   BiDi ~ 0
-mdb[0..7]
-Wire Bus Line
-	1550 7350 1500 7350
-Text HLabel 1500 7450 0    40   Output ~ 0
+	1600 7400 1550 7400
+Text HLabel 1550 7500 0    40   Output ~ 0
 av_RED[0..4]
-Text HLabel 1500 7550 0    40   Output ~ 0
+Text HLabel 1550 7600 0    40   Output ~ 0
 av_GRN[0..5]
-Text HLabel 1500 7650 0    40   Output ~ 0
+Text HLabel 1550 7700 0    40   Output ~ 0
 av_BLU[0..4]
 Wire Bus Line
-	1550 7450 1500 7450
+	1600 7500 1550 7500
 Wire Bus Line
-	1550 7550 1500 7550
+	1600 7600 1550 7600
 Wire Bus Line
-	1550 7650 1500 7650
+	1600 7700 1550 7700
 Wire Wire Line
 	2700 3900 3300 3900
 Wire Wire Line
@@ -551,14 +547,14 @@ Wire Wire Line
 	2700 5000 2600 5000
 Connection ~ 2700 5000
 Wire Wire Line
-	5100 4350 5200 4350
-Text Label 5200 4350 0    40   ~ 8
+	5300 4350 5400 4350
+Text Label 5400 4350 0    40   ~ 8
 GND
 Wire Wire Line
-	5100 3100 5200 3100
-Text Label 5200 3100 0    40   ~ 8
+	5300 3100 5400 3100
+Text Label 5400 3100 0    40   ~ 8
 3V3
-Connection ~ 5100 3100
+Connection ~ 5300 3100
 Wire Wire Line
 	2600 3900 2700 3900
 Wire Wire Line
@@ -577,36 +573,27 @@ cfg_NSTAT
 Wire Wire Line
 	4700 3350 4700 3450
 Wire Wire Line
-	4700 3450 4600 3450
+	4700 3450 4800 3450
 Wire Wire Line
 	4600 3350 4700 3350
-Connection ~ 4700 3350
 Text Label 4600 3600 2    40   ~ 0
 cfg_DONE
 Wire Wire Line
 	4600 3600 4700 3600
 Wire Wire Line
-	4600 3700 4700 3700
+	4800 3700 4700 3700
 Wire Wire Line
 	4700 3700 4700 3600
-Connection ~ 4700 3600
 Wire Wire Line
-	4700 3600 4800 3600
+	4700 3600 5000 3600
 Wire Wire Line
-	4600 3200 4700 3200
+	4800 3200 4700 3200
 Wire Wire Line
 	4700 3200 4700 3100
 Wire Wire Line
 	4600 3100 4700 3100
-Connection ~ 4700 3100
 Text Label 4600 3100 2    40   ~ 0
 cfg_NCFG
-Wire Wire Line
-	4600 2950 4700 2950
-Wire Wire Line
-	4700 2950 4700 2850
-Wire Wire Line
-	4700 2850 4600 2850
 Text Label 4600 2850 2    40   ~ 0
 cfg_DCLK
 Wire Wire Line
@@ -1136,27 +1123,74 @@ F 3 "~" H 3300 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	700  7550 800  7550
-Text Label 800  7550 0    40   ~ 8
+	700  7600 800  7600
+Text Label 800  7600 0    40   ~ 8
 1V2
-Text HLabel 700  7550 0    40   Input ~ 0
+Text HLabel 700  7600 0    40   Input ~ 0
 1V2
 Wire Wire Line
-	700  7450 800  7450
-Text Label 800  7450 0    40   ~ 8
+	700  7500 800  7500
+Text Label 800  7500 0    40   ~ 8
 2V5
-Text HLabel 700  7450 0    40   Input ~ 0
+Text HLabel 700  7500 0    40   Input ~ 0
 2V5
-Text Label 800  7650 0    40   ~ 8
+Text Label 800  7700 0    40   ~ 8
 GND
 Wire Wire Line
-	700  7350 800  7350
-Text Label 800  7350 0    40   ~ 8
+	700  7400 800  7400
+Text Label 800  7400 0    40   ~ 8
 3V3
-Text HLabel 700  7650 0    40   Input ~ 0
+Text HLabel 700  7700 0    40   Input ~ 0
 GND
 Wire Wire Line
-	700  7650 800  7650
-Text HLabel 700  7350 0    40   Input ~ 0
+	700  7700 800  7700
+Text HLabel 700  7400 0    40   Input ~ 0
 3V3
+Text Label 1900 7600 2    40   ~ 0
+mdb6
+Wire Wire Line
+	1900 7600 2000 7600
+Text Label 1900 7700 2    40   ~ 0
+mdb7
+Wire Wire Line
+	1900 7700 2000 7700
+Text Label 1900 7400 2    40   ~ 0
+mdb4
+Wire Wire Line
+	1900 7400 2000 7400
+Text Label 1900 7500 2    40   ~ 0
+mdb5
+Wire Wire Line
+	1900 7500 2000 7500
+Text Label 1900 7300 2    40   ~ 0
+mdb3
+Wire Wire Line
+	1900 7300 2000 7300
+Text Label 1900 7200 2    40   ~ 0
+mdb2
+Text Label 1900 7100 2    40   ~ 0
+mdb1
+Text Label 1900 7000 2    40   ~ 0
+mdb0
+Wire Wire Line
+	1900 7000 2000 7000
+Wire Wire Line
+	1900 7100 2000 7100
+Wire Wire Line
+	1900 7200 2000 7200
+NoConn ~ 2000 7100
+NoConn ~ 2000 7200
+NoConn ~ 2000 7300
+NoConn ~ 2000 7500
+NoConn ~ 2000 7600
+NoConn ~ 2000 7700
+Text HLabel 2000 7000 2    40   Input ~ 0
+dbg_RX
+Text HLabel 2000 7400 2    40   BiDi ~ 0
+cfg_DATA_dbg_TX
+Wire Wire Line
+	4600 2850 4800 2850
+Connection ~ 4700 3600
+Connection ~ 4700 3100
+Connection ~ 4700 3350
 $EndSCHEMATC

@@ -22,64 +22,22 @@ Wire Wire Line
 Wire Wire Line
 	1100 4700 1000 4700
 Wire Wire Line
-	4200 7100 4600 7100
-$Comp
-L Device:R R?
-U 1 1 63231DEC
-P 4050 7100
-AR Path="/63231DEC" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/63231DEC" Ref="R504"  Part="1" 
-F 0 "R504" V 4100 7000 50  0000 R CNN
-F 1 "1K" V 4050 7100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 7100 50  0001 C CNN
-F 3 "~" H 4050 7100 50  0001 C CNN
-	1    4050 7100
-	0    -1   -1   0   
-$EndComp
-Entry Wire Line
-	4600 7100 4700 7200
-Entry Wire Line
-	4600 7400 4700 7500
-Entry Wire Line
-	4600 7500 4700 7600
-Wire Wire Line
-	4200 7400 4600 7400
-$Comp
-L Device:R R?
-U 1 1 6323C22A
-P 4050 7400
-AR Path="/6323C22A" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/6323C22A" Ref="R507"  Part="1" 
-F 0 "R507" V 4100 7300 50  0000 R CNN
-F 1 "1K" V 4050 7400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 7400 50  0001 C CNN
-F 3 "~" H 4050 7400 50  0001 C CNN
-	1    4050 7400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	1100 4700 1200 4700
 NoConn ~ 1200 5300
 NoConn ~ 1200 4600
 Text HLabel 1600 3600 0    40   Input ~ 0
 cfg_NSTAT
-Entry Wire Line
-	4600 6800 4700 6900
-Wire Wire Line
-	4200 6900 4600 6900
-Wire Wire Line
-	4200 6800 4600 6800
 $Comp
 L Device:R R?
 U 1 1 63192B13
-P 4050 6900
+P 4050 7000
 AR Path="/63192B13" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/63192B13" Ref="R502"  Part="1" 
-F 0 "R502" V 4100 6800 50  0000 R CNN
-F 1 "1K" V 4050 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 6900 50  0001 C CNN
-F 3 "~" H 4050 6900 50  0001 C CNN
-	1    4050 6900
+F 0 "R502" V 4100 6900 50  0000 R CNN
+F 1 "1K" V 4050 7000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 7000 50  0001 C CNN
+F 3 "~" H 4050 7000 50  0001 C CNN
+	1    4050 7000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -95,65 +53,23 @@ F 3 "~" H 4050 6800 50  0001 C CNN
 	1    4050 6800
 	0    -1   -1   0   
 $EndComp
-Entry Wire Line
-	4600 6900 4700 7000
-$Comp
-L Device:R R?
-U 1 1 632371E8
-P 4050 7300
-AR Path="/632371E8" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/632371E8" Ref="R506"  Part="1" 
-F 0 "R506" V 4100 7200 50  0000 R CNN
-F 1 "1K" V 4050 7300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 7300 50  0001 C CNN
-F 3 "~" H 4050 7300 50  0001 C CNN
-	1    4050 7300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	4200 7300 4600 7300
-Entry Wire Line
-	4600 7300 4700 7400
-Entry Wire Line
-	4600 7200 4700 7300
-Wire Wire Line
-	4200 7200 4600 7200
-Entry Wire Line
-	4600 7000 4700 7100
-Wire Bus Line
-	4700 7700 4800 7700
-Wire Wire Line
-	4200 7000 4600 7000
+	4200 7100 4400 7100
 $Comp
 L Device:R R?
 U 1 1 63231DF2
-P 4050 7000
+P 4050 7100
 AR Path="/63231DF2" Ref="R?"  Part="1" 
 AR Path="/646E3FCF/63231DF2" Ref="R503"  Part="1" 
-F 0 "R503" V 4100 6900 50  0000 R CNN
-F 1 "1K" V 4050 7000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 7000 50  0001 C CNN
-F 3 "~" H 4050 7000 50  0001 C CNN
-	1    4050 7000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 632371EE
-P 4050 7200
-AR Path="/632371EE" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/632371EE" Ref="R505"  Part="1" 
-F 0 "R505" V 4100 7100 50  0000 R CNN
-F 1 "1K" V 4050 7200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 7200 50  0001 C CNN
-F 3 "~" H 4050 7200 50  0001 C CNN
-	1    4050 7200
+F 0 "R503" V 4100 7000 50  0000 R CNN
+F 1 "1K" V 4050 7100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 7100 50  0001 C CNN
+F 3 "~" H 4050 7100 50  0001 C CNN
+	1    4050 7100
 	0    -1   -1   0   
 $EndComp
 Text HLabel 2450 3000 2    40   Output ~ 0
 cfg_DCLK
-Text HLabel 4800 7700 2    40   BiDi ~ 0
-mdb[0..7]
 $Comp
 L Device:R R?
 U 1 1 6324C73C
@@ -169,39 +85,8 @@ F 3 "~" H 3500 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 3600 2000 3600
-Text Label 4600 7200 2    40   ~ 0
-mdb4
-Text Label 4600 7000 2    40   ~ 0
-mdb2
-Text Label 4600 7300 2    40   ~ 0
-mdb5
-Text Label 4600 6900 2    40   ~ 0
-mdb1
-Text Label 4600 6800 2    40   ~ 0
-mdb0
-Text Label 4600 7400 2    40   ~ 0
-mdb6
-Text Label 4600 7500 2    40   ~ 0
-mdb7
-Text Label 4600 7100 2    40   ~ 0
-mdb3
 Wire Wire Line
 	3400 4700 3500 4700
-Wire Wire Line
-	4200 7500 4600 7500
-$Comp
-L Device:R R?
-U 1 1 6323C224
-P 4050 7500
-AR Path="/6323C224" Ref="R?"  Part="1" 
-AR Path="/646E3FCF/6323C224" Ref="R508"  Part="1" 
-F 0 "R508" V 4100 7400 50  0000 R CNN
-F 1 "1K" V 4050 7500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 7500 50  0001 C CNN
-F 3 "~" H 4050 7500 50  0001 C CNN
-	1    4050 7500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7700 800  7800 800 
 Wire Wire Line
@@ -545,40 +430,16 @@ Text Label 1000 4700 2    40   ~ 0
 SD_SS
 Text Label 1000 4800 2    40   ~ 0
 SD_MOSI
-Text Label 3800 6900 2    40   ~ 0
-MDB1_TX_R
-Wire Wire Line
-	3800 6900 3900 6900
-Text Label 3800 6800 2    40   ~ 0
-MDB0_RX_R
-Wire Wire Line
-	3800 6800 3900 6800
-Text Label 3800 7200 2    40   ~ 0
-MDB4_CD_R
-Wire Wire Line
-	3800 7200 3900 7200
 Text Label 3800 7000 2    40   ~ 0
-MDB2_R
+DBG_RX_R
 Wire Wire Line
 	3800 7000 3900 7000
+Text Label 3800 6800 2    40   ~ 0
+DBG_TX_R
+Wire Wire Line
+	3800 6800 3900 6800
 Text Label 3800 7100 2    40   ~ 0
-MDB3_R
-Wire Wire Line
-	3800 7100 3900 7100
-Text Notes 3850 6650 0    50   ~ 0
-Core alt functions:\nMDB0 = UART RX?\nMDB1 = UART TX?\nMDB4 = Config DATA0
-Text Label 3800 7300 2    40   ~ 0
-MDB5_R
-Wire Wire Line
-	3800 7300 3900 7300
-Text Label 3800 7400 2    40   ~ 0
-MDB6_R
-Wire Wire Line
-	3800 7400 3900 7400
-Text Label 3800 7500 2    40   ~ 0
-MDB7_R
-Wire Wire Line
-	3800 7500 3900 7500
+CFG_DATA_R
 Wire Wire Line
 	6950 4900 6850 4900
 Wire Wire Line
@@ -791,8 +652,6 @@ Wire Wire Line
 	2350 2300 2450 2300
 Wire Wire Line
 	2450 2200 2350 2200
-Text Label 2450 2200 0    40   ~ 0
-MDB3_R
 NoConn ~ 2350 2400
 Text Notes 1150 2000 2    40   ~ 0
 SPI1_NSS
@@ -827,7 +686,7 @@ SPI2_MOSI
 Wire Wire Line
 	2450 2800 2350 2800
 Text Label 2450 2800 0    40   ~ 0
-MDB4_CD_R
+CFG_DATA_R
 Text Label 2450 2900 0    40   ~ 0
 CFG_DONE_R
 Wire Wire Line
@@ -836,8 +695,6 @@ Text Notes 2850 3050 0    40   ~ 0
 SPI2_SCK
 Wire Wire Line
 	2450 3000 2350 3000
-Text Notes 2850 3150 0    40   ~ 0
-?SPI2_NSS
 Wire Wire Line
 	2450 3100 2350 3100
 Text Label 1450 2500 2    40   ~ 0
@@ -848,9 +705,9 @@ Wire Wire Line
 	1450 1900 1550 1900
 Wire Wire Line
 	1450 2500 1550 2500
-Text Notes 2850 1600 0    40   ~ 0
+Text Notes 2800 1600 0    40   ~ 0
 I2C1_SCL
-Text Notes 2850 1500 0    40   ~ 0
+Text Notes 2800 1500 0    40   ~ 0
 I2C1_SDA
 Wire Wire Line
 	2350 1500 2450 1500
@@ -860,30 +717,24 @@ Text Label 2450 1600 0    40   ~ 0
 OLED_SCL
 Wire Wire Line
 	2450 1600 2350 1600
-Text Notes 2850 1800 0    40   ~ 0
+Text Notes 2800 1800 0    40   ~ 0
 USART1_TX
-Text Notes 2850 1700 0    40   ~ 0
+Text Notes 2800 1700 0    40   ~ 0
 USART1_RX
 Text Label 2450 1700 0    40   ~ 0
-MDB1_TX_R
+DBG_RX_R
 Wire Wire Line
 	2450 1700 2350 1700
 Text Label 2450 1800 0    40   ~ 0
-MDB0_RX_R
+DBG_TX_R
 Wire Wire Line
 	2450 1800 2350 1800
 Wire Wire Line
 	2450 2100 2350 2100
-Text Label 2450 2100 0    40   ~ 0
-MDB5_R
 Wire Wire Line
 	2450 1900 2350 1900
-Text Label 2450 1900 0    40   ~ 0
-MDB7_R
 Wire Wire Line
 	2450 2000 2350 2000
-Text Label 2450 2000 0    40   ~ 0
-MDB6_R
 Wire Wire Line
 	1450 2600 1550 2600
 Text Label 1450 2600 2    40   ~ 0
@@ -937,8 +788,6 @@ F 3 "~" H 3400 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 2500 2350 2500
-Text Label 2450 2500 0    40   ~ 0
-MDB2_R
 Wire Wire Line
 	2450 2700 2350 2700
 Wire Wire Line
@@ -1320,11 +1169,33 @@ F 3 "~" H 2550 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2750 2300 0    40   ~ 0
-to resistor fix
+to resistor-fix pads
 Text Label 6500 3000 1    40   ~ 8
 3V3_HUB
 Text Label 6500 2200 1    40   ~ 8
 3V3_HUB
-Wire Bus Line
-	4700 6900 4700 7700
+NoConn ~ 2450 1900
+NoConn ~ 2450 2000
+NoConn ~ 2450 2100
+NoConn ~ 2450 2200
+NoConn ~ 2450 2500
+Wire Wire Line
+	3900 7100 3800 7100
+Wire Wire Line
+	4200 7000 4400 7000
+Wire Wire Line
+	4400 7000 4400 7100
+Text Notes 3600 7300 0    50   ~ 0
+Why must life be this way
+Text HLabel 4500 6800 2    40   Output ~ 0
+dbg_TX
+Wire Wire Line
+	4500 6800 4200 6800
+Text HLabel 4500 7100 2    40   BiDi ~ 0
+cfg_DATA_dbg_RX
+Wire Wire Line
+	4500 7100 4400 7100
+Connection ~ 4400 7100
+Text Notes 3750 7550 0    50   ~ 0
+R504-R508 unused
 $EndSCHEMATC
