@@ -3,8 +3,22 @@
 *.bak
 _autosave*
 *.bck
+hardware/*/*-backups/
 
 # Dump files
 /*.bin
 /*.png
 /*.wav
+rbfdumper/*.bin
+rbfdumper/*.png
+
+# Files I probably shouldn't distribute
+/*.rbf
+configs/*.rbf
+rbfdumper/*.bin/*.rbf
+configs/SerialDumper/*
+!configs/SerialDumper/output_files
+firmware/cubemx/*
+!firmware/cubemx/cubemx.ioc
+*.pdf
+*.lnk
